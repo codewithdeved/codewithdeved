@@ -37,12 +37,12 @@
 
 <picture>
   <source srcset="assets/products-3d.webp" type="image/webp">
-  <img src="assets/products-header.svg" alt="Production Fleet Telemetry Console: 6 Live Platforms Deployed" width="100%">
+  <img src="assets/products-header.svg" alt="Production Fleet Telemetry Console: 4 Live Platforms Deployed" width="100%">
 </picture>
 
 <br><br>
 
-**Six production software platforms and AI applications built with teams. Select any application card to launch the live deployment.**
+**Four production software platforms and AI applications built with teams. Select any application card to launch the live deployment.**
 
 </div>
 
@@ -68,27 +68,11 @@
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/leadster--io.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Leadster.io"></a>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/B2B%20LEAD%20GEN-0B1426?style=flat-square&logo=target&logoColor=C9A45C" alt="B2B Lead Gen"></a>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://siteexplorer.netlify.app/"><img src="assets/cards/site-xp.webp" alt="Site.XP, an SEO and web analytics platform live at siteexplorer.netlify.app" width="100%"></a><br>
-      A comprehensive SEO and web analytics platform engineered for deep domain audits, backlink tracking, and keyword performance metrics.<br><br>
-      <a href="https://siteexplorer.netlify.app/"><img src="https://img.shields.io/badge/siteexplorer.netlify.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Site.XP"></a>
-      <a href="https://siteexplorer.netlify.app/"><img src="https://img.shields.io/badge/SEO%20ANALYTICS-0B1426?style=flat-square&logo=googleanalytics&logoColor=3B82F6" alt="SEO Analytics"></a>
-    </td>
     <td width="50%" align="center" valign="top">
       <a href="https://pakmilkiyat.vercel.app/"><img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal live at pakmilkiyat.vercel.app" width="100%"></a><br>
       A modern real estate portal providing structured property exploration across residential sales, commercial rentals, and new developments.<br><br>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/pakmilkiyat.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open PakMilkiyat"></a>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/PROPTECH%20PORTAL-0B1426?style=flat-square&logo=homeadvisor&logoColor=C9A45C" alt="PropTech Portal"></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://aigenixhub.netlify.app/"><img src="assets/cards/aigenixhub.webp" alt="AI Genix Hub, a multi modal generative AI platform live at aigenixhub.netlify.app" width="100%"></a><br>
-      A multi modal generative AI platform combining conversational intelligence with text to image synthesis for creative workflows.<br><br>
-      <a href="https://aigenixhub.netlify.app/"><img src="https://img.shields.io/badge/aigenixhub.netlify.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open AI Genix Hub"></a>
-      <a href="https://aigenixhub.netlify.app/"><img src="https://img.shields.io/badge/MULTI--MODAL%20AI-0B1426?style=flat-square&logo=openai&logoColor=3B82F6" alt="Multi Modal AI"></a>
     </td>
   </tr>
 </table>
@@ -114,29 +98,70 @@
 
 Personal repositories and foundational experiments across web applications, desktop software architecture, and interactive CSS modeling.
 
+<div align="center">
+
+<picture>
+  <source srcset="assets/repos/repos-header.webp" type="image/webp">
+  <img src="assets/connect/connect-banner.svg" alt="Public Source Telemetry: 6 Active Repositories" width="100%">
+</picture>
+
+</div>
+
+<br>
+
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved/AssistAI"><img src="assets/repos/card-assistai.svg" alt="AssistAI repository: AI Web Interface" width="100%"></a>
+      <a href="https://github.com/codewithdeved/AssistAI">
+        <picture>
+          <source srcset="assets/repos/card-assistai.webp" type="image/webp">
+          <img src="assets/repos/card-assistai.svg" alt="AssistAI repository: AI Web Interface" width="100%">
+        </picture>
+      </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved/Course-Management-System"><img src="assets/repos/card-cms.svg" alt="Course-Management-System repository: Desktop CMS Architecture" width="100%"></a>
+      <a href="https://github.com/codewithdeved/Course-Management-System">
+        <picture>
+          <source srcset="assets/repos/card-cms.webp" type="image/webp">
+          <img src="assets/repos/card-cms.svg" alt="Course-Management-System repository: Desktop CMS Architecture" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved/Employee-Information-System-EIS"><img src="assets/repos/card-eis.svg" alt="Employee-Information-System-EIS repository: Database Driven EIS" width="100%"></a>
+      <a href="https://github.com/codewithdeved/Employee-Information-System-EIS">
+        <picture>
+          <source srcset="assets/repos/card-eis.webp" type="image/webp">
+          <img src="assets/repos/card-eis.svg" alt="Employee-Information-System-EIS repository: Database Driven EIS" width="100%">
+        </picture>
+      </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved/Tesla-Cyber-Truck"><img src="assets/repos/card-cybertruck.svg" alt="Tesla-Cyber-Truck repository: 3D Vehicle Rendering" width="100%"></a>
+      <a href="https://github.com/codewithdeved/Tesla-Cyber-Truck">
+        <picture>
+          <source srcset="assets/repos/card-cybertruck.webp" type="image/webp">
+          <img src="assets/repos/card-cybertruck.svg" alt="Tesla-Cyber-Truck repository: 3D Vehicle Rendering" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved/Bugatti"><img src="assets/repos/card-bugatti.svg" alt="Bugatti repository: CSS3 3D Transforms" width="100%"></a>
+      <a href="https://github.com/codewithdeved/Bugatti">
+        <picture>
+          <source srcset="assets/repos/card-bugatti.webp" type="image/webp">
+          <img src="assets/repos/card-bugatti.svg" alt="Bugatti repository: CSS3 3D Transforms" width="100%">
+        </picture>
+      </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved/Harley-Davidson"><img src="assets/repos/card-harley.svg" alt="Harley-Davidson repository: 3D Keyframe Animation" width="100%"></a>
+      <a href="https://github.com/codewithdeved/Harley-Davidson">
+        <picture>
+          <source srcset="assets/repos/card-harley.webp" type="image/webp">
+          <img src="assets/repos/card-harley.svg" alt="Harley-Davidson repository: 3D Keyframe Animation" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
@@ -151,7 +176,10 @@ Personal repositories and foundational experiments across web applications, desk
 
 <h2 id="tech-stack">Technology Stack &amp; Core Tooling</h2>
 
-<img src="assets/tech-stack.svg" alt="Technology Stack and Core Tooling Matrix" width="100%">
+<picture>
+  <source srcset="assets/tech-stack-3d.webp" type="image/webp">
+  <img src="assets/tech-stack.svg" alt="Technology Stack and Core Tooling Matrix" width="100%">
+</picture>
 
 <br>
 
@@ -162,6 +190,13 @@ Personal repositories and foundational experiments across web applications, desk
 ## Languages &amp; Activity on GitHub
 
 <div align="center">
+
+<picture>
+  <source srcset="assets/stats-3d.webp" type="image/webp">
+  <img src="assets/connect/connect-banner.svg" alt="GitHub Activity Telemetry: Live Sync" width="100%">
+</picture>
+
+<br><br>
 
 <table>
   <tr>
@@ -194,18 +229,38 @@ Personal repositories and foundational experiments across web applications, desk
 <table>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-linkedin.svg" alt="Connect on LinkedIn" width="100%"></a>
+      <a href="https://www.linkedin.com/in/code-with-deved/">
+        <picture>
+          <source srcset="assets/connect/card-linkedin.webp" type="image/webp">
+          <img src="assets/connect/card-linkedin.svg" alt="Connect on LinkedIn" width="100%">
+        </picture>
+      </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-vibeans.svg" alt="Visit Vibeans Solutions Studio" width="100%"></a>
+      <a href="https://www.vibeanssolutions.site/">
+        <picture>
+          <source srcset="assets/connect/card-vibeans.webp" type="image/webp">
+          <img src="assets/connect/card-vibeans.svg" alt="Visit Vibeans Solutions Studio" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved"><img src="assets/connect/card-github.svg" alt="Explore GitHub Repositories" width="100%"></a>
+      <a href="https://github.com/codewithdeved">
+        <picture>
+          <source srcset="assets/connect/card-github.webp" type="image/webp">
+          <img src="assets/connect/card-github.svg" alt="Explore GitHub Repositories" width="100%">
+        </picture>
+      </a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-inquiries.svg" alt="Send Direct Inquiries" width="100%"></a>
+      <a href="https://www.linkedin.com/in/code-with-deved/">
+        <picture>
+          <source srcset="assets/connect/card-inquiries.webp" type="image/webp">
+          <img src="assets/connect/card-inquiries.svg" alt="Send Direct Inquiries" width="100%">
+        </picture>
+      </a>
     </td>
   </tr>
 </table>

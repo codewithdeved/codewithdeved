@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="Production Deployments - 6 Live SaaS Platforms Telemetry Console">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="Production Deployments: 4 Live SaaS Platforms Telemetry Console">
   <defs>
     <linearGradient id="prodBg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#050811"/>
@@ -35,45 +35,35 @@
   <g transform="translate(30, 36)">
     <!-- Radar Icon -->
     <circle class="radar-dot" cx="0" cy="-6" r="5" fill="#10B981"/>
-    <text x="16" y="-1" fill="#10B981" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">PRODUCTION FLEET: 6 LIVE NODES DEPLOYED</text>
+    <text x="16" y="-1" fill="#10B981" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">PRODUCTION FLEET: 4 LIVE PLATFORMS DEPLOYED</text>
     
     <!-- Central Telemetry -->
-    <text x="570" y="-1" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', monospace" font-size="11" font-weight="600" letter-spacing="1">UPTIME: 99.98% • EDGE ACCELERATED</text>
+    <text x="570" y="-1" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', monospace" font-size="11" font-weight="600" letter-spacing="1">UPTIME: 99.98% • DISTRIBUTED EDGE CLUSTER</text>
     
     <!-- Right Badge -->
-    <text x="1140" y="-1" text-anchor="end" fill="#C9A45C" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1">COLLABORATIVE ENTERPRISE SAAS</text>
+    <text x="1140" y="-1" text-anchor="end" fill="#C9A45C" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1">ENTERPRISE SAAS SUITE</text>
   </g>
 
-  <!-- BOTTOM BAR: Active Platforms Nodes -->
-  <g transform="translate(30, 86)">
+  <!-- BOTTOM BAR: 4 Active Platforms Centered -->
+  <g transform="translate(80, 86)">
     <!-- Node 1: Creaite Hive -->
-    <rect x="0" y="-16" width="160" height="26" rx="6" fill="#0B1426" stroke="#2563EB" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="14" cy="-3" r="3" fill="#10B981"/>
-    <text x="26" y="1" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">Creaite Hive (AI)</text>
+    <rect x="0" y="-16" width="240" height="28" rx="6" fill="#0B1426" stroke="#2563EB" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="16" cy="-2" r="3.5" fill="#10B981"/>
+    <text x="30" y="2" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Creaite Hive (AI Architecture)</text>
 
     <!-- Node 2: DocBrio -->
-    <rect x="180" y="-16" width="165" height="26" rx="6" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="194" cy="-3" r="3" fill="#10B981"/>
-    <text x="206" y="1" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">DocBrio (Doc Engine)</text>
+    <rect x="264" y="-16" width="230" height="28" rx="6" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="280" cy="-2" r="3.5" fill="#10B981"/>
+    <text x="294" y="2" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">DocBrio (Document Engine)</text>
 
     <!-- Node 3: Leadster.io -->
-    <rect x="365" y="-16" width="170" height="26" rx="6" fill="#0B1426" stroke="#2563EB" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="379" cy="-3" r="3" fill="#10B981"/>
-    <text x="391" y="1" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">Leadster.io (B2B Lead)</text>
+    <rect x="518" y="-16" width="235" height="28" rx="6" fill="#0B1426" stroke="#2563EB" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="534" cy="-2" r="3.5" fill="#10B981"/>
+    <text x="548" y="2" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">Leadster.io (B2B Discovery)</text>
 
-    <!-- Node 4: Site.XP -->
-    <rect x="555" y="-16" width="165" height="26" rx="6" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="569" cy="-3" r="3" fill="#10B981"/>
-    <text x="581" y="1" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">Site.XP (SEO Engine)</text>
-
-    <!-- Node 5: PakMilkiyat -->
-    <rect x="740" y="-16" width="175" height="26" rx="6" fill="#0B1426" stroke="#2563EB" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="754" cy="-3" r="3" fill="#10B981"/>
-    <text x="766" y="1" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">PakMilkiyat (PropTech)</text>
-
-    <!-- Node 6: AI Genix Hub -->
-    <rect x="935" y="-16" width="205" height="26" rx="6" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.6"/>
-    <circle cx="949" cy="-3" r="3" fill="#10B981"/>
-    <text x="961" y="1" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">AI Genix Hub (Multi Modal)</text>
+    <!-- Node 4: PakMilkiyat -->
+    <rect x="777" y="-16" width="235" height="28" rx="6" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="793" cy="-2" r="3.5" fill="#10B981"/>
+    <text x="807" y="2" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">PakMilkiyat (PropTech Portal)</text>
   </g>
 </svg>
