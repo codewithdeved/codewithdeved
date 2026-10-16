@@ -1,24 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-label="TECHNOLOGY STACK &amp; CORE TOOLING">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="TECHNOLOGY STACK &amp; CORE TOOLING">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#080F22"/>
-      <stop offset="100%" stop-color="#050811"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050914"/>
+      <stop offset="100%" stop-color="#080E1C"/>
+    </linearGradient>
+    <linearGradient id="bottomScan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1199" height="89" rx="10" fill="url(#bg)" stroke="#3B82F6" stroke-width="1.2"/>
+  <!-- Outer Glass Chassis -->
+  <rect x="2" y="2" width="1196" height="156" rx="10" fill="url(#bg)" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.6"/>
+  <line x1="200" y1="158" x2="1000" y2="158" stroke="url(#bottomScan)" stroke-width="2"/>
 
-  <!-- Left Beacon & Tag -->
-  <circle cx="32" cy="30" r="4" fill="#10B981"/>
-  <text x="46" y="34" fill="#60A5FA" font-family="'Consolas', monospace" font-size="11" font-weight="600">// 05 TOOLING MATRIX</text>
+  <!-- Left Beacon &amp; Tag -->
+  <circle cx="32" cy="28" r="4" fill="#10B981"/>
+  <text x="44" y="32" fill="#38BDF8" font-family="'Consolas', monospace" font-size="11" font-weight="700">// 05 ENGINEERING STACK &amp; TOOLING</text>
 
-  <!-- Title -->
-  <text x="32" y="58" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="700">TECHNOLOGY STACK &amp; CORE TOOLING</text>
+  <!-- Main Section Title -->
+  <text x="32" y="72" fill="#F8FAFC" font-family="'Segoe UI', -apple-system, sans-serif" font-size="28" font-weight="700">TECHNOLOGY STACK &amp; CORE TOOLING</text>
+
+  <!-- Golden Rule under title -->
+  <line x1="32" y1="84" x2="480" y2="84" stroke="#C9A45C" stroke-width="1.5" stroke-opacity="0.7"/>
 
   <!-- Subtitle -->
-  <text x="32" y="78" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Verified production frameworks, languages, and cloud tooling utilized across deployments.</text>
+  <text x="32" y="112" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13">Validated production stack across TypeScript, Python, modern frontends, and distributed cloud.</text>
 
-  <!-- Status on Right -->
-  <rect x="990" y="32" width="178" height="26" rx="5" fill="#0B1426" stroke="#3B82F6" stroke-width="1"/>
-  <text x="1079" y="49" text-anchor="middle" fill="#60A5FA" font-family="'Consolas', monospace" font-size="10.5" font-weight="600">24 VERIFIED TECHNOLOGIES</text>
+  <!-- Right Status Capsule -->
+  <rect x="880" y="24" width="160" height="24" rx="5" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.7"/>
+  <text x="960" y="40" text-anchor="middle" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700">VERIFIED PRODUCTION TOOLING</text>
+
+  <!-- Right Decorative Icon Symbol -->
+  <g transform="translate(1085, 80)" stroke="#38BDF8" stroke-width="1.5" fill="none">
+    <polygon points="0,-35 26,0 0,35 -26,0"/>
+    <circle cx="0" cy="0" r="3" fill="#C9A45C"/>
+  </g>
 </svg>

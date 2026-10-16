@@ -22,9 +22,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="about">About &amp; Engineering Philosophy</h2>
+<div id="about"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-about.webp" type="image/webp">
+  <img src="assets/headers/header-about.svg" alt="About &amp; Engineering Philosophy" width="100%">
+</picture>
+
+<br><br>
 
 <picture>
   <source srcset="assets/about-3d.webp" type="image/webp">
@@ -33,9 +38,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="featured-products">Featured Products &amp; SaaS Portfolio</h2>
+<div id="featured-products"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-products.webp" type="image/webp">
+  <img src="assets/headers/header-products.svg" alt="Featured Products &amp; SaaS Portfolio" width="100%">
+</picture>
+
+<br><br>
 
 <div align="center">
 
@@ -89,9 +99,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="technical-focus">Technical Focus &amp; Capabilities</h2>
+<div id="technical-focus"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-focus.webp" type="image/webp">
+  <img src="assets/headers/header-focus.svg" alt="Technical Focus &amp; Capabilities" width="100%">
+</picture>
+
+<br><br>
 
 <picture>
   <source srcset="assets/focus-3d.webp" type="image/webp">
@@ -100,9 +115,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="open-source-repositories">Open Source Repositories</h2>
+<div id="open-source-repositories"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-repos.webp" type="image/webp">
+  <img src="assets/headers/header-repos.svg" alt="Open Source Repositories" width="100%">
+</picture>
+
+<br><br>
 
 <table>
   <tr>
@@ -169,9 +189,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="tech-stack">Technology Stack &amp; Core Tooling</h2>
+<div id="tech-stack"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-stack.webp" type="image/webp">
+  <img src="assets/headers/header-stack.svg" alt="Technology Stack &amp; Core Tooling" width="100%">
+</picture>
+
+<br><br>
 
 <picture>
   <source srcset="assets/tech-stack-3d.webp" type="image/webp">
@@ -184,9 +209,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="languages-activity">Languages &amp; Activity on GitHub</h2>
+<div id="languages-activity"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-activity.webp" type="image/webp">
+  <img src="assets/headers/header-activity.svg" alt="Languages &amp; Activity on GitHub" width="100%">
+</picture>
+
+<br><br>
 
 <div align="center">
 
@@ -214,9 +244,14 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-<h2 id="connect-collaborate">Connect &amp; Collaborate</h2>
+<div id="connect-collaborate"></div>
 
-<br>
+<picture>
+  <source srcset="assets/headers/header-connect.webp" type="image/webp">
+  <img src="assets/headers/header-connect.svg" alt="Connect &amp; Collaborate" width="100%">
+</picture>
+
+<br><br>
 
 <div align="center">
 
