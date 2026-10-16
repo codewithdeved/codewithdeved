@@ -2,17 +2,15 @@
 
 <picture>
   <source srcset="assets/hero-3d.webp" type="image/webp">
-  <img src="assets/hero.svg" alt="CodeWithDeved — Engineering the Intersection of Code and Cognitive Design. A rotating 3D node network between gold code brackets. AI-Powered SaaS, Seductive UX, Next-Gen Web Architecture." width="100%">
+  <img src="assets/hero.svg" alt="CodeWithDeved — Engineering the Intersection of Code and Cognitive Design. A rotating 3D node network between gold code brackets." width="100%">
 </picture>
 
-<br>
-
-**AI-Powered SaaS &nbsp;•&nbsp; Seductive UX &nbsp;•&nbsp; Next-Gen Web Architecture**
+<img src="assets/ticker.svg" alt="AI-Powered SaaS. Seductive UX. Next-Gen Web Architecture." width="100%">
 
 <br>
 
-<a href="#selected-projects"><img src="https://img.shields.io/badge/SELECTED%20PROJECTS-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Jump to selected projects"></a>
-<a href="#vibeans-solutions-portfolio"><img src="https://img.shields.io/badge/VIBEANS%20PORTFOLIO-0B1426?style=for-the-badge&logo=vercel&logoColor=3B82F6" alt="Jump to the Vibeans Solutions portfolio"></a>
+<a href="#selected-projects"><img src="https://img.shields.io/badge/SELECTED%20PROJECTS-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to selected projects"></a>
+<a href="#open-source-experiments"><img src="https://img.shields.io/badge/OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source experiments"></a>
 <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
 <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
 
@@ -32,6 +30,56 @@ I'm **Tayyab Ali**, known online as **CodeWithDeved**: a software engineer and f
 - **Curious about** FinTech and healthcare, GenAI, RAG, prompt engineering, human behavior and cognitive design.
 
 > Turning complex ideas into useful, well-crafted digital products.
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+## Selected Projects
+
+<div align="center">
+
+**Five live products. Click any card to open the real thing.**
+
+</div>
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://creatie-hive.vercel.app/"><img src="assets/cards/creaite-hive.webp" alt="Creaite Hive, an AI-powered design suite, live at creatie-hive.vercel.app" width="100%"></a><br>
+      An AI-powered design suite that helps architects and creators turn sketches, concepts and photos into precision designs.<br>
+      <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/creatie--hive.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Creaite Hive"></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://docbrio.me/"><img src="assets/cards/docbrio.webp" alt="DocBrio, a browser-based PDF and document toolkit, live at docbrio.me" width="100%"></a><br>
+      A PDF, Office and image toolkit that runs in your browser: convert, merge, edit, sign and compress files without uploading them.<br>
+      <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/docbrio.me-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open DocBrio"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://leadster-io.vercel.app/"><img src="assets/cards/leadster.webp" alt="Leadster.io, an AI chatbot for B2B lead discovery, live at leadster-io.vercel.app" width="100%"></a><br>
+      An AI chatbot for B2B lead discovery and contact extraction.<br>
+      <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/leadster--io.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Leadster.io"></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://pakmilkiyat.vercel.app/"><img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal, live at pakmilkiyat.vercel.app" width="100%"></a><br>
+      A real estate portal with property search across buying, renting and projects.<br>
+      <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/pakmilkiyat.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open PakMilkiyat"></a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://aigenixhub.netlify.app/"><img src="assets/cards/aigenixhub.webp" alt="AI Genix Hub, a platform with an AI chatbot and text-to-image generation, live at aigenixhub.netlify.app" width="50%"></a><br>
+      A platform featuring an AI chatbot and AI text-to-image generation.<br>
+      <a href="https://aigenixhub.netlify.app/"><img src="https://img.shields.io/badge/aigenixhub.netlify.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open AI Genix Hub"></a>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+<sub>Products built collaboratively with teams. More work at the <a href="https://www.vibeanssolutions.site/#portfolio">Vibeans Solutions portfolio</a>.</sub>
+
+</div>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -62,7 +110,7 @@ I'm **Tayyab Ali**, known online as **CodeWithDeved**: a software engineer and f
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-## Selected Projects
+## Open Source Experiments
 
 Personal repositories, each linked to its source. Descriptions come from the repository metadata.
 
@@ -110,49 +158,6 @@ Personal repositories, each linked to its source. Descriptions come from the rep
 <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20ALL%20REPOSITORIES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Browse all repositories on GitHub"></a>
 
 </div>
-
-<img src="assets/divider.svg" alt="" width="100%">
-
-## Vibeans Solutions Portfolio
-
-> **Company work.** These products were built by the Vibeans Solutions team, which I founded and lead. They are listed here as studio work, separate from my personal repositories above.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://creatie-hive.vercel.app/">Creaite Hive</a></h4>
-      <sub><b>Generative AI &amp; Design</b></sub><br>
-      An AI-powered design suite that helps architects and creators turn sketches, concepts and photos into precision designs.
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://docbrio.me/">DocBrio</a></h4>
-      <sub><b>Document &amp; PDF Suite</b></sub><br>
-      A client-side document and PDF suite with 30+ browser-based tools for file conversion, editing and compression.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://leadster-io.vercel.app/">Leadster.io</a></h4>
-      <sub><b>Web Application</b></sub><br>
-      A digital platform built for user acquisition and lead generation.
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://siteexplorer.netlify.app/">Site.XP</a></h4>
-      <sub><b>SEO &amp; Web Analytics</b></sub><br>
-      An SEO platform for site exploration, keyword research, backlink analysis and performance metrics.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://pakmilkiyat.vercel.app/">PakMilkiyat</a></h4>
-      <sub><b>Enterprise Software</b></sub><br>
-      A real estate portal designed for reliability, fast search and optimized user flows.
-    </td>
-    <td width="50%" valign="middle" align="center">
-      <a href="https://www.vibeanssolutions.site/#portfolio"><img src="https://img.shields.io/badge/FULL%20PORTFOLIO%20%E2%86%92-0B1426?style=for-the-badge&logo=vercel&logoColor=3B82F6" alt="See the full Vibeans Solutions portfolio"></a>
-    </td>
-  </tr>
-</table>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
