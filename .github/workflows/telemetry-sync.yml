@@ -1,0 +1,40 @@
+name: Profile Telemetry & Architecture Sync
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  sync-telemetry:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Execute Profile Telemetry Sync
+        run: |
+          python .github/scripts/sync_telemetry.py
+
+      - name: Commit & Push Dynamic Telemetry Updates
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(telemetry): automated living profile sync [skip ci]"
+            git push
+          else
+            echo "Telemetry is synchronized and up to date."
+          fi

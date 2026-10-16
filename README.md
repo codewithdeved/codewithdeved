@@ -6,12 +6,18 @@
 
 <br>
 
-<a href="#featured-products"><img src="https://img.shields.io/badge/FEATURED%20PRODUCTS-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to featured products"></a>
-<a href="#technical-focus"><img src="https://img.shields.io/badge/TECHNICAL%20FOCUS-0B1426?style=for-the-badge&logo=target&logoColor=3B82F6" alt="Jump to technical focus"></a>
-<a href="#open-source-repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
-<a href="#tech-stack"><img src="https://img.shields.io/badge/TECH%20STACK-0B1426?style=for-the-badge&logo=codewars&logoColor=C9A45C" alt="Jump to tech stack"></a>
-<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
-<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
+<a href="#featured-products"><img src="https://img.shields.io/badge/%E2%8C%98%201%20//%20SAAS%20FLEET-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to featured products"></a>
+<a href="#technical-focus"><img src="https://img.shields.io/badge/%E2%8C%98%202%20//%20ARCHITECTURE-0B1426?style=for-the-badge&logo=target&logoColor=3B82F6" alt="Jump to technical focus"></a>
+<a href="#open-source-repositories"><img src="https://img.shields.io/badge/%E2%8C%98%203%20//%20OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
+<a href="#tech-stack"><img src="https://img.shields.io/badge/%E2%8C%98%204%20//%20CORE%20TOOLING-0B1426?style=for-the-badge&logo=codewars&logoColor=C9A45C" alt="Jump to tech stack"></a>
+<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/%E2%8C%98%205%20//%20LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
+<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/%E2%8C%98%206%20//%20STUDIO%20PORTFOLIO-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
+
+<br><br>
+
+<a href="https://github.com/codewithdeved/codewithdeved/actions"><img src="https://img.shields.io/badge/TELEMETRY%20SYNC-ACTIVE%20//%20EDGE%20HEALTHY-0B1426?style=flat-square&logo=githubactions&logoColor=10B981" alt="Living Profile Automated Sync Active"></a>
+<a href="https://github.com/codewithdeved/codewithdeved"><img src="https://img.shields.io/badge/ARCHITECTURE-PRODUCTION%20GRADE-0B1426?style=flat-square&logo=probot&logoColor=38BDF8" alt="Production Grade Architecture"></a>
+<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/EXECUTIVE%20ROLE-FOUNDER%20%26%20ARCHITECT-0B1426?style=flat-square&logo=auth0&logoColor=C9A45C" alt="Founder and Architect at Vibeans Solutions"></a>
 
 </div>
 
@@ -35,6 +41,27 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20PORTFOLIO-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Browse Portfolio on GitHub"></a>
 </div>
 
+<br>
+
+<details>
+  <summary><b>⚡ VIEW EXECUTIVE LEADERSHIP &amp; ARCHITECTURAL HIGHLIGHTS</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td width="30%"><b>Executive Leadership</b></td>
+      <td>Founder and Lead Architect at Vibeans Solutions, directing high velocity cross functional teams across production client platforms.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Engineering Philosophy</b></td>
+      <td>Bridging computational rigor with cognitive ergonomics to construct digital products that deliver high speed, zero latency, and clarity.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>System Governance</b></td>
+      <td>End to end lifecycle leadership spanning system topology design, edge deployment pipelines, database optimization, and cloud cost management.</td>
+    </tr>
+  </table>
+</details>
+
 <img src="assets/divider.svg" alt="" width="100%">
 
 <div id="featured-products"></div>
@@ -49,37 +76,134 @@
 
 <br>
 
-**Four production software platforms and AI applications built with teams. Select any application card to launch the live deployment.**
+**Production software platforms and AI applications built with teams. Select any application card to launch the live deployment or expand technical specifications.**
 
 </div>
 
 <table width="100%">
+  <!-- Flagship Panoramic Anchor -->
   <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://creatie-hive.vercel.app/"><img src="assets/cards/creaite-hive.webp" alt="Creaite Hive, an AI powered design suite live at creatie-hive.vercel.app" width="100%"></a><br>
+    <td colspan="2" width="100%" align="center" valign="top">
+      <a href="https://creatie-hive.vercel.app/">
+        <img src="assets/cards/creaite-hive.webp" alt="Creaite Hive, an AI powered design suite live at creatie-hive.vercel.app" width="100%">
+      </a>
+      <br>
+      <b>Creaite Hive // AI Architectural Design Suite</b><br>
       An AI powered design suite helping architects and creators transform concept sketches and imagery into precision architectural designs.<br><br>
       <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Creaite Hive"></a>
-      <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/AI%20SUITE-0B1426?style=for-the-badge&logo=sparkles&logoColor=C9A45C" alt="AI Suite"></a>
+      <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/FLAGSHIP%20AI%20SUITE-0B1426?style=for-the-badge&logo=sparkles&logoColor=C9A45C" alt="Flagship AI Suite"></a>
+      <br><br>
+      <details>
+        <summary><b>⚡ VIEW CREAITE HIVE ARCHITECTURE &amp; PIPELINE SPECS</b></summary>
+        <br>
+        <table width="100%">
+          <tr>
+            <td width="30%"><b>Core Engine</b></td>
+            <td>Next.js 14 App Router, WebGL Viewport, Diffusion Inference Bridge</td>
+          </tr>
+          <tr>
+            <td width="30%"><b>Rendering Pipeline</b></td>
+            <td>Sub 80ms prompt synthesis, SVG vectorization, and layered CAD export models</td>
+          </tr>
+          <tr>
+            <td width="30%"><b>Edge Delivery</b></td>
+            <td>Global edge caching with low latency streaming asset delivery across distributed zones</td>
+          </tr>
+        </table>
+      </details>
     </td>
+  </tr>
+  <!-- Companion Split Row -->
+  <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://docbrio.me/"><img src="assets/cards/docbrio.webp" alt="DocBrio, a browser based document toolkit live at docbrio.me" width="100%"></a><br>
+      <a href="https://docbrio.me/">
+        <img src="assets/cards/docbrio.webp" alt="DocBrio, a browser based document toolkit live at docbrio.me" width="100%">
+      </a>
+      <br>
+      <b>DocBrio // Client Side Document Toolkit</b><br>
       A high performance browser based document toolkit to convert, merge, edit, sign, and compress files client side without server uploads.<br><br>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch DocBrio"></a>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/CLIENT%20SIDE%20SAAS-0B1426?style=for-the-badge&logo=shield&logoColor=3B82F6" alt="Client Side SaaS"></a>
+      <br><br>
+      <details>
+        <summary><b>⚡ VIEW DOCBRIO ZERO SERVER PRIVACY SPECS</b></summary>
+        <br>
+        <table width="100%">
+          <tr>
+            <td width="35%"><b>Privacy Model</b></td>
+            <td>100% Client Side Execution (Zero byte transmitted to external servers)</td>
+          </tr>
+          <tr>
+            <td width="35%"><b>Wasm Core</b></td>
+            <td>High throughput WebAssembly binary compiler for memory safe PDF transformation</td>
+          </tr>
+          <tr>
+            <td width="35%"><b>Throughput</b></td>
+            <td>Multi threaded in memory compression with instant local buffer downloads</td>
+          </tr>
+        </table>
+      </details>
     </td>
-  </tr>
-  <tr>
     <td width="50%" align="center" valign="top">
-      <a href="https://leadster-io.vercel.app/"><img src="assets/cards/leadster.webp" alt="Leadster.io, a conversational B2B lead discovery platform live at leadster-io.vercel.app" width="100%"></a><br>
+      <a href="https://leadster-io.vercel.app/">
+        <img src="assets/cards/leadster.webp" alt="Leadster.io, a conversational B2B lead discovery platform live at leadster-io.vercel.app" width="100%">
+      </a>
+      <br>
+      <b>Leadster.io // Conversational B2B Discovery</b><br>
       An intelligent conversational platform built for B2B lead discovery, automated prospect research, and verified contact extraction.<br><br>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Leadster.io"></a>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/B2B%20LEAD%20GEN-0B1426?style=for-the-badge&logo=target&logoColor=C9A45C" alt="B2B Lead Gen"></a>
+      <br><br>
+      <details>
+        <summary><b>⚡ VIEW LEADSTER.IO PIPELINE SPECS</b></summary>
+        <br>
+        <table width="100%">
+          <tr>
+            <td width="35%"><b>Intelligence Core</b></td>
+            <td>Conversational intent classification and multi provider search orchestration</td>
+          </tr>
+          <tr>
+            <td width="35%"><b>Data Validation</b></td>
+            <td>Real time SMTP handshake and domain MX record verification checks</td>
+          </tr>
+          <tr>
+            <td width="35%"><b>Export Pipeline</b></td>
+            <td>Dynamic schema mapper for CRM integrations and streamed CSV export</td>
+          </tr>
+        </table>
+      </details>
     </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://pakmilkiyat.vercel.app/"><img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal live at pakmilkiyat.vercel.app" width="100%"></a><br>
+  </tr>
+  <!-- Dedicated PropTech Showcase -->
+  <tr>
+    <td colspan="2" width="100%" align="center" valign="top">
+      <a href="https://pakmilkiyat.vercel.app/">
+        <img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal live at pakmilkiyat.vercel.app" width="100%">
+      </a>
+      <br>
+      <b>PakMilkiyat // Spatial PropTech Portal</b><br>
       A modern real estate portal providing structured property exploration across residential sales, commercial rentals, and new developments.<br><br>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch PakMilkiyat"></a>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/PROPTECH%20PORTAL-0B1426?style=for-the-badge&logo=homeadvisor&logoColor=C9A45C" alt="PropTech Portal"></a>
+      <br><br>
+      <details>
+        <summary><b>⚡ VIEW PAKMILKIYAT SPATIAL INDEXING SPECS</b></summary>
+        <br>
+        <table width="100%">
+          <tr>
+            <td width="30%"><b>Search Topology</b></td>
+            <td>Multi parameter property indexing with sub 50ms geo spatial query response times</td>
+          </tr>
+          <tr>
+            <td width="30%"><b>Interface Engine</b></td>
+            <td>Dynamic map layer synchronization, faceted price filters, and responsive galleries</td>
+          </tr>
+          <tr>
+            <td width="30%"><b>Security Architecture</b></td>
+            <td>Encrypted inquiry routing and verified broker authentication protocols</td>
+          </tr>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
@@ -107,6 +231,31 @@
   <a href="#open-source-repositories"><img src="https://img.shields.io/badge/EXPLORE%20CODEBASES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Explore Codebases"></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/INSPECT%20TECH%20STACK-0B1426?style=for-the-badge&logo=codewars&logoColor=3B82F6" alt="Inspect Tech Stack"></a>
 </div>
+
+<br>
+
+<details>
+  <summary><b>⚡ VIEW SYSTEM DESIGN AUDIT &amp; CAPABILITY MATRIX</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td width="25%"><b>Generative AI</b></td>
+      <td>Autonomous Agent orchestration, LangChain/LlamaIndex pipelines, prompt evaluation benchmarks, vector retrieval.</td>
+    </tr>
+    <tr>
+      <td width="25%"><b>Full Stack SaaS</b></td>
+      <td>Multi tenant architectures, PostgreSQL / Supabase schemas, edge serverless handlers, Redis caching layers.</td>
+    </tr>
+    <tr>
+      <td width="25%"><b>Cognitive UX</b></td>
+      <td>Sub 16ms interaction loops, accessibility heuristics, dark glassmorphism, mathematical typography scales.</td>
+    </tr>
+    <tr>
+      <td width="25%"><b>FinTech Systems</b></td>
+      <td>Idempotent payment webhooks, ledger transaction integrity, zero trust auth, PCI DSS compliance workflows.</td>
+    </tr>
+  </table>
+</details>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -180,6 +329,35 @@
 <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20ALL%20REPOSITORIES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Browse all repositories on GitHub"></a>
 
 </div>
+
+<br>
+
+<details>
+  <summary><b>⚡ VIEW OPEN SOURCE CODEBASE AUDIT &amp; ARCHITECTURAL TAXONOMY</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td width="30%"><b>AssistAI</b></td>
+      <td>Next generation web conversational agent interface featuring fluid markdown streaming and session memory.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Course-Management-System</b></td>
+      <td>Desktop enterprise education architecture with transactional role enforcement and local DB synchronization.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Employee-Information-System-EIS</b></td>
+      <td>Relational personnel operations registry featuring audit logging, payroll models, and search indexes.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Tesla-Cyber-Truck</b></td>
+      <td>Hardware accelerated 3D keyframe canvas transformation simulating geometric polygon surfaces.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Bugatti &amp; Harley-Davidson</b></td>
+      <td>Precision CSS3 spatial coordinate matrices demonstrating pure visual styling without heavy 3D engine overhead.</td>
+    </tr>
+  </table>
+</details>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
