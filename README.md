@@ -182,7 +182,7 @@
       <b>PakMilkiyat • Spatial PropTech Portal</b><br>
       A modern real estate portal providing structured property exploration across residential sales, commercial rentals, and new developments.<br><br>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch PakMilkiyat"></a>
-      <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/PROPTECH%20PORTAL-0B1426?style=for-the-badge&logo=homeadvisor&logoColor=C9A45C" alt="PropTech Portal"></a>
+      <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/PROPTECH%20PORTAL-0B1426?style=for-the-badge&logo=openstreetmap&logoColor=C9A45C" alt="PropTech Portal"></a>
       <br><br>
       <details>
         <summary><b>⚡ VIEW PAKMILKIYAT SPATIAL INDEXING SPECS</b></summary>
