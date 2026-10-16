@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Connect and Collaborate with Tayyab Ali (CodeWithDeved)">
+  <defs>
+    <linearGradient id="bgConnect" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#091326"/>
+      <stop offset="100%" stop-color="#060A14"/>
+    </linearGradient>
+    <linearGradient id="borderConnect" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.3"/>
+    </linearGradient>
+    <pattern id="gridConnect" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+    <clipPath id="connectClip">
+      <rect width="1200" height="240" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes pulseLive { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.85); } }
+    @keyframes waveGlint { 0% { transform: translateX(-400px); opacity: 0; } 50% { opacity: 0.8; } 100% { transform: translateX(1200px); opacity: 0; } }
+    .status-pulse { animation: pulseLive 2s ease-in-out infinite; transform-origin: 34px 34px; }
+    .glint-beam { animation: waveGlint 4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .status-pulse, .glint-beam { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#connectClip)">
+    <rect width="1200" height="240" fill="url(#bgConnect)"/>
+    <rect width="1200" height="240" fill="url(#gridConnect)"/>
+
+    <!-- Subtle Ambience Glow -->
+    <circle cx="600" cy="120" r="180" fill="#2563EB" opacity="0.12" filter="blur(30px)"/>
+
+    <!-- Top Status Bar (y=16..48) -->
+    <rect x="40" y="18" width="1120" height="34" rx="8" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
+    <circle class="status-pulse" cx="62" cy="35" r="4.5" fill="#10B981"/>
+    <text x="76" y="39" fill="#10B981" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">OPEN FOR VENTURES &amp; COLLABORATION</text>
+    <text x="1140" y="39" text-anchor="end" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="11" letter-spacing="1">KARACHI, PAKISTAN (UTC+5) • GLOBAL REMOTE</text>
+
+    <!-- 4 Action Channels (y=68..212) -->
+    
+    <!-- Channel 1: LinkedIn -->
+    <g transform="translate(40, 68)">
+      <rect width="265" height="144" rx="10" fill="#080F1E" stroke="#2563EB" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="36" cy="36" r="16" fill="#1E3A8A" fill-opacity="0.4"/>
+      <text x="36" y="42" text-anchor="middle" font-size="16">💼</text>
+      <text x="64" y="32" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">LinkedIn</text>
+      <text x="64" y="48" fill="#3B82F6" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">code-with-deved</text>
+      <text x="20" y="86" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Direct messaging, advisory,</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">and technical networking.</text>
+      <rect x="20" y="118" width="80" height="18" rx="4" fill="#1D4ED8" fill-opacity="0.3"/>
+      <text x="60" y="131" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">CONNECT ↗</text>
+    </g>
+
+    <!-- Channel 2: Vibeans Solutions -->
+    <g transform="translate(325, 68)">
+      <rect width="265" height="144" rx="10" fill="#080F1E" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="36" cy="36" r="16" fill="#78350F" fill-opacity="0.4"/>
+      <text x="36" y="42" text-anchor="middle" font-size="16">🚀</text>
+      <text x="64" y="32" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">Vibeans Solutions</text>
+      <text x="64" y="48" fill="#EAB308" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">vibeanssolutions.site</text>
+      <text x="20" y="86" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Startup engineering, client</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">products, &amp; AI development.</text>
+      <rect x="20" y="118" width="90" height="18" rx="4" fill="#854D0E" fill-opacity="0.3"/>
+      <text x="65" y="131" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">VISIT STUDIO ↗</text>
+    </g>
+
+    <!-- Channel 3: GitHub -->
+    <g transform="translate(610, 68)">
+      <rect width="265" height="144" rx="10" fill="#080F1E" stroke="#2563EB" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="36" cy="36" r="16" fill="#1E3A8A" fill-opacity="0.4"/>
+      <text x="36" y="42" text-anchor="middle" font-size="16">🐙</text>
+      <text x="64" y="32" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">GitHub</text>
+      <text x="64" y="48" fill="#3B82F6" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">codewithdeved</text>
+      <text x="20" y="86" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Codebase inspection, OSS</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">collaboration, &amp; reviews.</text>
+      <rect x="20" y="118" width="90" height="18" rx="4" fill="#1D4ED8" fill-opacity="0.3"/>
+      <text x="65" y="131" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">REPOSITORIES ↗</text>
+    </g>
+
+    <!-- Channel 4: Strategic Inquiries -->
+    <g transform="translate(895, 68)">
+      <rect width="265" height="144" rx="10" fill="#080F1E" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="36" cy="36" r="16" fill="#78350F" fill-opacity="0.4"/>
+      <text x="36" y="42" text-anchor="middle" font-size="16">✉️</text>
+      <text x="64" y="32" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="15" font-weight="700">Direct Inquiries</text>
+      <text x="64" y="48" fill="#EAB308" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600">Email &amp; Messaging</text>
+      <text x="20" y="86" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">High stakes consultations,</text>
+      <text x="20" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">AI SaaS ideas, &amp; ventures.</text>
+      <rect x="20" y="118" width="90" height="18" rx="4" fill="#854D0E" fill-opacity="0.3"/>
+      <text x="65" y="131" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="600">REACH OUT ↗</text>
+    </g>
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="239" rx="16" fill="none" stroke="url(#borderConnect)" stroke-width="1.2"/>
+</svg>

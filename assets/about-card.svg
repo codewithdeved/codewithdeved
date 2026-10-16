@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="About Tayyab Ali (CodeWithDeved) - Engineering Philosophy and Background">
+  <defs>
+    <linearGradient id="bgAbout" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#091326"/>
+      <stop offset="100%" stop-color="#060A14"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A45C"/>
+      <stop offset="100%" stop-color="#EED596"/>
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="gridAbout" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect width="1200" height="420" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes pulseGreen { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.9); } }
+    @keyframes sweepLine { 0% { transform: translateX(-600px); opacity: 0; } 50% { opacity: 1; } 100% { transform: translateX(1200px); opacity: 0; } }
+    @keyframes blinkCursor { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes floatPill { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes glowNode { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.9; } }
+    .pulse-dot { animation: pulseGreen 2s ease-in-out infinite; transform-origin: 82px 76px; }
+    .cursor { animation: blinkCursor 1s infinite; }
+    .pill-1 { animation: floatPill 4s ease-in-out infinite; }
+    .pill-2 { animation: floatPill 4.5s ease-in-out infinite 0.5s; }
+    .pill-3 { animation: floatPill 5s ease-in-out infinite 1s; }
+    .pill-4 { animation: floatPill 4.2s ease-in-out infinite 1.5s; }
+    .node-glow { animation: glowNode 3s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse-dot, .cursor, .pill-1, .pill-2, .pill-3, .pill-4, .node-glow { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base Background -->
+    <rect width="1200" height="420" fill="url(#bgAbout)"/>
+    <rect width="1200" height="420" fill="url(#gridAbout)"/>
+
+    <!-- Subtle Ambience Glow -->
+    <circle cx="1100" cy="100" r="280" fill="#2563EB" opacity="0.12" filter="blur(40px)"/>
+    <circle cx="100" cy="350" r="220" fill="#C9A45C" opacity="0.08" filter="blur(40px)"/>
+
+    <!-- Top Window Chrome Bar -->
+    <rect width="1200" height="38" fill="#060A14" fill-opacity="0.85"/>
+    <line x1="0" y1="38" x2="1200" y2="38" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Window Controls -->
+    <circle cx="28" cy="19" r="6" fill="#EF4444" opacity="0.85"/>
+    <circle cx="48" cy="19" r="6" fill="#F59E0B" opacity="0.85"/>
+    <circle cx="68" cy="19" r="6" fill="#10B981" opacity="0.85"/>
+    
+    <!-- Window Title -->
+    <text x="600" y="24" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">tayyab@codewithdeved: ~/philosophy.sh</text>
+
+    <!-- LEFT COLUMN: Terminal Narrative (x=50..660) -->
+    <!-- Prompt Command -->
+    <text x="50" y="76" fill="#60A5FA" font-family="'Consolas', 'Courier New', monospace" font-size="14" font-weight="600">❯ <tspan fill="#F5F1E8">whoami --focus</tspan></text>
+    <rect class="cursor" x="210" y="63" width="8" height="15" fill="#60A5FA"/>
+
+    <!-- Status Badge -->
+    <rect x="50" y="96" width="310" height="26" rx="13" fill="#0B1B33" stroke="#2563EB" stroke-width="1" stroke-opacity="0.6"/>
+    <circle class="pulse-dot" cx="68" cy="109" r="4.5" fill="#10B981"/>
+    <text x="82" y="113" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">OPEN TO ENGINEERING LEADERSHIP &amp; AI SAAS</text>
+
+    <!-- Headline Statement -->
+    <text x="50" y="156" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="700">Engineering the Nexus of Code Architecture</text>
+    <text x="50" y="184" fill="url(#goldText)" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="700">&amp; Human Cognitive Design</text>
+
+    <!-- Bio Narrative -->
+    <text x="50" y="222" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="14" line-height="1.6">I am <tspan fill="#F1F5F9" font-weight="600">Tayyab Ali</tspan> (CodeWithDeved), Founder and CEO at <tspan fill="#60A5FA" font-weight="600">Vibeans Solutions</tspan></text>
+    <text x="50" y="246" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="14">and Software Engineer at <tspan fill="#F1F5F9" font-weight="600">Perception Tech</tspan>, based in Karachi, Pakistan.</text>
+    <text x="50" y="270" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="14">I build production web systems and AI applications designed around how</text>
+    <text x="50" y="294" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="14">users process information, make high stakes decisions, and interact.</text>
+
+    <!-- Philosophy Quote Callout -->
+    <rect x="50" y="326" width="580" height="54" rx="8" fill="#0B1426" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="50" y1="326" x2="50" y2="380" stroke="#C9A45C" stroke-width="4"/>
+    <text x="70" y="358" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="13" font-style="italic">"Turning complex technical challenges into intuitive, high impact digital products."</text>
+
+    <!-- VERTICAL DIVIDER WITH GRADIENT -->
+    <line x1="660" y1="58" x2="660" y2="390" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="660" cy="220" r="3" fill="#C9A45C" opacity="0.8"/>
+
+    <!-- RIGHT COLUMN: Interactive Matrix Cards (x=690..1150) -->
+    <text x="690" y="76" fill="#C9A45C" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="2">CORE CAPABILITIES &amp; SPECIALIZATIONS</text>
+
+    <!-- Card 1: AI SaaS -->
+    <g class="pill-1">
+      <rect x="690" y="96" width="460" height="64" rx="10" fill="#091326" stroke="#2563EB" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="722" cy="128" r="16" fill="#1E3A8A" fill-opacity="0.5"/>
+      <text x="722" y="133" text-anchor="middle" font-size="16">🧠</text>
+      <text x="752" y="122" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Generative AI &amp; Intelligent Products</text>
+      <text x="752" y="142" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">LLM Integrations • Retrieval Augmented Generation (RAG) • Prompt Systems</text>
+    </g>
+
+    <!-- Card 2: Full Stack SaaS -->
+    <g class="pill-2">
+      <rect x="690" y="172" width="460" height="64" rx="10" fill="#091326" stroke="#C9A45C" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="722" cy="204" r="16" fill="#78350F" fill-opacity="0.4"/>
+      <text x="722" y="209" text-anchor="middle" font-size="16">🌐</text>
+      <text x="752" y="198" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Full Stack &amp; Scalable Web Architecture</text>
+      <text x="752" y="218" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Next.js • TypeScript • Node.js • Cloud Microservices &amp; API Design</text>
+    </g>
+
+    <!-- Card 3: Cognitive UX -->
+    <g class="pill-3">
+      <rect x="690" y="248" width="460" height="64" rx="10" fill="#091326" stroke="#2563EB" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="722" cy="280" r="16" fill="#1E3A8A" fill-opacity="0.5"/>
+      <text x="722" y="285" text-anchor="middle" font-size="16">🎨</text>
+      <text x="752" y="274" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Cognitive Design &amp; Decision UX</text>
+      <text x="752" y="294" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Human Perception • Friction Reduction • Trust Architecture &amp; Clarity</text>
+    </g>
+
+    <!-- Card 4: FinTech & HealthTech -->
+    <g class="pill-4">
+      <rect x="690" y="324" width="460" height="64" rx="10" fill="#091326" stroke="#C9A45C" stroke-width="1.2" stroke-opacity="0.5"/>
+      <circle cx="722" cy="356" r="16" fill="#78350F" fill-opacity="0.4"/>
+      <text x="722" y="361" text-anchor="middle" font-size="16">💳</text>
+      <text x="752" y="350" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">FinTech &amp; Healthcare Technology</text>
+      <text x="752" y="370" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">High Integrity Workflows • Data Privacy • Enterprise Real Estate Systems</text>
+    </g>
+  </g>
+
+  <!-- Outer Border Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="16" fill="none" stroke="url(#borderGlow)" stroke-width="1.2"/>
+</svg>

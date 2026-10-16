@@ -1,26 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="CodeWithDeved, code and cognitive design, Vibeans Solutions, Karachi, Pakistan">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="CodeWithDeved - Engineering the intersection of code architecture and cognitive design. Vibeans Solutions, Karachi, Pakistan">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05080F"/>
-      <stop offset="1" stop-color="#0B1426"/>
+    <linearGradient id="bgFooter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080E1C" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#04070E" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="g" cx="600" cy="150" r="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2563EB" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="gl" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C9A45C" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#E3C98A"/>
-      <stop offset="1" stop-color="#C9A45C" stop-opacity="0"/>
+    <linearGradient id="topLineGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#C9A45C" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#C9A45C" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0"/>
     </linearGradient>
-    <clipPath id="c"><rect width="1200" height="150" rx="20"/></clipPath>
+    <linearGradient id="glintFooter" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
   </defs>
-  <g clip-path="url(#c)">
-    <rect width="1200" height="150" fill="url(#bg)"/>
-    <rect width="1200" height="150" fill="url(#g)"/>
-    <rect x="0" y="0" width="1200" height="3" fill="url(#gl)"/>
-    <text x="600" y="68" text-anchor="middle" fill="#F5F1E8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="6">CODE <tspan fill="#C9A45C">×</tspan> COGNITIVE DESIGN</text>
-    <text x="600" y="106" text-anchor="middle" fill="#97A4BC" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" letter-spacing="2">CodeWithDeved  ·  Vibeans Solutions  ·  Karachi, Pakistan</text>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="149" rx="20" fill="none" stroke="#1B2A47"/>
+
+  <style>
+    @keyframes glintSweep { 0% { transform: translateX(-300px); opacity: 0; } 20% { opacity: 1; } 80% { opacity: 1; } 100% { transform: translateX(1300px); opacity: 0; } }
+    @keyframes pulseGem { 0%, 100% { opacity: 0.7; transform: rotate(45deg) scale(1); } 50% { opacity: 1; transform: rotate(45deg) scale(1.15); } }
+    .footer-glint { animation: glintSweep 6s ease-in-out infinite; }
+    .footer-gem { animation: pulseGem 3s ease-in-out infinite; transform-origin: 600px 1px; }
+    @media (prefers-reduced-motion: reduce) {
+      .footer-glint, .footer-gem { animation: none; }
+    }
+  </style>
+
+  <!-- Ambient background fade -->
+  <rect width="1200" height="120" fill="url(#bgFooter)"/>
+
+  <!-- Top glowing accent line -->
+  <line x1="100" y1="1" x2="1100" y2="1" stroke="url(#topLineGlow)" stroke-width="2"/>
+  <rect class="footer-glint" x="0" y="0" width="160" height="2" fill="url(#glintFooter)"/>
+
+  <!-- Centered Diamond -->
+  <rect class="footer-gem" x="595" y="-4" width="10" height="10" fill="#0B1426" stroke="#C9A45C" stroke-width="1.8"/>
+
+  <!-- Brand Typography -->
+  <text x="600" y="42" text-anchor="middle" fill="#C9A45C" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16" font-weight="700" letter-spacing="8">CODEWITHDEVED</text>
+  <text x="600" y="68" text-anchor="middle" fill="#F8FAFC" font-family="'Segoe UI', -apple-system, sans-serif" font-size="14" font-weight="600" letter-spacing="3">ENGINEERING THE INTERSECTION OF CODE <tspan fill="#3B82F6">×</tspan> COGNITIVE DESIGN</text>
+  <text x="600" y="94" text-anchor="middle" fill="#64748B" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" letter-spacing="1.5">Tayyab Ali • Founder, Vibeans Solutions • Karachi, Pakistan</text>
 </svg>
