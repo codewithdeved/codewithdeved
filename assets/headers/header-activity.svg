@@ -17,7 +17,7 @@
 
   <!-- Left Beacon &amp; Tag -->
   <circle cx="24" cy="22" r="3.5" fill="#10B981"/>
-  <text x="34" y="25" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700">// 06 TELEMETRY &amp; ACTIVITY STREAM</text>
+  <text x="34" y="25" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700">SECTION 06 • TELEMETRY &amp; ACTIVITY STREAM</text>
 
   <!-- Main Section Title -->
   <text x="24" y="52" fill="#F8FAFC" font-family="'Segoe UI', -apple-system, sans-serif" font-size="24" font-weight="700">LANGUAGES &amp; ACTIVITY ON GITHUB</text>

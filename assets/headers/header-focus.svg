@@ -17,7 +17,7 @@
 
   <!-- Left Beacon &amp; Tag -->
   <circle cx="24" cy="22" r="3.5" fill="#10B981"/>
-  <text x="34" y="25" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700">// 03 CORE DOMAINS &amp; ARCHITECTURE</text>
+  <text x="34" y="25" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700">SECTION 03 • CORE DOMAINS &amp; ARCHITECTURE</text>
 
   <!-- Main Section Title -->
   <text x="24" y="52" fill="#F8FAFC" font-family="'Segoe UI', -apple-system, sans-serif" font-size="24" font-weight="700">TECHNICAL FOCUS &amp; CAPABILITIES</text>

@@ -2,20 +2,23 @@
 
 <img src="assets/hero-3d.webp" alt="CodeWithDeved: Engineering the Intersection of Code and Cognitive Design. Rotating 3D node network between gold code brackets." width="100%">
 
-<img src="assets/ticker.svg" alt="AI Powered SaaS. Cognitive UX. Modern Web Architecture." width="100%">
-
-<br>
-
-<a href="#featured-products"><img src="https://img.shields.io/badge/%E2%8C%98%201%20//%20SAAS%20FLEET-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to featured products"></a>
-<a href="#technical-focus"><img src="https://img.shields.io/badge/%E2%8C%98%202%20//%20ARCHITECTURE-0B1426?style=for-the-badge&logo=target&logoColor=3B82F6" alt="Jump to technical focus"></a>
-<a href="#open-source-repositories"><img src="https://img.shields.io/badge/%E2%8C%98%203%20//%20OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
-<a href="#tech-stack"><img src="https://img.shields.io/badge/%E2%8C%98%204%20//%20CORE%20TOOLING-0B1426?style=for-the-badge&logo=codewars&logoColor=C9A45C" alt="Jump to tech stack"></a>
-<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/%E2%8C%98%205%20//%20LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
-<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/%E2%8C%98%206%20//%20STUDIO%20PORTFOLIO-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
+<img src="assets/ticker.svg" alt="Live Telemetry: AI Powered SaaS, Cognitive UX, and Modern Web Architecture" width="100%">
 
 <br><br>
 
-<a href="https://github.com/codewithdeved/codewithdeved/actions"><img src="https://img.shields.io/badge/TELEMETRY%20SYNC-2026.10.16%20%2F%2F%2020:33%20UTC-0B1426?style=flat-square&logo=githubactions&logoColor=10B981" alt="Living Profile Automated Sync Active"></a>
+<a href="#featured-products"><img src="https://img.shields.io/badge/%E2%8C%98%201%20%3A%20FEATURED%20SAAS-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to featured products"></a>
+<a href="#technical-focus"><img src="https://img.shields.io/badge/%E2%8C%98%202%20%3A%20TECHNICAL%20FOCUS-0B1426?style=for-the-badge&logo=target&logoColor=3B82F6" alt="Jump to technical focus"></a>
+<a href="#open-source-repositories"><img src="https://img.shields.io/badge/%E2%8C%98%203%20%3A%20OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
+
+<br><br>
+
+<a href="#tech-stack"><img src="https://img.shields.io/badge/%E2%8C%98%204%20%3A%20CORE%20TOOLING-0B1426?style=for-the-badge&logo=codewars&logoColor=C9A45C" alt="Jump to tech stack"></a>
+<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/%E2%8C%98%205%20%3A%20LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
+<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/%E2%8C%98%206%20%3A%20STUDIO%20PORTFOLIO-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
+
+<br><br>
+
+<a href="https://github.com/codewithdeved/codewithdeved/actions"><img src="https://img.shields.io/badge/TELEMETRY%20SYNC-ACTIVE%20%E2%80%A2%20EDGE%20HEALTHY-0B1426?style=flat-square&logo=githubactions&logoColor=10B981" alt="Living Profile Automated Sync Active"></a>
 <a href="https://github.com/codewithdeved/codewithdeved"><img src="https://img.shields.io/badge/ARCHITECTURE-PRODUCTION%20GRADE-0B1426?style=flat-square&logo=probot&logoColor=38BDF8" alt="Production Grade Architecture"></a>
 <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/EXECUTIVE%20ROLE-FOUNDER%20%26%20ARCHITECT-0B1426?style=flat-square&logo=auth0&logoColor=C9A45C" alt="Founder and Architect at Vibeans Solutions"></a>
 
@@ -88,7 +91,7 @@
         <img src="assets/cards/creaite-hive.webp" alt="Creaite Hive, an AI powered design suite live at creatie-hive.vercel.app" width="100%">
       </a>
       <br>
-      <b>Creaite Hive // AI Architectural Design Suite</b><br>
+      <b>Creaite Hive • AI Architectural Design Suite</b><br>
       An AI powered design suite helping architects and creators transform concept sketches and imagery into precision architectural designs.<br><br>
       <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Creaite Hive"></a>
       <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/FLAGSHIP%20AI%20SUITE-0B1426?style=for-the-badge&logo=sparkles&logoColor=C9A45C" alt="Flagship AI Suite"></a>
@@ -120,7 +123,7 @@
         <img src="assets/cards/docbrio.webp" alt="DocBrio, a browser based document toolkit live at docbrio.me" width="100%">
       </a>
       <br>
-      <b>DocBrio // Client Side Document Toolkit</b><br>
+      <b>DocBrio • Client Side Document Toolkit</b><br>
       A high performance browser based document toolkit to convert, merge, edit, sign, and compress files client side without server uploads.<br><br>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch DocBrio"></a>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/CLIENT%20SIDE%20SAAS-0B1426?style=for-the-badge&logo=shield&logoColor=3B82F6" alt="Client Side SaaS"></a>
@@ -149,7 +152,7 @@
         <img src="assets/cards/leadster.webp" alt="Leadster.io, a conversational B2B lead discovery platform live at leadster-io.vercel.app" width="100%">
       </a>
       <br>
-      <b>Leadster.io // Conversational B2B Discovery</b><br>
+      <b>Leadster.io • Conversational B2B Discovery</b><br>
       An intelligent conversational platform built for B2B lead discovery, automated prospect research, and verified contact extraction.<br><br>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Leadster.io"></a>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/B2B%20LEAD%20GEN-0B1426?style=for-the-badge&logo=target&logoColor=C9A45C" alt="B2B Lead Gen"></a>
@@ -181,7 +184,7 @@
         <img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal live at pakmilkiyat.vercel.app" width="100%">
       </a>
       <br>
-      <b>PakMilkiyat // Spatial PropTech Portal</b><br>
+      <b>PakMilkiyat • Spatial PropTech Portal</b><br>
       A modern real estate portal providing structured property exploration across residential sales, commercial rentals, and new developments.<br><br>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch PakMilkiyat"></a>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/PROPTECH%20PORTAL-0B1426?style=for-the-badge&logo=homeadvisor&logoColor=C9A45C" alt="PropTech Portal"></a>
