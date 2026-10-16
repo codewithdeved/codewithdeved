@@ -32,11 +32,11 @@
 
 <div align="center">
 
-<a href="https://www.vibeanssolutions.site/#portfolio"><img src="https://img.shields.io/badge/PRODUCTION%20DEPLOYMENTS-6%20LIVE%20SAAS%20PLATFORMS-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="6 Live SaaS Deployments"></a>
+<img src="assets/products-header.svg" alt="Production Fleet Telemetry Console - 6 Live Platforms Deployed" width="100%">
 
 <br><br>
 
-**Six production software products and AI applications developed collaboratively with teams. Select any card to explore the live application.**
+**Six production software platforms and AI applications built with teams. Select any application card to launch the live deployment.**
 
 </div>
 
@@ -105,45 +105,27 @@ Personal repositories and foundational experiments across web applications, desk
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/codewithdeved/AssistAI"><img src="https://img.shields.io/badge/AI%20WEB%20INTERFACE-0B1426?style=flat-square&logo=react&logoColor=61DAFB" alt="AssistAI Tag"></a>
-      <h4><a href="https://github.com/codewithdeved/AssistAI">AssistAI</a></h4>
-      An intelligent assistant web interface built with React.js, JavaScript, HTML5, and CSS3.<br>
-      <sub><b>Stack:</b> React.js &bull; JavaScript &bull; HTML5 &bull; CSS3</sub>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved/AssistAI"><img src="assets/repos/card-assistai.svg" alt="AssistAI repository - AI Web Interface" width="100%"></a>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/codewithdeved/Course-Management-System"><img src="https://img.shields.io/badge/DESKTOP%20CMS%20ARCHITECTURE-0B1426?style=flat-square&logo=openjdk&logoColor=ED8B00" alt="CMS Tag"></a>
-      <h4><a href="https://github.com/codewithdeved/Course-Management-System">Course-Management-System</a></h4>
-      A desktop Course Management System (CMS) engineered in Java utilizing AWT, Swing, and JavaFX.<br>
-      <sub><b>Stack:</b> Java &bull; JavaFX &bull; Swing &bull; AWT</sub>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved/Course-Management-System"><img src="assets/repos/card-cms.svg" alt="Course-Management-System repository - Desktop CMS Architecture" width="100%"></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/codewithdeved/Employee-Information-System-EIS"><img src="https://img.shields.io/badge/DATABASE%20DRIVEN%20EIS-0B1426?style=flat-square&logo=python&logoColor=3776AB" alt="EIS Tag"></a>
-      <h4><a href="https://github.com/codewithdeved/Employee-Information-System-EIS">Employee-Information-System-EIS</a></h4>
-      A database driven Employee Information System (EIS) implemented in Python for record management.<br>
-      <sub><b>Stack:</b> Python &bull; SQL &bull; GUI &bull; Database</sub>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved/Employee-Information-System-EIS"><img src="assets/repos/card-eis.svg" alt="Employee-Information-System-EIS repository - Database Driven EIS" width="100%"></a>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/codewithdeved/Tesla-Cyber-Truck"><img src="https://img.shields.io/badge/3D%20VEHICLE%20RENDERING-0B1426?style=flat-square&logo=css3&logoColor=1572B6" alt="Tesla Tag"></a>
-      <h4><a href="https://github.com/codewithdeved/Tesla-Cyber-Truck">Tesla-Cyber-Truck</a></h4>
-      An interactive 3D visual rendering of a Tesla Cyber Truck and robot, created with pure CSS3 on React.js.<br>
-      <sub><b>Stack:</b> CSS3 3D &bull; React.js &bull; Transforms &bull; UI</sub>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved/Tesla-Cyber-Truck"><img src="assets/repos/card-cybertruck.svg" alt="Tesla-Cyber-Truck repository - 3D Vehicle Rendering" width="100%"></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/codewithdeved/Bugatti"><img src="https://img.shields.io/badge/CSS3%203D%20TRANSFORMS-0B1426?style=flat-square&logo=css3&logoColor=1572B6" alt="Bugatti Tag"></a>
-      <h4><a href="https://github.com/codewithdeved/Bugatti">Bugatti</a></h4>
-      An intricate 3D vehicle modeling experiment rendered purely through CSS3 transforms on React.js.<br>
-      <sub><b>Stack:</b> CSS3 3D &bull; React.js &bull; Perspective Modeling</sub>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved/Bugatti"><img src="assets/repos/card-bugatti.svg" alt="Bugatti repository - CSS3 3D Transforms" width="100%"></a>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/codewithdeved/Harley-Davidson"><img src="https://img.shields.io/badge/3D%20KEYFRAME%20ANIMATION-0B1426?style=flat-square&logo=css3&logoColor=1572B6" alt="Harley Tag"></a>
-      <h4><a href="https://github.com/codewithdeved/Harley-Davidson">Harley-Davidson</a></h4>
-      An interactive 3D motorcycle model and animation constructed with advanced CSS3 on React.js.<br>
-      <sub><b>Stack:</b> CSS3 3D &bull; React.js &bull; Motion Keyframes</sub>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved/Harley-Davidson"><img src="assets/repos/card-harley.svg" alt="Harley-Davidson repository - 3D Keyframe Animation" width="100%"></a>
     </td>
   </tr>
 </table>
@@ -158,46 +140,9 @@ Personal repositories and foundational experiments across web applications, desk
 
 <h2 id="tech-stack">Technology Stack &amp; Core Tooling</h2>
 
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h4>💻 Languages</h4>
-      <img src="https://img.shields.io/badge/JavaScript-0B1426?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"><br>
-      <img src="https://img.shields.io/badge/TypeScript-0B1426?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"><br>
-      <img src="https://img.shields.io/badge/Python-0B1426?style=flat-square&logo=python&logoColor=3776AB" alt="Python"><br>
-      <img src="https://img.shields.io/badge/Java-0B1426?style=flat-square&logo=openjdk&logoColor=ED8B00" alt="Java"><br>
-      <img src="https://img.shields.io/badge/HTML5-0B1426?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5"><br>
-      <img src="https://img.shields.io/badge/CSS3-0B1426?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3">
-    </td>
-    <td width="25%" valign="top">
-      <h4>⚡ Frontend &amp; UI</h4>
-      <img src="https://img.shields.io/badge/React-0B1426?style=flat-square&logo=react&logoColor=61DAFB" alt="React"><br>
-      <img src="https://img.shields.io/badge/Next.js-0B1426?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"><br>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-0B1426?style=flat-square&logo=tailwindcss&logoColor=38B2AC" alt="Tailwind CSS"><br>
-      <img src="https://img.shields.io/badge/Bootstrap-0B1426?style=flat-square&logo=bootstrap&logoColor=7952B3" alt="Bootstrap"><br>
-      <img src="https://img.shields.io/badge/Figma-0B1426?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma"><br>
-      <img src="https://img.shields.io/badge/Redux-0B1426?style=flat-square&logo=redux&logoColor=764ABC" alt="Redux">
-    </td>
-    <td width="25%" valign="top">
-      <h4>🏗️ Backend &amp; APIs</h4>
-      <img src="https://img.shields.io/badge/Node.js-0B1426?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"><br>
-      <img src="https://img.shields.io/badge/Express.js-0B1426?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js"><br>
-      <img src="https://img.shields.io/badge/REST_APIs-0B1426?style=flat-square&logo=fastapi&logoColor=009688" alt="REST APIs"><br>
-      <img src="https://img.shields.io/badge/GraphQL-0B1426?style=flat-square&logo=graphql&logoColor=E10098" alt="GraphQL"><br>
-      <img src="https://img.shields.io/badge/JSON_APIs-0B1426?style=flat-square&logo=json&logoColor=FFFFFF" alt="JSON APIs"><br>
-      <img src="https://img.shields.io/badge/SQLite-0B1426?style=flat-square&logo=sqlite&logoColor=003B57" alt="SQLite">
-    </td>
-    <td width="25%" valign="top">
-      <h4>☁️ Cloud &amp; Tooling</h4>
-      <img src="https://img.shields.io/badge/Git-0B1426?style=flat-square&logo=git&logoColor=F05032" alt="Git"><br>
-      <img src="https://img.shields.io/badge/GitHub-0B1426?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub"><br>
-      <img src="https://img.shields.io/badge/Vercel-0B1426?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel"><br>
-      <img src="https://img.shields.io/badge/Netlify-0B1426?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify"><br>
-      <img src="https://img.shields.io/badge/VS_Code-0B1426?style=flat-square&logo=visualstudiocode&logoColor=007ACC" alt="VS Code"><br>
-      <img src="https://img.shields.io/badge/Postman-0B1426?style=flat-square&logo=postman&logoColor=FF6C37" alt="Postman">
-    </td>
-  </tr>
-</table>
+<img src="assets/tech-stack.svg" alt="Technology Stack and Core Tooling Matrix" width="100%">
+
+<br>
 
 <sub>Technologies verified through public repositories and deployed production products at Vibeans Solutions.</sub>
 
@@ -213,7 +158,7 @@ Personal repositories and foundational experiments across web applications, desk
       <img src="https://streak-stats.demolab.com/?user=codewithdeved&background=0B1426&border=1B2A47&stroke=C9A45C&ring=3B82F6&fire=C9A45C&currStreakNum=F5F1E8&sideNums=F5F1E8&currStreakLabel=C9A45C&sideLabels=94A3B8&dates=64748B" alt="GitHub Contribution Streak for codewithdeved" width="100%">
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&hide_border=true&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9&card_width=495" alt="Most used programming languages across codewithdeved's public repositories" width="100%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&border_color=1B2A47&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9" alt="Most used programming languages across codewithdeved's public repositories" width="100%">
     </td>
   </tr>
 </table>
@@ -228,9 +173,28 @@ Personal repositories and foundational experiments across web applications, desk
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect-card.svg" alt="Connect and Collaborate with Tayyab Ali (CodeWithDeved)" width="100%"></a>
+<img src="assets/connect/connect-banner.svg" alt="Open for Ventures and Collaboration status header" width="100%">
 
 <br><br>
+
+<table>
+  <tr>
+    <td width="25%" align="center" valign="top">
+      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-linkedin.svg" alt="Connect on LinkedIn" width="100%"></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-vibeans.svg" alt="Visit Vibeans Solutions Studio" width="100%"></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <a href="https://github.com/codewithdeved"><img src="assets/connect/card-github.svg" alt="Explore GitHub Repositories" width="100%"></a>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-inquiries.svg" alt="Send Direct Inquiries" width="100%"></a>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
 <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Vibeans Solutions website"></a>

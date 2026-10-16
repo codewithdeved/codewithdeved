@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="280" height="180" role="img" aria-label="Visit Vibeans Solutions Studio">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E0F14"/>
+      <stop offset="100%" stop-color="#06080D"/>
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3C98A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#997028" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulseGlowGold { 0%, 100% { opacity: 0.5; } 50% { opacity: 0.9; } }
+    .glow-ring-gold { animation: pulseGlowGold 3.5s ease-in-out infinite 0.5s; }
+    @media (prefers-reduced-motion: reduce) { .glow-ring-gold { animation: none; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="279" height="179" rx="12" fill="url(#cardBg)" stroke="url(#goldBorder)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="278" height="178" rx="11" fill="none" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.2"/>
+
+  <!-- Icon Circle -->
+  <circle cx="38" cy="38" r="18" fill="#78350F" fill-opacity="0.4"/>
+  <circle class="glow-ring-gold" cx="38" cy="38" r="22" fill="none" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="38" y="44" text-anchor="middle" font-size="18">🚀</text>
+
+  <!-- Title & Domain -->
+  <text x="70" y="34" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">Vibeans Solutions</text>
+  <text x="70" y="50" fill="#EAB308" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">vibeanssolutions.site</text>
+
+  <!-- Description (no hyphens) -->
+  <text x="22" y="88" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Startup engineering, client</text>
+  <text x="22" y="106" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">products, and AI development.</text>
+
+  <!-- Action Button -->
+  <rect x="22" y="128" width="236" height="32" rx="6" fill="#78350F" fill-opacity="0.4" stroke="#C9A45C" stroke-width="1"/>
+  <text x="140" y="149" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1">VISIT DIGITAL STUDIO ↗</text>
+</svg>

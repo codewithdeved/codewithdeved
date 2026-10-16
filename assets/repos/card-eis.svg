@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 200" width="580" height="200" role="img" aria-label="Employee-Information-System-EIS repository - Database Driven EIS in Python">
+  <defs>
+    <linearGradient id="repoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080F22"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </linearGradient>
+    <linearGradient id="repoBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="repoGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseRing { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.85; } }
+    @keyframes beamFlow { 0% { stroke-dashoffset: 30; } 100% { stroke-dashoffset: 0; } }
+    .pulse-glow { animation: pulseRing 3s ease-in-out infinite; }
+    .beam { stroke-dasharray: 4 6; animation: beamFlow 2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { .pulse-glow, .beam { animation: none; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="579" height="199" rx="14" fill="url(#repoBg)" stroke="url(#repoBorder)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="578" height="198" rx="13" fill="url(#repoGrid)"/>
+
+  <!-- Top Category Chip & Pulse -->
+  <rect x="24" y="20" width="165" height="22" rx="5" fill="#1E3A8A" fill-opacity="0.4" stroke="#2563EB" stroke-width="1"/>
+  <circle cx="36" cy="31" r="3.5" fill="#60A5FA"/>
+  <text x="46" y="35" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" letter-spacing="1">DATABASE DRIVEN EIS</text>
+
+  <!-- Repo Icon -->
+  <circle cx="536" cy="32" r="16" fill="#1E3A8A" fill-opacity="0.3"/>
+  <circle class="beam" cx="536" cy="32" r="20" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="536" y="38" text-anchor="middle" font-size="16">🐍</text>
+
+  <!-- Repository Title -->
+  <text x="24" y="74" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="700">Employee-Information-System-EIS</text>
+
+  <!-- Description (no hyphens) -->
+  <text x="24" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">A database driven Employee Information System implemented in Python for</text>
+  <text x="24" y="124" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">enterprise personnel record tracking, departmental data, and payroll queries.</text>
+
+  <!-- Tech Stack Chips -->
+  <g transform="translate(24, 150)">
+    <rect x="0" y="0" width="65" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
+    <text x="32" y="16" text-anchor="middle" fill="#38BDF8" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Python</text>
+
+    <rect x="73" y="0" width="50" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
+    <text x="98" y="16" text-anchor="middle" fill="#F59E0B" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">SQL</text>
+
+    <rect x="131" y="0" width="50" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
+    <text x="156" y="16" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">GUI</text>
+
+    <rect x="189" y="0" width="75" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
+    <text x="226" y="16" text-anchor="middle" fill="#34D399" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Database</text>
+  </g>
+
+  <!-- Action Arrow -->
+  <rect x="440" y="148" width="116" height="28" rx="6" fill="#1D4ED8" fill-opacity="0.3" stroke="#3B82F6" stroke-width="1"/>
+  <text x="498" y="166" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">VIEW REPO ↗</text>
+</svg>

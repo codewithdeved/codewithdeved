@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Technology Stack and Core Tooling Matrix">
+  <defs>
+    <linearGradient id="podBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080F22"/>
+      <stop offset="100%" stop-color="#040712"/>
+    </linearGradient>
+    <linearGradient id="blueGlowPod" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="goldGlowPod" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3C98A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#997028" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="dotPattern" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseCard { 0%, 100% { opacity: 0.5; } 50% { opacity: 0.9; } }
+    @keyframes sweepBeam { 0% { transform: translateY(-50px); opacity: 0; } 50% { opacity: 0.6; } 100% { transform: translateY(420px); opacity: 0; } }
+    .pulse-1 { animation: pulseCard 3s ease-in-out infinite; }
+    .pulse-2 { animation: pulseCard 3.5s ease-in-out infinite 0.5s; }
+    .pulse-3 { animation: pulseCard 4s ease-in-out infinite 1s; }
+    .pulse-4 { animation: pulseCard 3.2s ease-in-out infinite 1.5s; }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse-1, .pulse-2, .pulse-3, .pulse-4 { animation: none; }
+    }
+  </style>
+
+  <!-- POD 1: Languages (x=20) -->
+  <g class="pulse-1">
+    <rect x="20.5" y="10.5" width="274" height="399" rx="14" fill="url(#podBg)" stroke="url(#blueGlowPod)" stroke-width="1.2"/>
+    <rect x="21" y="11" width="273" height="398" rx="13" fill="url(#dotPattern)"/>
+    
+    <!-- Header -->
+    <rect x="21" y="11" width="273" height="46" rx="13" fill="#0B1426" fill-opacity="0.7"/>
+    <line x1="21" y1="57" x2="294" y2="57" stroke="#1E293B" stroke-width="1"/>
+    <text x="40" y="40" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">💻 Languages</text>
+
+    <!-- Chips -->
+    <!-- 1: JavaScript -->
+    <g transform="translate(38, 72)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#F7DF1E"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">JavaScript</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">ES2024</text>
+    </g>
+    <!-- 2: TypeScript -->
+    <g transform="translate(38, 124)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#3178C6"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">TypeScript</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Strict</text>
+    </g>
+    <!-- 3: Python -->
+    <g transform="translate(38, 176)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#3776AB"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Python</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">AI/Backend</text>
+    </g>
+    <!-- 4: Java -->
+    <g transform="translate(38, 228)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#ED8B00"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Java</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">JDK 17+</text>
+    </g>
+    <!-- 5: HTML5 -->
+    <g transform="translate(38, 280)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#E34F26"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">HTML5</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Semantic</text>
+    </g>
+    <!-- 6: CSS3 -->
+    <g transform="translate(38, 332)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#1572B6"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">CSS3</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">3D/Motion</text>
+    </g>
+  </g>
+
+  <!-- POD 2: Frontend & UI (x=315) -->
+  <g class="pulse-2">
+    <rect x="315.5" y="10.5" width="274" height="399" rx="14" fill="url(#podBg)" stroke="url(#goldGlowPod)" stroke-width="1.2"/>
+    <rect x="316" y="11" width="273" height="398" rx="13" fill="url(#dotPattern)"/>
+    
+    <!-- Header -->
+    <rect x="316" y="11" width="273" height="46" rx="13" fill="#0B1426" fill-opacity="0.7"/>
+    <line x1="316" y1="57" x2="589" y2="57" stroke="#1E293B" stroke-width="1"/>
+    <text x="335" y="40" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">⚡ Frontend &amp; UI</text>
+
+    <!-- Chips -->
+    <!-- 1: React -->
+    <g transform="translate(333, 72)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#61DAFB"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">React.js</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">v18+</text>
+    </g>
+    <!-- 2: Next.js -->
+    <g transform="translate(333, 124)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#FFFFFF"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Next.js</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">App Router</text>
+    </g>
+    <!-- 3: Tailwind CSS -->
+    <g transform="translate(333, 176)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#38B2AC"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Tailwind CSS</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">v3+</text>
+    </g>
+    <!-- 4: Bootstrap -->
+    <g transform="translate(333, 228)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#7952B3"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Bootstrap</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Responsive</text>
+    </g>
+    <!-- 5: Figma -->
+    <g transform="translate(333, 280)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#F24E1E"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Figma</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Cognitive UX</text>
+    </g>
+    <!-- 6: Redux -->
+    <g transform="translate(333, 332)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#764ABC"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Redux Toolkit</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">State</text>
+    </g>
+  </g>
+
+  <!-- POD 3: Backend & APIs (x=610) -->
+  <g class="pulse-3">
+    <rect x="610.5" y="10.5" width="274" height="399" rx="14" fill="url(#podBg)" stroke="url(#blueGlowPod)" stroke-width="1.2"/>
+    <rect x="611" y="11" width="273" height="398" rx="13" fill="url(#dotPattern)"/>
+    
+    <!-- Header -->
+    <rect x="611" y="11" width="273" height="46" rx="13" fill="#0B1426" fill-opacity="0.7"/>
+    <line x1="611" y1="57" x2="884" y2="57" stroke="#1E293B" stroke-width="1"/>
+    <text x="630" y="40" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">🏗️ Backend &amp; APIs</text>
+
+    <!-- Chips -->
+    <!-- 1: Node.js -->
+    <g transform="translate(628, 72)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#5FA04E"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Node.js</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Runtime</text>
+    </g>
+    <!-- 2: Express.js -->
+    <g transform="translate(628, 124)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#CBD5E1"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Express.js</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">REST</text>
+    </g>
+    <!-- 3: REST APIs -->
+    <g transform="translate(628, 176)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#009688"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">RESTful Services</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">JSON</text>
+    </g>
+    <!-- 4: GraphQL -->
+    <g transform="translate(628, 228)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#E10098"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">GraphQL</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Schema</text>
+    </g>
+    <!-- 5: JSON APIs -->
+    <g transform="translate(628, 280)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#60A5FA"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">FastAPI &amp; Endpoints</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Async</text>
+    </g>
+    <!-- 6: SQLite -->
+    <g transform="translate(628, 332)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#003B57"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">SQLite &amp; SQL</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Relational</text>
+    </g>
+  </g>
+
+  <!-- POD 4: Cloud & Tooling (x=905) -->
+  <g class="pulse-4">
+    <rect x="905.5" y="10.5" width="274" height="399" rx="14" fill="url(#podBg)" stroke="url(#goldGlowPod)" stroke-width="1.2"/>
+    <rect x="906" y="11" width="273" height="398" rx="13" fill="url(#dotPattern)"/>
+    
+    <!-- Header -->
+    <rect x="906" y="11" width="273" height="46" rx="13" fill="#0B1426" fill-opacity="0.7"/>
+    <line x1="906" y1="57" x2="1179" y2="57" stroke="#1E293B" stroke-width="1"/>
+    <text x="925" y="40" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">☁️ Cloud &amp; Tooling</text>
+
+    <!-- Chips -->
+    <!-- 1: Git -->
+    <g transform="translate(923, 72)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#F05032"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Git</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">VCS</text>
+    </g>
+    <!-- 2: GitHub -->
+    <g transform="translate(923, 124)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#FFFFFF"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">GitHub</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Actions</text>
+    </g>
+    <!-- 3: Vercel -->
+    <g transform="translate(923, 176)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#FFFFFF"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Vercel</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">Edge Deploy</text>
+    </g>
+    <!-- 4: Netlify -->
+    <g transform="translate(923, 228)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#00C7B7"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Netlify</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">CI/CD</text>
+    </g>
+    <!-- 5: VS Code -->
+    <g transform="translate(923, 280)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#007ACC"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">VS Code</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">IDE</text>
+    </g>
+    <!-- 6: Postman -->
+    <g transform="translate(923, 332)">
+      <rect width="238" height="42" rx="8" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="20" cy="21" r="5" fill="#FF6C37"/>
+      <text x="34" y="26" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Postman</text>
+      <text x="220" y="26" text-anchor="end" fill="#64748B" font-family="'Segoe UI', monospace" font-size="11">API Testing</text>
+    </g>
+  </g>
+</svg>
