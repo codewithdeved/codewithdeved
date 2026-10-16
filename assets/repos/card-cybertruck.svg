@@ -2,61 +2,61 @@
   <defs>
     <linearGradient id="repoBgGold" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#120F08"/>
-      <stop offset="100%" stop-color="#080704"/>
+      <stop offset="100%" stop-color="#060503"/>
     </linearGradient>
-    <linearGradient id="repoBorderGold" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="repoStrokeGold" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E3C98A" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#997028" stop-opacity="0.2"/>
     </linearGradient>
-    <pattern id="repoGridGold" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.04"/>
-    </pattern>
   </defs>
 
   <style>
-    @keyframes pulseRingGold { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.85; } }
-    @keyframes beamFlowGold { 0% { stroke-dashoffset: 30; } 100% { stroke-dashoffset: 0; } }
-    .pulse-glow-gold { animation: pulseRingGold 3.5s ease-in-out infinite 0.5s; }
-    .beam-gold { stroke-dasharray: 4 6; animation: beamFlowGold 2.2s linear infinite; }
-    @media (prefers-reduced-motion: reduce) { .pulse-glow-gold, .beam-gold { animation: none; } }
+    @keyframes pulseLiveGold { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    @keyframes borderPulseGold { 0%, 100% { stroke-opacity: 0.8; } 50% { stroke-opacity: 0.3; } }
+    .pulse-dot-gold { animation: pulseLiveGold 2s ease-in-out infinite; }
+    .card-border-gold { animation: borderPulseGold 4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .pulse-dot-gold, .card-border-gold { animation: none; } }
   </style>
 
-  <rect x="0.5" y="0.5" width="579" height="199" rx="14" fill="url(#repoBgGold)" stroke="url(#repoBorderGold)" stroke-width="1.2"/>
-  <rect x="1" y="1" width="578" height="198" rx="13" fill="url(#repoGridGold)"/>
+  <!-- Container -->
+  <rect class="card-border-gold" x="0.5" y="0.5" width="579" height="199" rx="12" fill="url(#repoBgGold)" stroke="url(#repoStrokeGold)" stroke-width="1.2"/>
 
-  <!-- Top Category Chip & Pulse -->
-  <rect x="24" y="20" width="165" height="22" rx="5" fill="#78350F" fill-opacity="0.35" stroke="#C9A45C" stroke-width="1"/>
-  <circle cx="36" cy="31" r="3.5" fill="#EAB308"/>
-  <text x="46" y="35" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="700" letter-spacing="1">3D VEHICLE RENDERING</text>
+  <!-- Top Bar: Octicon + Title + Public Badge -->
+  <path d="M 28 26 c -1.1 0 -2 0.9 -2 2 v 16 c 0 0.6 0.4 1 1 1 h 12 c 0.6 0 1 -0.4 1 -1 V 28 c 0 -1.1 -0.9 -2 -2 -2 H 28 z M 30 28 h 6 v 14 h -6 V 28 z" fill="#94A3B8"/>
+  <text x="46" y="38" fill="#FDE68A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Tesla-Cyber-Truck</text>
+  
+  <!-- Public Pill -->
+  <rect x="220" y="24" width="55" height="18" rx="9" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <text x="247" y="36.5" text-anchor="middle" fill="#7D8590" font-family="-apple-system, sans-serif" font-size="10" font-weight="600">Public</text>
 
-  <!-- Repo Icon -->
-  <circle cx="536" cy="32" r="16" fill="#78350F" fill-opacity="0.3"/>
-  <circle class="beam-gold" cx="536" cy="32" r="20" fill="none" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.4"/>
-  <text x="536" y="38" text-anchor="middle" font-size="16">📐</text>
-
-  <!-- Repository Title -->
-  <text x="24" y="74" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="700">Tesla-Cyber-Truck</text>
+  <!-- Category Tag on Right -->
+  <rect x="395" y="22" width="160" height="22" rx="6" fill="#78350F" fill-opacity="0.35" stroke="#C9A45C" stroke-width="1"/>
+  <circle class="pulse-dot-gold" cx="409" cy="33" r="3.5" fill="#EAB308"/>
+  <text x="419" y="37" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="9.5" font-weight="700" letter-spacing="0.5">3D VEHICLE MODEL</text>
 
   <!-- Description (no hyphens) -->
-  <text x="24" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">An interactive 3D visual rendering of a Tesla Cyber Truck and robot, created</text>
-  <text x="24" y="124" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">with pure CSS3 spatial transforms, perspective depth, and React.js state.</text>
+  <text x="28" y="76" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">An interactive 3D visual rendering of a Tesla Cyber Truck and robot, created</text>
+  <text x="28" y="96" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">with pure CSS3 spatial transforms, perspective depth, and React.js state.</text>
 
-  <!-- Tech Stack Chips -->
-  <g transform="translate(24, 150)">
-    <rect x="0" y="0" width="75" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
-    <text x="37" y="16" text-anchor="middle" fill="#38BDF8" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">CSS3 3D</text>
+  <!-- Tech Chips & Metadata -->
+  <g transform="translate(28, 120)">
+    <!-- CSS Dot -->
+    <circle cx="6" cy="10" r="5" fill="#563D7C"/>
+    <text x="18" y="14" fill="#E6EDF3" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">CSS3 3D</text>
 
-    <rect x="83" y="0" width="70" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
-    <text x="118" y="16" text-anchor="middle" fill="#60A5FA" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">React.js</text>
+    <!-- React -->
+    <circle cx="90" cy="10" r="5" fill="#61DAFB"/>
+    <text x="102" y="14" fill="#E6EDF3" font-family="-apple-system, sans-serif" font-size="12">React.js</text>
 
-    <rect x="161" y="0" width="85" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
-    <text x="203" y="16" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Transforms</text>
+    <!-- 3D Transforms -->
+    <circle cx="170" cy="10" r="5" fill="#C9A45C"/>
+    <text x="182" y="14" fill="#E6EDF3" font-family="-apple-system, sans-serif" font-size="12">Transforms</text>
 
-    <rect x="254" y="0" width="45" height="24" rx="5" fill="#0B1426" stroke="#1E293B" stroke-width="1"/>
-    <text x="276" y="16" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">UI</text>
+    <!-- License -->
+    <text x="265" y="14" fill="#7D8590" font-family="-apple-system, sans-serif" font-size="12">MIT License</text>
   </g>
 
-  <!-- Action Arrow -->
-  <rect x="440" y="148" width="116" height="28" rx="6" fill="#854D0E" fill-opacity="0.3" stroke="#C9A45C" stroke-width="1"/>
-  <text x="498" y="166" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">VIEW REPO ↗</text>
+  <!-- Action Button -->
+  <rect x="430" y="148" width="126" height="30" rx="6" fill="#854D0E" fill-opacity="0.3" stroke="#C9A45C" stroke-width="1"/>
+  <text x="493" y="167" text-anchor="middle" fill="#FDE68A" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">EXPLORE REPO ↗</text>
 </svg>

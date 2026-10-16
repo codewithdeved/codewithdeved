@@ -1,82 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="CodeWithDeved - Engineering the intersection of code architecture and cognitive design. Vibeans Solutions, Karachi, Pakistan">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="CodeWithDeved signature footer. Engineering the intersection of code and cognitive design.">
   <defs>
-    <linearGradient id="bgFooterCard" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080F22"/>
-      <stop offset="50%" stop-color="#050914"/>
-      <stop offset="100%" stop-color="#080F22"/>
+    <linearGradient id="horizonLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#3B82F6" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#C9A45C" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#3B82F6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="borderFooterGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0.8"/>
-      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.8"/>
-    </linearGradient>
-    <linearGradient id="footerGoldGrad" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="brandGold" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#C9A45C"/>
       <stop offset="50%" stop-color="#F5DEB3"/>
       <stop offset="100%" stop-color="#C9A45C"/>
     </linearGradient>
-    <linearGradient id="glintFooterSweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    <linearGradient id="glintAnim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="footerDots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.03"/>
-    </pattern>
   </defs>
 
   <style>
-    @keyframes pulseGem {
-      0%, 100% { opacity: 0.7; transform: rotate(45deg) scale(1); }
-      50% { opacity: 1; transform: rotate(45deg) scale(1.15); }
-    }
     @keyframes glintSweep {
       0% { transform: translateX(-300px); opacity: 0; }
       20% { opacity: 0.9; }
       80% { opacity: 0.9; }
       100% { transform: translateX(1200px); opacity: 0; }
     }
-    @keyframes pulseDot {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.4; }
+    @keyframes breatheEmblem {
+      0%, 100% { transform: scale(1) rotate(45deg); opacity: 0.8; }
+      50% { transform: scale(1.15) rotate(45deg); opacity: 1; }
     }
-    .footer-gem { animation: pulseGem 3s ease-in-out infinite; transform-origin: 600px 30px; }
-    .footer-glint { animation: glintSweep 6s ease-in-out infinite; }
-    .status-dot { animation: pulseDot 2s ease-in-out infinite; }
+    @keyframes pulseLive {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    .glint-beam { animation: glintSweep 7s ease-in-out infinite; }
+    .emblem-gem { animation: breatheEmblem 3.5s ease-in-out infinite; transform-origin: 600px 22px; }
+    .pulse-dot { animation: pulseLive 2s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .footer-gem, .footer-glint, .status-dot { animation: none; }
+      .glint-beam, .emblem-gem, .pulse-dot { animation: none; }
     }
   </style>
 
-  <!-- Card Base Frame -->
-  <rect x="0.5" y="0.5" width="1199" height="159" rx="16" fill="url(#bgFooterCard)" stroke="url(#borderFooterGlow)" stroke-width="1.2"/>
-  <rect x="1" y="1" width="1198" height="158" rx="15" fill="url(#footerDots)"/>
+  <!-- Ambient Horizon Line (no enclosing box) -->
+  <line x1="80" y1="22" x2="1120" y2="22" stroke="url(#horizonLine)" stroke-width="1.5"/>
+  <rect class="glint-beam" x="0" y="21" width="220" height="2" fill="url(#glintAnim)"/>
 
-  <!-- Top Accent Bar -->
-  <rect x="1" y="1" width="1198" height="34" rx="15" fill="#0B1426" fill-opacity="0.6"/>
-  <line x1="0" y1="35" x2="1200" y2="35" stroke="#1E293B" stroke-width="1"/>
-  <rect class="footer-glint" x="0" y="34" width="200" height="2" fill="url(#glintFooterSweep)"/>
+  <!-- Centered Diamond Emblem -->
+  <g class="emblem-gem">
+    <rect x="593" y="15" width="14" height="14" rx="2" fill="#0B1426" stroke="#C9A45C" stroke-width="1.6"/>
+    <circle cx="600" cy="22" r="2.5" fill="#C9A45C"/>
+  </g>
 
-  <!-- Top Bar: Left Telemetry -->
-  <circle class="status-dot" cx="30" cy="18" r="4" fill="#10B981"/>
-  <text x="42" y="22" fill="#10B981" font-family="'Segoe UI', monospace" font-size="11" font-weight="700" letter-spacing="1">SYSTEMS ONLINE • PRODUCTION STABLE</text>
-
-  <!-- Top Bar: Center Rotating Gem -->
-  <rect class="footer-gem" x="594" y="24" width="12" height="12" rx="2" fill="#0B1426" stroke="#C9A45C" stroke-width="1.5"/>
-  <circle cx="600" cy="30" r="2.5" fill="#C9A45C"/>
-
-  <!-- Top Bar: Right Telemetry -->
-  <text x="1170" y="22" text-anchor="end" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="11" letter-spacing="1">KARACHI, PAKISTAN (UTC+5) • GLOBAL REMOTE</text>
-
-  <!-- Center Main Brand Title -->
-  <text x="600" y="78" text-anchor="middle" fill="url(#footerGoldGrad)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="8">CODEWITHDEVED</text>
+  <!-- Brand Typography -->
+  <text x="600" y="60" text-anchor="middle" fill="url(#brandGold)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" letter-spacing="8">CODEWITHDEVED</text>
 
   <!-- Tagline -->
-  <text x="600" y="104" text-anchor="middle" fill="#E2E8F0" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">ENGINEERING THE INTERSECTION OF CODE <tspan fill="#3B82F6">×</tspan> COGNITIVE DESIGN</text>
+  <text x="600" y="86" text-anchor="middle" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">ENGINEERING THE INTERSECTION OF CODE <tspan fill="#3B82F6">×</tspan> COGNITIVE DESIGN</text>
 
-  <!-- Bottom Details -->
-  <text x="600" y="128" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" letter-spacing="1">Tayyab Ali • Founder, Vibeans Solutions • Software Engineer, Perception Tech</text>
+  <!-- Bio & Location Metadata -->
+  <text x="600" y="110" text-anchor="middle" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" letter-spacing="1">Tayyab Ali • Founder, Vibeans Solutions • Karachi, Pakistan (UTC+5)</text>
 
-  <!-- Bottom Accent Line -->
-  <line x1="200" y1="144" x2="1000" y2="144" stroke="#1E293B" stroke-width="1"/>
+  <!-- Terminal Style Verification Line -->
+  <g transform="translate(600, 128)">
+    <circle class="pulse-dot" cx="-140" cy="-3.5" r="3" fill="#10B981"/>
+    <text x="-130" y="0" fill="#10B981" font-family="'Consolas', 'Courier New', monospace" font-size="10" font-weight="600">PRODUCTION DEPLOYMENT VERIFIED</text>
+    <text x="50" y="0" fill="#475569" font-family="'Consolas', 'Courier New', monospace" font-size="10">| git commit: stable</text>
+  </g>
 </svg>
