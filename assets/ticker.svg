@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 72" width="1200" height="72" role="img" aria-label="AI-Powered SaaS. Seductive UX. Next-Gen Web Architecture.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 72" width="1200" height="72" role="img" aria-label="AI Powered SaaS. Cognitive UX. Modern Web Architecture.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#05080F"/>
@@ -32,8 +32,8 @@
   </style>
   <rect x="0.5" y="0.5" width="1199" height="71" rx="14" fill="url(#bg)" stroke="#1B2A47"/>
   <rect x="120" y="70" width="960" height="2" fill="url(#edge)"/>
-  <circle class="dot" cx="372" cy="36" r="6" fill="#3B82F6"/>
-  <text class="p p1" x="600" y="47" text-anchor="middle" fill="#F5F1E8">AI-POWERED <tspan fill="#C9A45C">SAAS</tspan></text>
-  <text class="p p2" x="600" y="47" text-anchor="middle" fill="#F5F1E8">SEDUCTIVE <tspan fill="#C9A45C">UX</tspan></text>
-  <text class="p p3" x="600" y="47" text-anchor="middle" fill="#F5F1E8">NEXT-GEN <tspan fill="#C9A45C">WEB ARCHITECTURE</tspan></text>
+  <circle class="dot" cx="340" cy="36" r="6" fill="#3B82F6"/>
+  <text class="p p1" x="600" y="47" text-anchor="middle" fill="#F5F1E8">AI POWERED <tspan fill="#C9A45C">SAAS</tspan></text>
+  <text class="p p2" x="600" y="47" text-anchor="middle" fill="#F5F1E8">COGNITIVE <tspan fill="#C9A45C">UX</tspan></text>
+  <text class="p p3" x="600" y="47" text-anchor="middle" fill="#F5F1E8">MODERN <tspan fill="#C9A45C">WEB ARCHITECTURE</tspan></text>
 </svg>
