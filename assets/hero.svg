@@ -48,7 +48,8 @@
     <text x="70" y="182" fill="#F5F1E8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="800">Engineering the</text>
     <text x="70" y="242" fill="#F5F1E8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="800">Intersection of Code &amp;</text>
     <text x="70" y="302" fill="url(#blueText)" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="800">Cognitive Design.</text>
-    <text x="70" y="355" fill="#97A4BC" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22">Software Engineer  •  Founder, Vibeans Solutions  •  Web &amp; AI SaaS Development</text>
+    <text x="70" y="342" fill="#CBD5E1" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Software Engineer  •  Founder and CEO at Vibeans Solutions</text>
+    <text x="70" y="366" fill="#94A3B8" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14">AI SaaS Architecture  •  Cognitive UX Design  •  Distributed Cloud Systems</text>
 
     <!-- right art: code brackets around a node network -->
     <g fill="none" stroke="#C9A45C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
