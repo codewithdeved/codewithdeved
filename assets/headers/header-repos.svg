@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-label="OPEN SOURCE REPOSITORIES">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#080F22"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="89" rx="10" fill="url(#bg)" stroke="#C9A45C" stroke-width="1.2"/>
+
+  <!-- Left Beacon & Tag -->
+  <circle cx="32" cy="30" r="4" fill="#F59E0B"/>
+  <text x="46" y="34" fill="#FDE68A" font-family="'Consolas', monospace" font-size="11" font-weight="600">// 04 PUBLIC SOURCE</text>
+
+  <!-- Title -->
+  <text x="32" y="58" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="700">OPEN SOURCE REPOSITORIES</text>
+
+  <!-- Subtitle -->
+  <text x="32" y="78" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Personal repositories and foundational experiments across web applications and 3D modeling.</text>
+
+  <!-- Status on Right -->
+  <rect x="990" y="32" width="178" height="26" rx="5" fill="#0B1426" stroke="#C9A45C" stroke-width="1"/>
+  <text x="1079" y="49" text-anchor="middle" fill="#FDE68A" font-family="'Consolas', monospace" font-size="10.5" font-weight="600">6 REPOSITORIES • MIT</text>
+</svg>

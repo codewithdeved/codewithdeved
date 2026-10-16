@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Technical Focus Areas - Generative AI, Full Stack SaaS, Cognitive UX, and FinTech">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Technical Focus Areas: Generative AI, Full Stack SaaS, Cognitive UX, and FinTech">
   <defs>
     <linearGradient id="cardGradDark" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#080F22"/>
@@ -37,15 +37,15 @@
     }
   </style>
 
-  <!-- Central Inter-Subsystem Connector Stream -->
-  <line class="stream-line" x1="292" y1="88" x2="908" y2="88" stroke="url(#streamGrad)" stroke-width="1.5"/>
-  <line class="stream-line" x1="292" y1="278" x2="908" y2="278" stroke="url(#streamGrad)" stroke-width="1.5"/>
-  <line class="stream-line" x1="600" y1="88" x2="600" y2="278" stroke="url(#streamGrad)" stroke-width="1.5"/>
+  <!-- Central Inter-Subsystem Connector Streams -->
+  <line class="stream-line" x1="292" y1="100" x2="908" y2="100" stroke="url(#streamGrad)" stroke-width="1.5"/>
+  <line class="stream-line" x1="292" y1="330" x2="908" y2="330" stroke="url(#streamGrad)" stroke-width="1.5"/>
+  <line class="stream-line" x1="600" y1="100" x2="600" y2="330" stroke="url(#streamGrad)" stroke-width="1.5"/>
 
-  <!-- SUBSYSTEM 01: Generative AI & Intelligent Systems (x=0, y=0, w=585, h=175) -->
+  <!-- SUBSYSTEM 01: Generative AI & Intelligent Systems (x=0, y=0, w=585, h=200) -->
   <g class="glow-1">
-    <rect x="0.5" y="0.5" width="584" height="174" rx="14" fill="url(#cardGradDark)" stroke="url(#blueEdgeGrad)" stroke-width="1.2"/>
-    <rect x="1" y="1" width="583" height="173" rx="13" fill="url(#cardDotsPattern)"/>
+    <rect x="0.5" y="0.5" width="584" height="200" rx="14" fill="url(#cardGradDark)" stroke="url(#blueEdgeGrad)" stroke-width="1.2"/>
+    <rect x="1" y="1" width="583" height="199" rx="13" fill="url(#cardDotsPattern)"/>
     <circle cx="50" cy="50" r="24" fill="#1E3A8A" fill-opacity="0.45"/>
     <circle class="beam-ring" cx="50" cy="50" r="30" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.4"/>
     <text x="50" y="58" text-anchor="middle" font-size="22">🧠</text>
@@ -54,15 +54,19 @@
     <rect x="90" y="54" width="180" height="20" rx="4" fill="#1E3A8A" fill-opacity="0.4"/>
     <text x="98" y="68" fill="#93C5FD" font-family="'Segoe UI', monospace" font-size="10" font-weight="600">PRODUCTION LLMs • RAG PIPELINES</text>
     
-    <text x="32" y="108" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Engineering production grade AI systems with Retrieval Augmented Generation,</text>
-    <text x="32" y="128" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">multi modal model synthesis, and deterministic prompt engineering architectures.</text>
-    <text x="32" y="154" fill="#60A5FA" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Core: LangChain • Vector Stores • Function Calling • Multi Modal Models</text>
+    <text x="32" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Engineering production grade AI systems with Retrieval Augmented Generation,</text>
+    <text x="32" y="124" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">multi modal model synthesis, and deterministic prompt engineering architectures.</text>
+    
+    <rect x="32" y="142" width="520" height="46" rx="6" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="44" cy="155" r="3" fill="#60A5FA"/>
+    <text x="54" y="158" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">CORE ARCHITECTURE &amp; SYSTEMS</text>
+    <text x="44" y="176" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11.5">LangChain • Vector Stores • Function Calling • Multi Modal Models</text>
   </g>
 
-  <!-- SUBSYSTEM 02: Full Stack & Scalable Web SaaS (x=615, y=0, w=585, h=175) -->
+  <!-- SUBSYSTEM 02: Full Stack & Scalable Web SaaS (x=615, y=0, w=585, h=200) -->
   <g class="glow-2">
-    <rect x="615.5" y="0.5" width="584" height="174" rx="14" fill="url(#cardGradDark)" stroke="url(#goldEdgeGrad)" stroke-width="1.2"/>
-    <rect x="616" y="1" width="583" height="173" rx="13" fill="url(#cardDotsPattern)"/>
+    <rect x="615.5" y="0.5" width="584" height="200" rx="14" fill="url(#cardGradDark)" stroke="url(#goldEdgeGrad)" stroke-width="1.2"/>
+    <rect x="616" y="1" width="583" height="199" rx="13" fill="url(#cardDotsPattern)"/>
     <circle cx="665" cy="50" r="24" fill="#78350F" fill-opacity="0.4"/>
     <circle class="beam-ring" cx="665" cy="50" r="30" fill="none" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.4"/>
     <text x="665" y="58" text-anchor="middle" font-size="22">🌐</text>
@@ -71,42 +75,54 @@
     <rect x="705" y="54" width="190" height="20" rx="4" fill="#78350F" fill-opacity="0.35"/>
     <text x="713" y="68" fill="#FDE68A" font-family="'Segoe UI', monospace" font-size="10" font-weight="600">NEXT.JS • REACT • TYPESCRIPT • CLOUD</text>
     
-    <text x="647" y="108" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Architecting resilient, high performance web applications from initial system</text>
-    <text x="647" y="128" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">design through high scale production cloud deployment and edge optimization.</text>
-    <text x="647" y="154" fill="#FDE68A" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Core: Next.js • TypeScript • Node.js • Edge Middleware • Cloudflare</text>
+    <text x="647" y="104" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Architecting resilient, high performance web applications from initial system</text>
+    <text x="647" y="124" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">design through high scale production cloud deployment and edge optimization.</text>
+    
+    <rect x="647" y="142" width="520" height="46" rx="6" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="659" cy="155" r="3" fill="#FDE68A"/>
+    <text x="669" y="158" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">CORE ARCHITECTURE &amp; SYSTEMS</text>
+    <text x="659" y="176" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11.5">Next.js • TypeScript • Node.js • Edge Middleware • Cloudflare</text>
   </g>
 
-  <!-- SUBSYSTEM 03: Cognitive Design & Decision UX (x=0, y=195, w=585, h=175) -->
+  <!-- SUBSYSTEM 03: Cognitive Design & Decision UX (x=0, y=230, w=585, h=200) -->
   <g class="glow-3">
-    <rect x="0.5" y="195.5" width="584" height="174" rx="14" fill="url(#cardGradDark)" stroke="url(#goldEdgeGrad)" stroke-width="1.2"/>
-    <rect x="1" y="196" width="583" height="173" rx="13" fill="url(#cardDotsPattern)"/>
-    <circle cx="50" cy="245" r="24" fill="#78350F" fill-opacity="0.4"/>
-    <circle class="beam-ring" cx="50" cy="245" r="30" fill="none" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="50" y="253" text-anchor="middle" font-size="22">🎨</text>
+    <rect x="0.5" y="230.5" width="584" height="200" rx="14" fill="url(#cardGradDark)" stroke="url(#goldEdgeGrad)" stroke-width="1.2"/>
+    <rect x="1" y="231" width="583" height="199" rx="13" fill="url(#cardDotsPattern)"/>
+    <circle cx="50" cy="280" r="24" fill="#78350F" fill-opacity="0.4"/>
+    <circle class="beam-ring" cx="50" cy="280" r="30" fill="none" stroke="#C9A45C" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="50" y="288" text-anchor="middle" font-size="22">🎨</text>
     
-    <text x="90" y="239" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700">Cognitive Design &amp; User Experience (UX)</text>
-    <rect x="90" y="249" width="180" height="20" rx="4" fill="#78350F" fill-opacity="0.35"/>
-    <text x="98" y="263" fill="#FDE68A" font-family="'Segoe UI', monospace" font-size="10" font-weight="600">HUMAN DECISION ARCHITECTURE</text>
+    <text x="90" y="274" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700">Cognitive Design &amp; User Experience (UX)</text>
+    <rect x="90" y="284" width="180" height="20" rx="4" fill="#78350F" fill-opacity="0.35"/>
+    <text x="98" y="298" fill="#FDE68A" font-family="'Segoe UI', monospace" font-size="10" font-weight="600">HUMAN DECISION ARCHITECTURE</text>
     
-    <text x="32" y="303" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Bridging human psychology and technical software design to eliminate cognitive</text>
-    <text x="32" y="323" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">load, establish organic user trust, and optimize complex software workflows.</text>
-    <text x="32" y="349" fill="#FDE68A" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Core: Cognitive Psychology • Micro Interactions • Design Systems • Figma</text>
+    <text x="32" y="334" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Bridging human psychology and technical software design to eliminate cognitive</text>
+    <text x="32" y="354" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">load, establish organic user trust, and optimize complex software workflows.</text>
+    
+    <rect x="32" y="372" width="520" height="46" rx="6" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="44" cy="385" r="3" fill="#FDE68A"/>
+    <text x="54" y="388" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">CORE ARCHITECTURE &amp; SYSTEMS</text>
+    <text x="44" y="406" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11.5">Cognitive Psychology • Micro Interactions • Design Systems • Figma</text>
   </g>
 
-  <!-- SUBSYSTEM 04: FinTech & Healthcare Technology (x=615, y=195, w=585, h=175) -->
+  <!-- SUBSYSTEM 04: FinTech & Healthcare Technology (x=615, y=230, w=585, h=200) -->
   <g class="glow-4">
-    <rect x="615.5" y="195.5" width="584" height="174" rx="14" fill="url(#cardGradDark)" stroke="url(#blueEdgeGrad)" stroke-width="1.2"/>
-    <rect x="616" y="196" width="583" height="173" rx="13" fill="url(#cardDotsPattern)"/>
-    <circle cx="665" cy="245" r="24" fill="#1E3A8A" fill-opacity="0.45"/>
-    <circle class="beam-ring" cx="665" cy="245" r="30" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.4"/>
-    <text x="665" y="253" text-anchor="middle" font-size="22">💳</text>
+    <rect x="615.5" y="230.5" width="584" height="200" rx="14" fill="url(#cardGradDark)" stroke="url(#blueEdgeGrad)" stroke-width="1.2"/>
+    <rect x="616" y="231" width="583" height="199" rx="13" fill="url(#cardDotsPattern)"/>
+    <circle cx="665" cy="280" r="24" fill="#1E3A8A" fill-opacity="0.45"/>
+    <circle class="beam-ring" cx="665" cy="280" r="30" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.4"/>
+    <text x="665" y="288" text-anchor="middle" font-size="22">💳</text>
     
-    <text x="705" y="239" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700">FinTech &amp; Healthcare Technology</text>
-    <rect x="705" y="249" width="185" height="20" rx="4" fill="#1E3A8A" fill-opacity="0.4"/>
-    <text x="713" y="263" fill="#93C5FD" font-family="'Segoe UI', monospace" font-size="10" font-weight="600">DATA PRIVACY &amp; HIGH INTEGRITY</text>
+    <text x="705" y="274" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700">FinTech &amp; Healthcare Technology</text>
+    <rect x="705" y="284" width="185" height="20" rx="4" fill="#1E3A8A" fill-opacity="0.4"/>
+    <text x="713" y="298" fill="#93C5FD" font-family="'Segoe UI', monospace" font-size="10" font-weight="600">DATA PRIVACY &amp; HIGH INTEGRITY</text>
     
-    <text x="647" y="303" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Engineering secure, highly reliable software for financial workflows, transaction</text>
-    <text x="647" y="323" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">clarity, enterprise real estate portals, and mission critical health data systems.</text>
-    <text x="647" y="349" fill="#60A5FA" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">Core: Data Privacy • Audit Trails • Resilient Workflows • Enterprise Security</text>
+    <text x="647" y="334" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Constructing compliant, audit ready architectures that safeguard sensitive</text>
+    <text x="647" y="354" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">financial transactions and clinical records through resilient defensive engineering.</text>
+    
+    <rect x="647" y="372" width="520" height="46" rx="6" fill="#060A14" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="659" cy="385" r="3" fill="#60A5FA"/>
+    <text x="669" y="388" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="10.5" font-weight="700">CORE ARCHITECTURE &amp; SYSTEMS</text>
+    <text x="659" y="406" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="11.5">Zero Trust Security • HIPAA / PCI Awareness • Immutable Audit Logs</text>
   </g>
 </svg>
