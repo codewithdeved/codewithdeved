@@ -1,5 +1,23 @@
 <div align="center">
 
+<picture>
+  <source srcset="assets/hero-3d.webp" type="image/webp">
+  <img src="assets/hero.svg" alt="CodeWithDeved — Engineering the Intersection of Code and Cognitive Design. A rotating 3D node network between gold code brackets. AI-Powered SaaS, Seductive UX, Next-Gen Web Architecture." width="100%">
+</picture>
+
+<br>
+
+**AI-Powered SaaS &nbsp;•&nbsp; Seductive UX &nbsp;•&nbsp; Next-Gen Web Architecture**
+
+<br>
+
+<a href="#selected-projects"><img src="https://img.shields.io/badge/SELECTED%20PROJECTS-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Jump to selected projects"></a>
+<a href="#vibeans-solutions-portfolio"><img src="https://img.shields.io/badge/VIBEANS%20PORTFOLIO-0B1426?style=for-the-badge&logo=vercel&logoColor=3B82F6" alt="Jump to the Vibeans Solutions portfolio"></a>
+<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
+<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
+
+</div>
+
 <br>
 
 <img src="assets/divider.svg" alt="" width="100%">
@@ -22,21 +40,21 @@ I'm **Tayyab Ali**, known online as **CodeWithDeved**: a software engineer and f
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 AI & Intelligent Products</h4>
+      <h4>🧠 AI &amp; Intelligent Products</h4>
       Exploring GenAI, retrieval-augmented generation (RAG) and prompt engineering as building blocks for practical products.
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 SaaS & Web Applications</h4>
+      <h4>🌐 SaaS &amp; Web Applications</h4>
       Designing and shipping modern web products, from first prototype to deployed application.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🎨 Cognitive Design & UX</h4>
+      <h4>🎨 Cognitive Design &amp; UX</h4>
       Interested in human behavior and how interface decisions shape attention, trust and action.
     </td>
     <td width="50%" valign="top">
-      <h4>💳 FinTech & Healthcare</h4>
+      <h4>💳 FinTech &amp; Healthcare</h4>
       Domains I'm drawn to and keep exploring as product spaces.
     </td>
   </tr>
@@ -89,6 +107,10 @@ Personal repositories, each linked to its source. Descriptions come from the rep
 
 <div align="center">
 
+<a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20ALL%20REPOSITORIES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Browse all repositories on GitHub"></a>
+
+</div>
+
 <img src="assets/divider.svg" alt="" width="100%">
 
 ## Vibeans Solutions Portfolio
@@ -99,12 +121,12 @@ Personal repositories, each linked to its source. Descriptions come from the rep
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://creatie-hive.vercel.app/">Creaite Hive</a></h4>
-      <sub><b>Generative AI & Design</b></sub><br>
+      <sub><b>Generative AI &amp; Design</b></sub><br>
       An AI-powered design suite that helps architects and creators turn sketches, concepts and photos into precision designs.
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://docbrio.me/">DocBrio</a></h4>
-      <sub><b>Document & PDF Suite</b></sub><br>
+      <sub><b>Document &amp; PDF Suite</b></sub><br>
       A client-side document and PDF suite with 30+ browser-based tools for file conversion, editing and compression.
     </td>
   </tr>
@@ -116,7 +138,7 @@ Personal repositories, each linked to its source. Descriptions come from the rep
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://siteexplorer.netlify.app/">Site.XP</a></h4>
-      <sub><b>SEO & Web Analytics</b></sub><br>
+      <sub><b>SEO &amp; Web Analytics</b></sub><br>
       An SEO platform for site exploration, keyword research, backlink analysis and performance metrics.
     </td>
   </tr>
@@ -154,22 +176,26 @@ Personal repositories, each linked to its source. Descriptions come from the rep
 
 <div align="center">
 
-<sub></sub>Language data is generated live by the third-party <a href="https://github.com/anuraghazra/github-readme-stats"> service from public repositories.github-readme-stats</sub>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&hide_border=true&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9&card_width=420" alt="Most used programming languages across codewithdeved's public repositories">
+
+</div>
+
+<sub>Language data is generated live by the third-party <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> service from public repositories.</sub>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-## [Let&#39;s Connect](https://github.com/anuraghazra/github-readme-stats)
+## Let's Connect
 
-[Interested in software, product building or AI-powered products? I&#39;m happy to connect.](https://github.com/anuraghazra/github-readme-stats)
+Interested in software, product building or AI-powered products? I'm happy to connect.
 
-[<a href="https://github.com/codewithdeved"></a>](https://github.com/anuraghazra/github-readme-stats)
-<a href="https://www.linkedin.com/in/code-with-deved/"></a>
-<a href="https://www.vibeanssolutions.site/"></a>
-<a href="https://www.linkedin.com/company/vibeanssolutions/"></a>
-
-<a href="https://www.instagram.com/codewithdeved"></a>
-<a href="https://www.youtube.com/@tech-solutions-coded"></a>
-<a href="https://www.facebook.com/codewithdeved"></a>
+<a href="https://github.com/codewithdeved"><img src="https://img.shields.io/badge/GITHUB-0B1426?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub: codewithdeved"></a>
+<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn: code-with-deved"></a>
+<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Vibeans Solutions website"></a>
+<a href="https://www.linkedin.com/company/vibeanssolutions/"><img src="https://img.shields.io/badge/VIBEANS%20ON%20LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=C9A45C" alt="Vibeans Solutions on LinkedIn"></a>
+<br>
+<a href="https://www.instagram.com/codewithdeved"><img src="https://img.shields.io/badge/INSTAGRAM-0B1426?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram: codewithdeved"></a>
+<a href="https://www.youtube.com/@tech-solutions-coded"><img src="https://img.shields.io/badge/YOUTUBE-0B1426?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="YouTube: tech-solutions-coded"></a>
+<a href="https://www.facebook.com/codewithdeved"><img src="https://img.shields.io/badge/FACEBOOK-0B1426?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook: codewithdeved"></a>
 
 <br>
 
