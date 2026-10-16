@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 36" width="1170" height="36" role="img" aria-label="Production Telemetry Console">
+  <defs>
+    <linearGradient id="ribbonBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#091224"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </linearGradient>
+    <linearGradient id="topGlint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .beacon { animation: pulseGreen 1.8s ease-in-out infinite; }
+    .glint { animation: scanTrack 5s ease-in-out infinite; }
+    @keyframes pulseGreen {
+      0%, 100% { opacity: 0.6; r: 3.5; }
+      50% { opacity: 1; r: 4.5; filter: drop-shadow(0 0 4px #10B981); }
+    }
+    @keyframes scanTrack {
+      0% { transform: translateX(-200px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1260px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .glint { animation: none; opacity: 0; }
+      .beacon { animation: none; }
+    }
+  </style>
+
+  <!-- Base Chassis -->
+  <rect x="1" y="1" width="1168" height="34" rx="5" fill="url(#ribbonBg)" stroke="#1E293B" stroke-width="0.8"/>
+  <line x1="80" y1="1" x2="1090" y2="1" stroke="url(#topGlint)" stroke-width="1.2"/>
+  <rect class="glint" x="0" y="0.5" width="120" height="1.5" rx="0.75" fill="url(#scan)"/>
+
+  <!-- Zone 1 (Left): Live Telemetry Sync -->
+  <circle class="beacon" cx="24" cy="18" r="4" fill="#10B981"/>
+  <text x="36" y="22" fill="#10B981" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">TELEMETRY SYNC : ACTIVE • EDGE HEALTHY</text>
+
+  <!-- Divider 1 -->
+  <line x1="380" y1="8" x2="380" y2="28" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Zone 2 (Center): Architecture Grade -->
+  <g transform="translate(585, 18)">
+    <polygon points="0,-6 6,0 0,6 -6,0" stroke="#38BDF8" stroke-width="1.4" fill="#0B1426"/>
+    <circle cx="0" cy="0" r="1.5" fill="#38BDF8"/>
+  </g>
+  <text x="600" y="22" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">ARCHITECTURE : PRODUCTION GRADE</text>
+
+  <!-- Divider 2 -->
+  <line x1="830" y1="8" x2="830" y2="28" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Zone 3 (Right): Executive Role -->
+  <polygon points="852,14 854,19 859,19 855,22 857,27 852,24 847,27 849,22 845,19 850,19" fill="#C9A45C"/>
+  <text x="866" y="22" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">EXECUTIVE ROLE : FOUNDER &amp; LEAD ARCHITECT</text>
+</svg>

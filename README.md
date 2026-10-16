@@ -4,23 +4,21 @@
 
 <img src="assets/ticker.svg" alt="Live Telemetry: AI Powered SaaS, Cognitive UX, and Modern Web Architecture" width="100%">
 
-<br><br>
+<br>
 
-<a href="#featured-products"><img src="https://img.shields.io/badge/%E2%8C%98%201%20%3A%20FEATURED%20SAAS-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to featured products"></a>
-<a href="#technical-focus"><img src="https://img.shields.io/badge/%E2%8C%98%202%20%3A%20TECHNICAL%20FOCUS-0B1426?style=for-the-badge&logo=target&logoColor=3B82F6" alt="Jump to technical focus"></a>
-<a href="#open-source-repositories"><img src="https://img.shields.io/badge/%E2%8C%98%203%20%3A%20OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
+<a href="#featured-products"><img src="assets/nav/nav-products.svg" width="32%" alt="Featured SaaS Products"></a>
+<a href="#technical-focus"><img src="assets/nav/nav-focus.svg" width="32%" alt="Technical Focus"></a>
+<a href="#open-source-repositories"><img src="assets/nav/nav-repos.svg" width="32%" alt="Open Source Repositories"></a>
 
-<br><br>
+<a href="#tech-stack"><img src="assets/nav/nav-stack.svg" width="32%" alt="Core Tooling Matrix"></a>
+<a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/nav/nav-linkedin.svg" width="32%" alt="Executive LinkedIn"></a>
+<a href="https://www.vibeanssolutions.site/"><img src="assets/nav/nav-studio.svg" width="32%" alt="Vibeans Solutions Studio"></a>
 
-<a href="#tech-stack"><img src="https://img.shields.io/badge/%E2%8C%98%204%20%3A%20CORE%20TOOLING-0B1426?style=for-the-badge&logo=codewars&logoColor=C9A45C" alt="Jump to tech stack"></a>
-<a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/%E2%8C%98%205%20%3A%20LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
-<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/%E2%8C%98%206%20%3A%20STUDIO%20PORTFOLIO-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
+<br>
 
-<br><br>
-
-<a href="https://github.com/codewithdeved/codewithdeved/actions"><img src="https://img.shields.io/badge/TELEMETRY%20SYNC-ACTIVE%20%E2%80%A2%20EDGE%20HEALTHY-0B1426?style=flat-square&logo=githubactions&logoColor=10B981" alt="Living Profile Automated Sync Active"></a>
-<a href="https://github.com/codewithdeved/codewithdeved"><img src="https://img.shields.io/badge/ARCHITECTURE-PRODUCTION%20GRADE-0B1426?style=flat-square&logo=probot&logoColor=38BDF8" alt="Production Grade Architecture"></a>
-<a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/EXECUTIVE%20ROLE-FOUNDER%20%26%20ARCHITECT-0B1426?style=flat-square&logo=auth0&logoColor=C9A45C" alt="Founder and Architect at Vibeans Solutions"></a>
+<a href="https://github.com/codewithdeved/codewithdeved/actions">
+  <img src="assets/nav/nav-telemetry.svg" width="100%" alt="Production Telemetry Console: Active Edge Sync, Production Grade Architecture, Founder and Lead Architect">
+</a>
 
 </div>
 

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 44" width="380" height="44" role="img" aria-label="⌘ 1 : FEATURED SAAS">
+  <defs>
+    <linearGradient id="btnBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070D1E"/>
+      <stop offset="100%" stop-color="#0B162C"/>
+    </linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#C9A45C" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Button Glass Chassis -->
+  <rect x="1" y="1" width="378" height="42" rx="6" fill="url(#btnBg)" stroke="#1E293B" stroke-width="1"/>
+  <line x1="24" y1="1" x2="356" y2="1" stroke="url(#topGlow)" stroke-width="1.2"/>
+
+  <!-- Left Icon -->
+  <g transform="translate(10, 0)">
+    
+        <!-- Rocket Icon -->
+        <path d="M18 22l4-4m-4 4l-4 4m4-4l6-6c2-2 4-7 4-7s-5 2-7 4l-6 6m7-1c1.5-1.5 2-3.5 2-3.5s-2 .5-3.5 2" stroke="#C9A45C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <path d="M11 25l-2 4 4-2" stroke="#C9A45C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <circle cx="23" cy="17" r="1.5" fill="#38BDF8"/>
+        
+  </g>
+
+  <!-- Title Text -->
+  <text x="56" y="27" fill="#F8FAFC" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1px">⌘ 1 : FEATURED SAAS</text>
+
+  <!-- Right Pill Tag -->
+  <rect x="296" y="11" width="70" height="22" rx="4" fill="#050914" stroke="#C9A45C" stroke-width="0.8" stroke-opacity="0.7"/>
+  <text x="331" y="26" text-anchor="middle" fill="#C9A45C" font-family="'Consolas', monospace" font-size="9" font-weight="700" letter-spacing="0.8px">FLEET</text>
+</svg>
