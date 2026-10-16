@@ -9,7 +9,7 @@
 <a href="#featured-products"><img src="assets/nav/nav-products.svg" width="32%" alt="Featured SaaS Products"></a>
 <a href="#technical-focus"><img src="assets/nav/nav-focus.svg" width="32%" alt="Technical Focus"></a>
 <a href="#open-source-repositories"><img src="assets/nav/nav-repos.svg" width="32%" alt="Open Source Repositories"></a>
-
+<br>
 <a href="#tech-stack"><img src="assets/nav/nav-stack.svg" width="32%" alt="Core Tooling Matrix"></a>
 <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/nav/nav-linkedin.svg" width="32%" alt="Executive LinkedIn"></a>
 <a href="https://www.vibeanssolutions.site/"><img src="assets/nav/nav-studio.svg" width="32%" alt="Vibeans Solutions Studio"></a>
@@ -82,9 +82,9 @@
 </div>
 
 <table width="100%">
-  <!-- Flagship Panoramic Anchor -->
+  <!-- Row 1: AI Architectural Suite & Client Side Toolkit -->
   <tr>
-    <td colspan="2" width="100%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://creatie-hive.vercel.app/">
         <img src="assets/cards/creaite-hive.webp" alt="Creaite Hive, an AI powered design suite live at creatie-hive.vercel.app" width="100%">
       </a>
@@ -99,23 +99,20 @@
         <br>
         <table width="100%">
           <tr>
-            <td width="30%"><b>Core Engine</b></td>
+            <td width="35%"><b>Core Engine</b></td>
             <td>Next.js 14 App Router, WebGL Viewport, Diffusion Inference Bridge</td>
           </tr>
           <tr>
-            <td width="30%"><b>Rendering Pipeline</b></td>
+            <td width="35%"><b>Rendering Pipeline</b></td>
             <td>Sub 80ms prompt synthesis, SVG vectorization, and layered CAD export models</td>
           </tr>
           <tr>
-            <td width="30%"><b>Edge Delivery</b></td>
+            <td width="35%"><b>Edge Delivery</b></td>
             <td>Global edge caching with low latency streaming asset delivery across distributed zones</td>
           </tr>
         </table>
       </details>
     </td>
-  </tr>
-  <!-- Companion Split Row -->
-  <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://docbrio.me/">
         <img src="assets/cards/docbrio.webp" alt="DocBrio, a browser based document toolkit live at docbrio.me" width="100%">
@@ -145,6 +142,9 @@
         </table>
       </details>
     </td>
+  </tr>
+  <!-- Row 2: Conversational B2B Discovery & Spatial PropTech Portal -->
+  <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://leadster-io.vercel.app/">
         <img src="assets/cards/leadster.webp" alt="Leadster.io, a conversational B2B lead discovery platform live at leadster-io.vercel.app" width="100%">
@@ -174,10 +174,7 @@
         </table>
       </details>
     </td>
-  </tr>
-  <!-- Dedicated PropTech Showcase -->
-  <tr>
-    <td colspan="2" width="100%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://pakmilkiyat.vercel.app/">
         <img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal live at pakmilkiyat.vercel.app" width="100%">
       </a>
@@ -192,15 +189,15 @@
         <br>
         <table width="100%">
           <tr>
-            <td width="30%"><b>Search Topology</b></td>
+            <td width="35%"><b>Search Topology</b></td>
             <td>Multi parameter property indexing with sub 50ms geo spatial query response times</td>
           </tr>
           <tr>
-            <td width="30%"><b>Interface Engine</b></td>
+            <td width="35%"><b>Interface Engine</b></td>
             <td>Dynamic map layer synchronization, faceted price filters, and responsive galleries</td>
           </tr>
           <tr>
-            <td width="30%"><b>Security Architecture</b></td>
+            <td width="35%"><b>Security Architecture</b></td>
             <td>Encrypted inquiry routing and verified broker authentication protocols</td>
           </tr>
         </table>
@@ -376,6 +373,31 @@
 <sub>Technologies verified through public repositories and deployed production products at Vibeans Solutions.</sub>
 </div>
 
+<br>
+
+<details>
+  <summary><b>⚡ VIEW COMPREHENSIVE TECHNOLOGY AUDIT &amp; RUNTIME MATRIX</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td width="25%"><b>Frontend &amp; UI Runtimes</b></td>
+      <td>Next.js 14/15 App Router, React 18/19, TypeScript 5, Tailwind CSS, WebGL / Three.js, Canvas API, Responsive Viewports.</td>
+    </tr>
+    <tr>
+      <td width="25%"><b>Backend &amp; Cloud Topology</b></td>
+      <td>Node.js, Python 3.11+, Fastify, Express, PostgreSQL, Supabase, Redis In Memory Caching, RESTful &amp; GraphQL APIs.</td>
+    </tr>
+    <tr>
+      <td width="25%"><b>AI &amp; Cognitive Workflows</b></td>
+      <td>Autonomous Agents, LangChain, LlamaIndex, Vector Database Indexing, Prompt Synthesis, Diffusion Model Pipelines.</td>
+    </tr>
+    <tr>
+      <td width="25%"><b>DevOps &amp; Infrastructure</b></td>
+      <td>Vercel Edge Platform, Docker Containerization, GitHub Actions CI/CD Automation, Linux System Administration, Git VCS.</td>
+    </tr>
+  </table>
+</details>
+
 <img src="assets/divider.svg" alt="" width="100%">
 
 <div id="languages-activity"></div>
@@ -404,6 +426,27 @@
 </div>
 
 <sub>Metrics are generated in real time from public repositories via third party services.</sub>
+
+<br><br>
+
+<details>
+  <summary><b>⚡ VIEW TELEMETRY DATA PIPELINE &amp; SYNC SPECIFICATIONS</b></summary>
+  <br>
+  <table width="100%">
+    <tr>
+      <td width="30%"><b>Sync Cadence</b></td>
+      <td>Automated GitHub Actions cron schedule triggering every 12 hours for continuous edge synchronization.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Telemetry Verification</b></td>
+      <td>Automated AST and XML validation ensuring zero syntax errors and optimal asset compression standards.</td>
+    </tr>
+    <tr>
+      <td width="30%"><b>Data Source Integrity</b></td>
+      <td>Real time aggregation across public repositories, contribution streaks, commit activity, and language matrices.</td>
+    </tr>
+  </table>
+</details>
 
 <img src="assets/divider.svg" alt="" width="100%">
 

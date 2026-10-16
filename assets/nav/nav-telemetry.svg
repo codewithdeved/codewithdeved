@@ -41,24 +41,26 @@
   <line x1="80" y1="1" x2="1090" y2="1" stroke="url(#topGlint)" stroke-width="1.2"/>
   <rect class="glint" x="0" y="0.5" width="120" height="1.5" rx="0.75" fill="url(#scan)"/>
 
-  <!-- Zone 1 (Left): Live Telemetry Sync -->
-  <circle class="beacon" cx="24" cy="18" r="4" fill="#10B981"/>
-  <text x="36" y="22" fill="#10B981" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">TELEMETRY SYNC : ACTIVE • EDGE HEALTHY</text>
+  <!-- Zone 1 (Left 0..390): Live Telemetry Sync -->
+  <circle class="beacon" cx="71" cy="18" r="4" fill="#10B981"/>
+  <text x="83" y="22" fill="#10B981" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">TELEMETRY SYNC : ACTIVE • EDGE HEALTHY</text>
 
   <!-- Divider 1 -->
-  <line x1="380" y1="8" x2="380" y2="28" stroke="#1E293B" stroke-width="1"/>
+  <line x1="390" y1="8" x2="390" y2="28" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Zone 2 (Center): Architecture Grade -->
-  <g transform="translate(585, 18)">
+  <!-- Zone 2 (Center 390..780): Architecture Grade -->
+  <g transform="translate(481, 18)">
     <polygon points="0,-6 6,0 0,6 -6,0" stroke="#38BDF8" stroke-width="1.4" fill="#0B1426"/>
     <circle cx="0" cy="0" r="1.5" fill="#38BDF8"/>
   </g>
-  <text x="600" y="22" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">ARCHITECTURE : PRODUCTION GRADE</text>
+  <text x="495" y="22" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">ARCHITECTURE : PRODUCTION GRADE</text>
 
   <!-- Divider 2 -->
-  <line x1="830" y1="8" x2="830" y2="28" stroke="#1E293B" stroke-width="1"/>
+  <line x1="780" y1="8" x2="780" y2="28" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Zone 3 (Right): Executive Role -->
-  <polygon points="852,14 854,19 859,19 855,22 857,27 852,24 847,27 849,22 845,19 850,19" fill="#C9A45C"/>
-  <text x="866" y="22" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">EXECUTIVE ROLE : FOUNDER &amp; LEAD ARCHITECT</text>
+  <!-- Zone 3 (Right 780..1170): Executive Role -->
+  <g transform="translate(841, 18)">
+    <polygon points="0,-6 1.8,-1.8 6.5,-1.8 2.8,1.2 4.2,6 0,3 -4.2,6 -2.8,1.2 -6.5,-1.8 -1.8,-1.8" fill="#C9A45C"/>
+  </g>
+  <text x="855" y="22" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">EXECUTIVE ROLE : FOUNDER &amp; LEAD ARCHITECT</text>
 </svg>
