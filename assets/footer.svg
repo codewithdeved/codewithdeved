@@ -1,79 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-label="CodeWithDeved - Engineering the intersection of code architecture and cognitive design. Vibeans Solutions, Karachi, Pakistan">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-label="CodeWithDeved - Engineering the intersection of code architecture and cognitive design. Vibeans Solutions, Karachi, Pakistan">
   <defs>
-    <linearGradient id="footerLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#3B82F6" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#C9A45C" stop-opacity="0.9"/>
-      <stop offset="75%" stop-color="#3B82F6" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    <linearGradient id="bgFooterCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080F22"/>
+      <stop offset="50%" stop-color="#050914"/>
+      <stop offset="100%" stop-color="#080F22"/>
     </linearGradient>
-    <linearGradient id="footerGoldText" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="borderFooterGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="footerGoldGrad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#C9A45C"/>
       <stop offset="50%" stop-color="#F5DEB3"/>
       <stop offset="100%" stop-color="#C9A45C"/>
     </linearGradient>
-    <linearGradient id="glintAnim" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0"/>
+    <linearGradient id="glintFooterSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="footerGlow" cx="50%" cy="40%" r="50%">
-      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.15"/>
-      <stop offset="60%" stop-color="#0B1426" stop-opacity="0.05"/>
-      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
-    </radialGradient>
+    <pattern id="footerDots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.03"/>
+    </pattern>
   </defs>
 
   <style>
-    @keyframes glintSlide {
-      0% { transform: translateX(-400px); opacity: 0; }
-      20% { opacity: 0.8; }
-      80% { opacity: 0.8; }
-      100% { transform: translateX(1200px); opacity: 0; }
+    @keyframes pulseGem {
+      0%, 100% { opacity: 0.7; transform: rotate(45deg) scale(1); }
+      50% { opacity: 1; transform: rotate(45deg) scale(1.15); }
     }
-    @keyframes breathe {
-      0%, 100% { opacity: 0.6; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.1); }
+    @keyframes glintSweep {
+      0% { transform: translateX(-300px); opacity: 0; }
+      20% { opacity: 0.9; }
+      80% { opacity: 0.9; }
+      100% { transform: translateX(1200px); opacity: 0; }
     }
     @keyframes pulseDot {
       0%, 100% { opacity: 1; }
       50% { opacity: 0.4; }
     }
-    .glint-beam { animation: glintSlide 7s ease-in-out infinite; }
-    .diamond-gem { animation: breathe 3s ease-in-out infinite; transform-origin: 600px 22px; }
+    .footer-gem { animation: pulseGem 3s ease-in-out infinite; transform-origin: 600px 30px; }
+    .footer-glint { animation: glintSweep 6s ease-in-out infinite; }
     .status-dot { animation: pulseDot 2s ease-in-out infinite; }
     @media (prefers-reduced-motion: reduce) {
-      .glint-beam, .diamond-gem, .status-dot { animation: none; }
+      .footer-gem, .footer-glint, .status-dot { animation: none; }
     }
   </style>
 
-  <!-- Ambient background glow (seamlessly fades to transparent) -->
-  <rect width="1200" height="140" fill="url(#footerGlow)"/>
+  <!-- Card Base Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="159" rx="16" fill="url(#bgFooterCard)" stroke="url(#borderFooterGlow)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="1198" height="158" rx="15" fill="url(#footerDots)"/>
 
-  <!-- Top Accent Divider Line -->
-  <line x1="80" y1="22" x2="1120" y2="22" stroke="url(#footerLine)" stroke-width="1.5"/>
-  <rect class="glint-beam" x="0" y="21" width="220" height="2" fill="url(#glintAnim)"/>
+  <!-- Top Accent Bar -->
+  <rect x="1" y="1" width="1198" height="34" rx="15" fill="#0B1426" fill-opacity="0.6"/>
+  <line x1="0" y1="35" x2="1200" y2="35" stroke="#1E293B" stroke-width="1"/>
+  <rect class="footer-glint" x="0" y="34" width="200" height="2" fill="url(#glintFooterSweep)"/>
 
-  <!-- Centered Diamond Badge (fully within viewBox, no clipping) -->
-  <g class="diamond-gem">
-    <rect x="593" y="15" width="14" height="14" rx="2" fill="#0B1426" stroke="#C9A45C" stroke-width="1.5" transform="rotate(45 600 22)"/>
-    <circle cx="600" cy="22" r="2.5" fill="#C9A45C"/>
-  </g>
+  <!-- Top Bar: Left Telemetry -->
+  <circle class="status-dot" cx="30" cy="18" r="4" fill="#10B981"/>
+  <text x="42" y="22" fill="#10B981" font-family="'Segoe UI', monospace" font-size="11" font-weight="700" letter-spacing="1">SYSTEMS ONLINE • PRODUCTION STABLE</text>
 
-  <!-- Main Brand Title -->
-  <text x="600" y="60" text-anchor="middle" fill="url(#footerGoldText)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="6">CODEWITHDEVED</text>
+  <!-- Top Bar: Center Rotating Gem -->
+  <rect class="footer-gem" x="594" y="24" width="12" height="12" rx="2" fill="#0B1426" stroke="#C9A45C" stroke-width="1.5"/>
+  <circle cx="600" cy="30" r="2.5" fill="#C9A45C"/>
+
+  <!-- Top Bar: Right Telemetry -->
+  <text x="1170" y="22" text-anchor="end" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="11" letter-spacing="1">KARACHI, PAKISTAN (UTC+5) • GLOBAL REMOTE</text>
+
+  <!-- Center Main Brand Title -->
+  <text x="600" y="78" text-anchor="middle" fill="url(#footerGoldGrad)" font-family="'Segoe UI', -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="8">CODEWITHDEVED</text>
 
   <!-- Tagline -->
-  <text x="600" y="86" text-anchor="middle" fill="#E2E8F0" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">ENGINEERING THE INTERSECTION OF CODE <tspan fill="#3B82F6">×</tspan> COGNITIVE DESIGN</text>
+  <text x="600" y="104" text-anchor="middle" fill="#E2E8F0" font-family="'Segoe UI', -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="2.5">ENGINEERING THE INTERSECTION OF CODE <tspan fill="#3B82F6">×</tspan> COGNITIVE DESIGN</text>
 
-  <!-- Subtitle & Location -->
-  <text x="600" y="110" text-anchor="middle" fill="#64748B" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" letter-spacing="1">Tayyab Ali • Founder, Vibeans Solutions • Karachi, Pakistan (UTC+5)</text>
+  <!-- Bottom Details -->
+  <text x="600" y="128" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" letter-spacing="1">Tayyab Ali • Founder, Vibeans Solutions • Software Engineer, Perception Tech</text>
 
-  <!-- System Status Telemetry -->
-  <g transform="translate(600, 126)">
-    <circle class="status-dot" cx="-120" cy="-3.5" r="3" fill="#10B981"/>
-    <text x="-110" y="0" fill="#10B981" font-family="'Segoe UI', monospace" font-size="9" font-weight="700" letter-spacing="1">SYSTEMS ACTIVE</text>
-    <text x="0" y="0" text-anchor="middle" fill="#334155" font-family="'Segoe UI', sans-serif" font-size="10">•</text>
-    <text x="12" y="0" fill="#64748B" font-family="'Segoe UI', monospace" font-size="9" letter-spacing="0.8">GLOBAL CLIENT WORK &amp; ENGINEERING LEADERSHIP</text>
-  </g>
+  <!-- Bottom Accent Line -->
+  <line x1="200" y1="144" x2="1000" y2="144" stroke="#1E293B" stroke-width="1"/>
 </svg>

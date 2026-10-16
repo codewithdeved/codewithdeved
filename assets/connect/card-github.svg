@@ -1,38 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 180" width="280" height="180" role="img" aria-label="Explore GitHub repositories of Tayyab Ali">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 180" width="580" height="180" role="img" aria-label="Explore GitHub repositories of Tayyab Ali">
   <defs>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070D1B"/>
-      <stop offset="100%" stop-color="#040710"/>
+    <linearGradient id="cardBgBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080F22"/>
+      <stop offset="100%" stop-color="#040712"/>
     </linearGradient>
-    <linearGradient id="blueBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.3"/>
+    <linearGradient id="borderBlueGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.25"/>
     </linearGradient>
+    <pattern id="cardPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#FFFFFF" fill-opacity="0.03"/>
+    </pattern>
   </defs>
 
   <style>
-    @keyframes pulseGlowBlue { 0%, 100% { opacity: 0.5; } 50% { opacity: 0.9; } }
-    .glow-ring-blue { animation: pulseGlowBlue 4s ease-in-out infinite 1s; }
-    @media (prefers-reduced-motion: reduce) { .glow-ring-blue { animation: none; } }
+    @keyframes pulseGlowBlue { 0%, 100% { opacity: 0.4; } 50% { opacity: 0.85; } }
+    @keyframes beamFlowBlue { 0% { stroke-dashoffset: 30; } 100% { stroke-dashoffset: 0; } }
+    .pulse-glow-blue { animation: pulseGlowBlue 4s ease-in-out infinite 1s; }
+    .beam-blue { stroke-dasharray: 4 6; animation: beamFlowBlue 2.2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { .pulse-glow-blue, .beam-blue { animation: none; } }
   </style>
 
-  <rect x="0.5" y="0.5" width="279" height="179" rx="12" fill="url(#cardBg)" stroke="url(#blueBorder)" stroke-width="1.2"/>
-  <rect x="1" y="1" width="278" height="178" rx="11" fill="none" stroke="#2563EB" stroke-width="1" stroke-opacity="0.2"/>
+  <rect x="0.5" y="0.5" width="579" height="179" rx="14" fill="url(#cardBgBlue)" stroke="url(#borderBlueGlow)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="578" height="178" rx="13" fill="url(#cardPattern)"/>
 
-  <!-- Icon Circle -->
-  <circle cx="38" cy="38" r="18" fill="#1E3A8A" fill-opacity="0.45"/>
-  <circle class="glow-ring-blue" cx="38" cy="38" r="22" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.4"/>
-  <text x="38" y="44" text-anchor="middle" font-size="18">🐙</text>
+  <!-- Left Icon Area -->
+  <circle cx="52" cy="52" r="24" fill="#1E3A8A" fill-opacity="0.45"/>
+  <circle class="beam-blue" cx="52" cy="52" r="30" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="52" y="60" text-anchor="middle" font-size="24">🐙</text>
 
   <!-- Title & Profile -->
-  <text x="70" y="34" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="700">GitHub</text>
-  <text x="70" y="50" fill="#3B82F6" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600">codewithdeved</text>
+  <text x="96" y="46" fill="#F8FAFC" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="700">GitHub Profile</text>
+  <rect x="96" y="56" width="125" height="20" rx="4" fill="#1E3A8A" fill-opacity="0.4"/>
+  <text x="104" y="70" fill="#93C5FD" font-family="'Segoe UI', monospace" font-size="11" font-weight="600">codewithdeved</text>
 
   <!-- Description (no hyphens) -->
-  <text x="22" y="88" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">Codebase inspection, OSS</text>
-  <text x="22" y="106" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">collaboration, and reviews.</text>
+  <text x="32" y="112" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">Explore source code, foundational UI experiments, open source</text>
+  <text x="32" y="132" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="13">repositories, and technical commit contributions.</text>
 
-  <!-- Action Button -->
-  <rect x="22" y="128" width="236" height="32" rx="6" fill="#1E3A8A" fill-opacity="0.4" stroke="#2563EB" stroke-width="1"/>
-  <text x="140" y="149" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1">VIEW REPOSITORIES ↗</text>
+  <!-- Action Arrow Button -->
+  <rect x="390" y="132" width="166" height="32" rx="6" fill="#1D4ED8" fill-opacity="0.35" stroke="#3B82F6" stroke-width="1"/>
+  <text x="473" y="153" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5">VIEW REPOSITORIES ↗</text>
 </svg>

@@ -179,16 +179,18 @@ Personal repositories and foundational experiments across web applications, desk
 
 <table>
   <tr>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-linkedin.svg" alt="Connect on LinkedIn" width="100%"></a>
     </td>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-vibeans.svg" alt="Visit Vibeans Solutions Studio" width="100%"></a>
     </td>
-    <td width="25%" align="center" valign="top">
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved"><img src="assets/connect/card-github.svg" alt="Explore GitHub Repositories" width="100%"></a>
     </td>
-    <td width="25%" align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-inquiries.svg" alt="Send Direct Inquiries" width="100%"></a>
     </td>
   </tr>
