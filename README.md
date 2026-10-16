@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source srcset="assets/hero-3d.webp" type="image/webp">
-  <img src="assets/hero.svg" alt="CodeWithDeved: Engineering the Intersection of Code and Cognitive Design. Rotating 3D node network between gold code brackets." width="100%">
-</picture>
+<img src="assets/hero-3d.webp" alt="CodeWithDeved: Engineering the Intersection of Code and Cognitive Design. Rotating 3D node network between gold code brackets." width="100%">
 
 <img src="assets/ticker.svg" alt="AI Powered SaaS. Cognitive UX. Modern Web Architecture." width="100%">
 
@@ -24,35 +21,23 @@
 
 <div id="about"></div>
 
-<picture>
-  <source srcset="assets/headers/header-about.webp" type="image/webp">
-  <img src="assets/headers/header-about.svg" alt="About &amp; Engineering Philosophy" width="100%">
-</picture>
+<img src="assets/headers/header-about.webp" alt="About &amp; Engineering Philosophy" width="100%">
 
 <br><br>
 
-<picture>
-  <source srcset="assets/about-3d.webp" type="image/webp">
-  <img src="assets/about-card.svg" alt="About Tayyab Ali (CodeWithDeved): Engineering Philosophy, Live Telemetry, and Architecture Capabilities." width="100%">
-</picture>
+<img src="assets/about-3d.webp" alt="About Tayyab Ali (CodeWithDeved): Engineering Philosophy, Live Telemetry, and Architecture Capabilities." width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
 <div id="featured-products"></div>
 
-<picture>
-  <source srcset="assets/headers/header-products.webp" type="image/webp">
-  <img src="assets/headers/header-products.svg" alt="Featured Products &amp; SaaS Portfolio" width="100%">
-</picture>
+<img src="assets/headers/header-products.webp" alt="Featured Products &amp; SaaS Portfolio" width="100%">
 
 <br><br>
 
 <div align="center">
 
-<picture>
-  <source srcset="assets/products-3d.webp" type="image/webp">
-  <img src="assets/products-header.svg" alt="Production Fleet Telemetry Console: 4 Live Platforms Deployed" width="100%">
-</picture>
+<img src="assets/products-3d.webp" alt="Production Fleet Telemetry Console: 4 Live Platforms Deployed" width="100%">
 
 <br><br>
 
@@ -101,26 +86,17 @@
 
 <div id="technical-focus"></div>
 
-<picture>
-  <source srcset="assets/headers/header-focus.webp" type="image/webp">
-  <img src="assets/headers/header-focus.svg" alt="Technical Focus &amp; Capabilities" width="100%">
-</picture>
+<img src="assets/headers/header-focus.webp" alt="Technical Focus &amp; Capabilities" width="100%">
 
 <br><br>
 
-<picture>
-  <source srcset="assets/focus-3d.webp" type="image/webp">
-  <img src="assets/focus-grid.svg" alt="Technical Focus Areas: Generative AI, Full Stack SaaS, Cognitive UX, and FinTech" width="100%">
-</picture>
+<img src="assets/focus-3d.webp" alt="Technical Focus Areas: Generative AI, Full Stack SaaS, Cognitive UX, and FinTech" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
 <div id="open-source-repositories"></div>
 
-<picture>
-  <source srcset="assets/headers/header-repos.webp" type="image/webp">
-  <img src="assets/headers/header-repos.svg" alt="Open Source Repositories" width="100%">
-</picture>
+<img src="assets/headers/header-repos.webp" alt="Open Source Repositories" width="100%">
 
 <br><br>
 
@@ -128,54 +104,36 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved/AssistAI">
-        <picture>
-          <source srcset="assets/repos/card-assistai.webp" type="image/webp">
-          <img src="assets/repos/card-assistai.svg" alt="AssistAI repository: AI Web Interface" width="100%">
-        </picture>
+        <img src="assets/repos/card-assistai.webp" alt="AssistAI repository: AI Web Interface" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved/Course-Management-System">
-        <picture>
-          <source srcset="assets/repos/card-cms.webp" type="image/webp">
-          <img src="assets/repos/card-cms.svg" alt="Course-Management-System repository: Desktop CMS Architecture" width="100%">
-        </picture>
+        <img src="assets/repos/card-cms.webp" alt="Course-Management-System repository: Desktop CMS Architecture" width="100%">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved/Employee-Information-System-EIS">
-        <picture>
-          <source srcset="assets/repos/card-eis.webp" type="image/webp">
-          <img src="assets/repos/card-eis.svg" alt="Employee-Information-System-EIS repository: Database Driven EIS" width="100%">
-        </picture>
+        <img src="assets/repos/card-eis.webp" alt="Employee-Information-System-EIS repository: Database Driven EIS" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved/Tesla-Cyber-Truck">
-        <picture>
-          <source srcset="assets/repos/card-cybertruck.webp" type="image/webp">
-          <img src="assets/repos/card-cybertruck.svg" alt="Tesla-Cyber-Truck repository: 3D Vehicle Rendering" width="100%">
-        </picture>
+        <img src="assets/repos/card-cybertruck.webp" alt="Tesla-Cyber-Truck repository: 3D Vehicle Rendering" width="100%">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved/Bugatti">
-        <picture>
-          <source srcset="assets/repos/card-bugatti.webp" type="image/webp">
-          <img src="assets/repos/card-bugatti.svg" alt="Bugatti repository: CSS3 3D Transforms" width="100%">
-        </picture>
+        <img src="assets/repos/card-bugatti.webp" alt="Bugatti repository: CSS3 3D Transforms" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved/Harley-Davidson">
-        <picture>
-          <source srcset="assets/repos/card-harley.webp" type="image/webp">
-          <img src="assets/repos/card-harley.svg" alt="Harley-Davidson repository: 3D Keyframe Animation" width="100%">
-        </picture>
+        <img src="assets/repos/card-harley.webp" alt="Harley-Davidson repository: 3D Keyframe Animation" width="100%">
       </a>
     </td>
   </tr>
@@ -191,17 +149,11 @@
 
 <div id="tech-stack"></div>
 
-<picture>
-  <source srcset="assets/headers/header-stack.webp" type="image/webp">
-  <img src="assets/headers/header-stack.svg" alt="Technology Stack &amp; Core Tooling" width="100%">
-</picture>
+<img src="assets/headers/header-stack.webp" alt="Technology Stack &amp; Core Tooling" width="100%">
 
 <br><br>
 
-<picture>
-  <source srcset="assets/tech-stack-3d.webp" type="image/webp">
-  <img src="assets/tech-stack.svg" alt="Technology Stack and Core Tooling Matrix" width="100%">
-</picture>
+<img src="assets/tech-stack-3d.webp" alt="Technology Stack and Core Tooling Matrix" width="100%">
 
 <br>
 
@@ -211,19 +163,13 @@
 
 <div id="languages-activity"></div>
 
-<picture>
-  <source srcset="assets/headers/header-activity.webp" type="image/webp">
-  <img src="assets/headers/header-activity.svg" alt="Languages &amp; Activity on GitHub" width="100%">
-</picture>
+<img src="assets/headers/header-activity.webp" alt="Languages &amp; Activity on GitHub" width="100%">
 
 <br><br>
 
 <div align="center">
 
-<picture>
-  <source srcset="assets/stats-3d.webp" type="image/webp">
-  <img src="assets/connect/connect-banner.svg" alt="GitHub Activity Telemetry: Live Sync" width="100%">
-</picture>
+<img src="assets/stats-3d.webp" alt="GitHub Activity Telemetry: Live Sync" width="100%">
 
 <br><br>
 
@@ -246,19 +192,13 @@
 
 <div id="connect-collaborate"></div>
 
-<picture>
-  <source srcset="assets/headers/header-connect.webp" type="image/webp">
-  <img src="assets/headers/header-connect.svg" alt="Connect &amp; Collaborate" width="100%">
-</picture>
+<img src="assets/headers/header-connect.webp" alt="Connect &amp; Collaborate" width="100%">
 
 <br><br>
 
 <div align="center">
 
-<picture>
-  <source srcset="assets/connect/connect-3d.webp" type="image/webp">
-  <img src="assets/connect/connect-banner.svg" alt="Open for Ventures and Collaboration status header" width="100%">
-</picture>
+<img src="assets/connect/connect-3d.webp" alt="Open for Ventures and Collaboration status header" width="100%">
 
 <br><br>
 
@@ -266,36 +206,24 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://www.linkedin.com/in/code-with-deved/">
-        <picture>
-          <source srcset="assets/connect/card-linkedin.webp" type="image/webp">
-          <img src="assets/connect/card-linkedin.svg" alt="Connect on LinkedIn" width="100%">
-        </picture>
+        <img src="assets/connect/card-linkedin.webp" alt="Connect on LinkedIn" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://www.vibeanssolutions.site/">
-        <picture>
-          <source srcset="assets/connect/card-vibeans.webp" type="image/webp">
-          <img src="assets/connect/card-vibeans.svg" alt="Visit Vibeans Solutions Studio" width="100%">
-        </picture>
+        <img src="assets/connect/card-vibeans.webp" alt="Visit Vibeans Solutions Studio" width="100%">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/codewithdeved">
-        <picture>
-          <source srcset="assets/connect/card-github.webp" type="image/webp">
-          <img src="assets/connect/card-github.svg" alt="Explore GitHub Repositories" width="100%">
-        </picture>
+        <img src="assets/connect/card-github.webp" alt="Explore GitHub Repositories" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://www.linkedin.com/in/code-with-deved/">
-        <picture>
-          <source srcset="assets/connect/card-inquiries.webp" type="image/webp">
-          <img src="assets/connect/card-inquiries.svg" alt="Send Direct Inquiries" width="100%">
-        </picture>
+        <img src="assets/connect/card-inquiries.webp" alt="Send Direct Inquiries" width="100%">
       </a>
     </td>
   </tr>
@@ -316,9 +244,6 @@
 
 <br><br>
 
-<picture>
-  <source srcset="assets/footer-3d.webp" type="image/webp">
-  <img src="assets/footer.svg" alt="Code times Cognitive Design. CodeWithDeved, Vibeans Solutions, Karachi, Pakistan." width="100%">
-</picture>
+<img src="assets/footer-3d.webp" alt="Code times Cognitive Design. CodeWithDeved, Vibeans Solutions, Karachi, Pakistan." width="100%">
 
 </div>
