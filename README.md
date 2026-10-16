@@ -10,8 +10,8 @@
 <br>
 
 <a href="#featured-products"><img src="https://img.shields.io/badge/FEATURED%20PRODUCTS-0B1426?style=for-the-badge&logo=rocket&logoColor=C9A45C" alt="Jump to featured products"></a>
-<a href="#open-source-repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
 <a href="#technical-focus"><img src="https://img.shields.io/badge/TECHNICAL%20FOCUS-0B1426?style=for-the-badge&logo=target&logoColor=3B82F6" alt="Jump to technical focus"></a>
+<a href="#open-source-repositories"><img src="https://img.shields.io/badge/OPEN%20SOURCE-0B1426?style=for-the-badge&logo=github&logoColor=3B82F6" alt="Jump to open source repositories"></a>
 <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
 <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Visit Vibeans Solutions"></a>
 
@@ -38,35 +38,19 @@ I am **Tayyab Ali**, known across the developer community as **CodeWithDeved**. 
 
 <div align="center">
 
-**Live software products and AI applications developed collaboratively with teams. Select any card to explore the live application.**
+**Six live software products and AI applications developed collaboratively with teams. Select any card to explore the live application.**
 
 </div>
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="middle">
-      <a href="https://aigenixhub.netlify.app/"><img src="assets/cards/aigenixhub.webp" alt="AI Genix Hub, a multi modal generative AI platform live at aigenixhub.netlify.app" width="100%"></a>
-    </td>
-    <td width="50%" valign="middle">
-      <div align="left">
-        <a href="https://aigenixhub.netlify.app/"><img src="https://img.shields.io/badge/FEATURED%20PLATFORM-0B1426?style=flat-square&logo=sparkles&logoColor=C9A45C" alt="Featured Platform"></a>
-        <h4><a href="https://aigenixhub.netlify.app/">AI Genix Hub</a></h4>
-        Multi modal generative AI platform combining conversational intelligence with text to image synthesis, engineered for responsive creative workflows.
-        <br><br>
-        <a href="https://aigenixhub.netlify.app/"><img src="https://img.shields.io/badge/aigenixhub.netlify.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open AI Genix Hub"></a>
-      </div>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://creatie-hive.vercel.app/"><img src="assets/cards/creaite-hive.webp" alt="Creaite Hive, an AI powered design suite live at creatie-hive.vercel.app" width="100%"></a><br>
-      <h4><a href="https://creatie-hive.vercel.app/">Creaite Hive</a></h4>
       An AI powered design suite helping architects and creators transform concept sketches and imagery into precision architectural designs.<br><br>
       <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/creatie--hive.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Creaite Hive"></a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://docbrio.me/"><img src="assets/cards/docbrio.webp" alt="DocBrio, a browser based document toolkit live at docbrio.me" width="100%"></a><br>
-      <h4><a href="https://docbrio.me/">DocBrio</a></h4>
       A high performance browser based document toolkit to convert, merge, edit, sign, and compress files client side without server uploads.<br><br>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/docbrio.me-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open DocBrio"></a>
     </td>
@@ -74,15 +58,25 @@ I am **Tayyab Ali**, known across the developer community as **CodeWithDeved**. 
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://leadster-io.vercel.app/"><img src="assets/cards/leadster.webp" alt="Leadster.io, a conversational B2B lead discovery platform live at leadster-io.vercel.app" width="100%"></a><br>
-      <h4><a href="https://leadster-io.vercel.app/">Leadster.io</a></h4>
-      An intelligent conversational agent built for B2B lead discovery, automated prospect research, and verified contact extraction.<br><br>
+      An intelligent conversational platform built for B2B lead discovery, automated prospect research, and verified contact extraction.<br><br>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/leadster--io.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Leadster.io"></a>
     </td>
     <td width="50%" align="center" valign="top">
+      <a href="https://siteexplorer.netlify.app/"><img src="assets/cards/site-xp.webp" alt="Site.XP, an SEO and web analytics platform live at siteexplorer.netlify.app" width="100%"></a><br>
+      A comprehensive SEO and web analytics platform engineered for deep domain audits, backlink tracking, and keyword performance metrics.<br><br>
+      <a href="https://siteexplorer.netlify.app/"><img src="https://img.shields.io/badge/siteexplorer.netlify.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open Site.XP"></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
       <a href="https://pakmilkiyat.vercel.app/"><img src="assets/cards/pakmilkiyat.webp" alt="PakMilkiyat, a real estate portal live at pakmilkiyat.vercel.app" width="100%"></a><br>
-      <h4><a href="https://pakmilkiyat.vercel.app/">PakMilkiyat</a></h4>
       A modern real estate portal providing structured property exploration across residential sales, commercial rentals, and new developments.<br><br>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/pakmilkiyat.vercel.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open PakMilkiyat"></a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://aigenixhub.netlify.app/"><img src="assets/cards/aigenixhub.webp" alt="AI Genix Hub, a multi modal generative AI platform live at aigenixhub.netlify.app" width="100%"></a><br>
+      A multi modal generative AI platform combining conversational intelligence with text to image synthesis for creative workflows.<br><br>
+      <a href="https://aigenixhub.netlify.app/"><img src="https://img.shields.io/badge/aigenixhub.netlify.app-2563EB?style=flat-square&logo=googlechrome&logoColor=white" alt="Open AI Genix Hub"></a>
     </td>
   </tr>
 </table>
@@ -100,22 +94,22 @@ I am **Tayyab Ali**, known across the developer community as **CodeWithDeved**. 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🧠 Generative AI &amp; Intelligent Systems</h4>
-      Engineering practical applications leveraging Generative AI, Retrieval Augmented Generation (RAG), and Prompt Engineering to solve real world domain challenges.
+      <h4>🧠 Generative AI &amp; Systems</h4>
+      Engineering practical applications leveraging Generative AI, Retrieval Augmented Generation (RAG), and Prompt Engineering to solve domain challenges.
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 Full Stack SaaS &amp; Web Applications</h4>
-      Architecting and shipping responsive, modern web applications from initial product development through production cloud deployment.
+      <h4>🌐 Full Stack &amp; Web SaaS</h4>
+      Architecting and shipping responsive, modern web applications from initial product development and UI systems through production cloud deployment.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🎨 Cognitive Design &amp; User Experience (UX)</h4>
-      Applying principles of cognitive design to build digital interfaces that minimize user friction, establish trust, and optimize complex workflows.
+      <h4>🎨 Cognitive Design &amp; UX</h4>
+      Applying principles of cognitive design to build digital interfaces that minimize user friction, establish trust, and optimize complex user workflows.
     </td>
     <td width="50%" valign="top">
-      <h4>💳 FinTech &amp; Healthcare Technology</h4>
-      Focusing on high impact software solutions in financial technology and healthcare systems, where data precision, privacy, and seamless user journeys are essential.
+      <h4>💳 FinTech &amp; HealthTech</h4>
+      Focusing on high impact software solutions in financial technology and healthcare systems, where data precision, privacy, and usability are essential.
     </td>
   </tr>
 </table>
@@ -131,36 +125,36 @@ Personal repositories and foundational experiments across web applications, desk
     <td width="50%" valign="top">
       <h4><a href="https://github.com/codewithdeved/AssistAI">AssistAI</a></h4>
       An intelligent assistant web interface built with React.js, JavaScript, HTML5, and CSS3.<br>
-      <sub><b>Primary Language:</b> HTML &bull; React.js</sub>
+      <sub><b>Stack:</b> React.js &bull; JavaScript &bull; HTML5</sub>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/codewithdeved/Course-Management-System">Course-Management-System</a></h4>
       A desktop Course Management System (CMS) engineered in Java utilizing AWT, Swing, and JavaFX.<br>
-      <sub><b>Primary Language:</b> Java</sub>
+      <sub><b>Stack:</b> Java &bull; JavaFX &bull; Swing</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/codewithdeved/Employee-Information-System-EIS">Employee-Information-System-EIS</a></h4>
       A database driven Employee Information System (EIS) implemented in Python for record management.<br>
-      <sub><b>Primary Language:</b> Python</sub>
+      <sub><b>Stack:</b> Python &bull; SQL &bull; GUI</sub>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/codewithdeved/Tesla-Cyber-Truck">Tesla-Cyber-Truck</a></h4>
       An interactive 3D visual rendering of a Tesla Cyber Truck and robot, created with pure CSS3 on React.js.<br>
-      <sub><b>Primary Language:</b> CSS3</sub>
+      <sub><b>Stack:</b> CSS3 3D &bull; React.js &bull; UI Modeling</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/codewithdeved/Bugatti">Bugatti</a></h4>
       An intricate 3D vehicle modeling experiment rendered purely through CSS3 transforms on React.js.<br>
-      <sub><b>Primary Language:</b> CSS3</sub>
+      <sub><b>Stack:</b> CSS3 3D &bull; React.js &bull; Transforms</sub>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/codewithdeved/Harley-Davidson">Harley-Davidson</a></h4>
       An interactive 3D motorcycle model and animation constructed with advanced CSS3 on React.js.<br>
-      <sub><b>Primary Language:</b> CSS3</sub>
+      <sub><b>Stack:</b> CSS3 3D &bull; React.js &bull; Animation</sub>
     </td>
   </tr>
 </table>
@@ -178,7 +172,7 @@ Personal repositories and foundational experiments across web applications, desk
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>💻 Languages &amp; Core</h4>
+      <h4>💻 Languages</h4>
       <img src="https://img.shields.io/badge/JavaScript-0B1426?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript">
       <img src="https://img.shields.io/badge/TypeScript-0B1426?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"><br>
       <img src="https://img.shields.io/badge/Python-0B1426?style=flat-square&logo=python&logoColor=3776AB" alt="Python">
@@ -187,18 +181,22 @@ Personal repositories and foundational experiments across web applications, desk
       <img src="https://img.shields.io/badge/CSS3-0B1426?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3">
     </td>
     <td width="33%" valign="top">
-      <h4>⚡ Frameworks &amp; Web</h4>
+      <h4>⚡ Frameworks</h4>
       <img src="https://img.shields.io/badge/React-0B1426?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
       <img src="https://img.shields.io/badge/Next.js-0B1426?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" alt="Next.js"><br>
       <img src="https://img.shields.io/badge/Node.js-0B1426?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js">
+      <img src="https://img.shields.io/badge/Express.js-0B1426?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express.js"><br>
       <img src="https://img.shields.io/badge/Tailwind_CSS-0B1426?style=flat-square&logo=tailwindcss&logoColor=38B2AC" alt="Tailwind CSS">
+      <img src="https://img.shields.io/badge/Bootstrap-0B1426?style=flat-square&logo=bootstrap&logoColor=7952B3" alt="Bootstrap">
     </td>
     <td width="33%" valign="top">
-      <h4>🛠️ Tools &amp; Workflow</h4>
+      <h4>🛠️ Tools &amp; Cloud</h4>
       <img src="https://img.shields.io/badge/Git-0B1426?style=flat-square&logo=git&logoColor=F05032" alt="Git">
       <img src="https://img.shields.io/badge/GitHub-0B1426?style=flat-square&logo=github&logoColor=FFFFFF" alt="GitHub"><br>
       <img src="https://img.shields.io/badge/Figma-0B1426?style=flat-square&logo=figma&logoColor=F24E1E" alt="Figma">
-      <img src="https://img.shields.io/badge/Vercel-0B1426?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel">
+      <img src="https://img.shields.io/badge/Vercel-0B1426?style=flat-square&logo=vercel&logoColor=FFFFFF" alt="Vercel"><br>
+      <img src="https://img.shields.io/badge/Netlify-0B1426?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify">
+      <img src="https://img.shields.io/badge/VS_Code-0B1426?style=flat-square&logo=visualstudiocode&logoColor=007ACC" alt="VS Code">
     </td>
   </tr>
 </table>
