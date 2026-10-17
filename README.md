@@ -34,6 +34,8 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20PORTFOLIO-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Browse Portfolio on GitHub"></a>
 </div>
 
+<br>
+
 <details>
   <summary><b>⚡ VIEW EXECUTIVE LEADERSHIP &amp; ARCHITECTURAL HIGHLIGHTS</b></summary>
   <table width="100%">
@@ -73,24 +75,6 @@
       <br><br>
       <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Creaite Hive"></a>
       <a href="https://creatie-hive.vercel.app/"><img src="https://img.shields.io/badge/FLAGSHIP%20AI%20SUITE-0B1426?style=for-the-badge&logo=sparkles&logoColor=C9A45C" alt="Flagship AI Suite"></a>
-      <br><br>
-      <details>
-        <summary><b>⚡ VIEW CREAITE HIVE ARCHITECTURE &amp; PIPELINE SPECS</b></summary>
-        <table width="100%">
-          <tr>
-            <td width="35%"><b>Core Engine</b></td>
-            <td>Next.js 14 App Router, WebGL Viewport, Diffusion Inference Bridge</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Rendering Pipeline</b></td>
-            <td>Sub-80ms prompt synthesis, SVG vectorization, and layered CAD export models</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Edge Delivery</b></td>
-            <td>Global edge caching with low-latency streaming asset delivery across distributed zones</td>
-          </tr>
-        </table>
-      </details>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://docbrio.me/">
@@ -102,24 +86,6 @@
       <br><br>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch DocBrio"></a>
       <a href="https://docbrio.me/"><img src="https://img.shields.io/badge/CLIENT%20SIDE%20SAAS-0B1426?style=for-the-badge&logo=shield&logoColor=3B82F6" alt="Client Side SaaS"></a>
-      <br><br>
-      <details>
-        <summary><b>⚡ VIEW DOCBRIO ZERO-SERVER PRIVACY SPECS</b></summary>
-        <table width="100%">
-          <tr>
-            <td width="35%"><b>Privacy Model</b></td>
-            <td>100% Client-Side Execution (Zero bytes transmitted to external servers)</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Wasm Core</b></td>
-            <td>High-throughput WebAssembly binary compiler for memory-safe PDF transformation</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Throughput</b></td>
-            <td>Multi-threaded in-memory compression with instant local buffer downloads</td>
-          </tr>
-        </table>
-      </details>
     </td>
   </tr>
   <!-- Row 2: Conversational B2B Discovery & Spatial PropTech Portal -->
@@ -134,24 +100,6 @@
       <br><br>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Leadster.io"></a>
       <a href="https://leadster-io.vercel.app/"><img src="https://img.shields.io/badge/B2B%20LEAD%20GEN-0B1426?style=for-the-badge&logo=target&logoColor=C9A45C" alt="B2B Lead Gen"></a>
-      <br><br>
-      <details>
-        <summary><b>⚡ VIEW LEADSTER.IO PIPELINE SPECS</b></summary>
-        <table width="100%">
-          <tr>
-            <td width="35%"><b>Intelligence Core</b></td>
-            <td>Conversational intent classification and multi-provider search orchestration</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Data Validation</b></td>
-            <td>Real-time SMTP handshake and domain MX record verification checks</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Export Pipeline</b></td>
-            <td>Dynamic schema mapper for CRM integrations and streamed CSV export</td>
-          </tr>
-        </table>
-      </details>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://pakmilkiyat.vercel.app/">
@@ -163,24 +111,6 @@
       <br><br>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/LAUNCH%20APP-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch PakMilkiyat"></a>
       <a href="https://pakmilkiyat.vercel.app/"><img src="https://img.shields.io/badge/PROPTECH%20PORTAL-0B1426?style=for-the-badge&logo=openstreetmap&logoColor=C9A45C" alt="PropTech Portal"></a>
-      <br><br>
-      <details>
-        <summary><b>⚡ VIEW PAKMILKIYAT SPATIAL INDEXING SPECS</b></summary>
-        <table width="100%">
-          <tr>
-            <td width="35%"><b>Search Topology</b></td>
-            <td>Multi-parameter property indexing with sub-50ms geo-spatial query response times</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Interface Engine</b></td>
-            <td>Dynamic map layer synchronization, faceted price filters, and responsive galleries</td>
-          </tr>
-          <tr>
-            <td width="35%"><b>Security Architecture</b></td>
-            <td>Encrypted inquiry routing and verified broker authentication protocols</td>
-          </tr>
-        </table>
-      </details>
     </td>
   </tr>
 </table>
@@ -188,6 +118,46 @@
 <div align="center">
   <sub>Enterprise software and client applications built with teams through Vibeans Solutions. Explore additional studio work at the <a href="https://www.vibeanssolutions.site/#portfolio">Vibeans Solutions portfolio</a>.</sub>
 </div>
+
+<br>
+
+<details>
+  <summary><b>⚡ VIEW PRODUCTION FLEET ARCHITECTURE &amp; PIPELINE SPECS</b></summary>
+  <table width="100%">
+    <tr>
+      <td width="28%"><b>Creaite Hive</b><br><sub>AI Architectural Design Suite</sub></td>
+      <td>
+        • <b>Core Engine:</b> Next.js 14 App Router, WebGL Viewport, Diffusion Inference Bridge.<br>
+        • <b>Rendering Pipeline:</b> Sub-80ms prompt synthesis, SVG vectorization, and layered CAD export models.<br>
+        • <b>Edge Delivery:</b> Global edge caching with low-latency streaming asset delivery across distributed zones.
+      </td>
+    </tr>
+    <tr>
+      <td width="28%"><b>DocBrio</b><br><sub>Client-Side Document Toolkit</sub></td>
+      <td>
+        • <b>Privacy Model:</b> 100% Client-Side Execution (Zero bytes transmitted to external servers).<br>
+        • <b>Wasm Core:</b> High-throughput WebAssembly binary compiler for memory-safe PDF transformation.<br>
+        • <b>Throughput:</b> Multi-threaded in-memory compression with instant local buffer downloads.
+      </td>
+    </tr>
+    <tr>
+      <td width="28%"><b>Leadster.io</b><br><sub>Conversational B2B Discovery</sub></td>
+      <td>
+        • <b>Intelligence Core:</b> Conversational intent classification and multi-provider search orchestration.<br>
+        • <b>Data Validation:</b> Real-time SMTP handshake and domain MX record verification checks.<br>
+        • <b>Export Pipeline:</b> Dynamic schema mapper for CRM integrations and streamed CSV export.
+      </td>
+    </tr>
+    <tr>
+      <td width="28%"><b>PakMilkiyat</b><br><sub>Spatial PropTech Portal</sub></td>
+      <td>
+        • <b>Search Topology:</b> Multi-parameter property indexing with sub-50ms geo-spatial query response times.<br>
+        • <b>Interface Engine:</b> Dynamic map layer synchronization, faceted price filters, and responsive galleries.<br>
+        • <b>Security Architecture:</b> Encrypted inquiry routing and verified broker authentication protocols.
+      </td>
+    </tr>
+  </table>
+</details>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -202,6 +172,8 @@
   <a href="#open-source-repositories"><img src="https://img.shields.io/badge/EXPLORE%20CODEBASES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Explore Codebases"></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/INSPECT%20TECH%20STACK-0B1426?style=for-the-badge&logo=codewars&logoColor=3B82F6" alt="Inspect Tech Stack"></a>
 </div>
+
+<br>
 
 <details>
   <summary><b>⚡ VIEW SYSTEM DESIGN AUDIT &amp; CAPABILITY MATRIX</b></summary>
@@ -292,6 +264,8 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20ALL%20REPOSITORIES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Browse all repositories on GitHub"></a>
 </div>
 
+<br>
+
 <details>
   <summary><b>⚡ VIEW OPEN SOURCE CODEBASE AUDIT &amp; ARCHITECTURAL TAXONOMY</b></summary>
   <table width="100%">
@@ -326,9 +300,7 @@
 
 <img src="assets/tech-stack-3d.webp" alt="Technology Stack and Core Tooling Matrix" width="100%">
 
-<div align="center">
-  <sub>Technologies verified through public repositories and deployed production products at Vibeans Solutions.</sub>
-</div>
+<br>
 
 <details>
   <summary><b>⚡ VIEW COMPREHENSIVE TECHNOLOGY AUDIT &amp; RUNTIME MATRIX</b></summary>
@@ -371,9 +343,7 @@
   </tr>
 </table>
 
-<div align="center">
-  <sub>Metrics are generated in real time from public repositories via automated telemetry services.</sub>
-</div>
+<br>
 
 <details>
   <summary><b>⚡ VIEW TELEMETRY DATA PIPELINE &amp; SYNC SPECIFICATIONS</b></summary>
