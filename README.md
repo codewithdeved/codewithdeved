@@ -115,10 +115,6 @@
   </tr>
 </table>
 
-<div align="center">
-  <sub>Enterprise software and client applications built with teams through Vibeans Solutions. Explore additional studio work at the <a href="https://www.vibeanssolutions.site/#portfolio">Vibeans Solutions portfolio</a>.</sub>
-</div>
-
 <br>
 
 <details>
