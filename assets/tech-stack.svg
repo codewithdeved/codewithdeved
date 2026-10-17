@@ -36,7 +36,7 @@
     <!-- Header -->
     <rect x="21" y="11" width="273" height="48" rx="13" fill="#0B1426" fill-opacity="0.75"/>
     <line x1="21" y1="59" x2="294" y2="59" stroke="#1E293B" stroke-width="1"/>
-    <text x="40" y="42" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">💻 Languages</text>
+    <text x="40" y="42" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Languages</text>
 
     <!-- Chips -->
     <!-- 1: JavaScript -->
@@ -91,7 +91,7 @@
     <!-- Header -->
     <rect x="316" y="11" width="273" height="48" rx="13" fill="#0B1426" fill-opacity="0.75"/>
     <line x1="316" y1="59" x2="589" y2="59" stroke="#1E293B" stroke-width="1"/>
-    <text x="335" y="42" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">⚡ Frontend &amp; UI</text>
+    <text x="335" y="42" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Frontend &amp; UI</text>
 
     <!-- Chips -->
     <!-- 1: React -->
@@ -146,7 +146,7 @@
     <!-- Header -->
     <rect x="611" y="11" width="273" height="48" rx="13" fill="#0B1426" fill-opacity="0.75"/>
     <line x1="611" y1="59" x2="884" y2="59" stroke="#1E293B" stroke-width="1"/>
-    <text x="630" y="42" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">🏗️ Backend &amp; APIs</text>
+    <text x="630" y="42" fill="#60A5FA" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Backend &amp; APIs</text>
 
     <!-- Chips -->
     <!-- 1: Node.js -->
@@ -201,7 +201,7 @@
     <!-- Header -->
     <rect x="906" y="11" width="273" height="48" rx="13" fill="#0B1426" fill-opacity="0.75"/>
     <line x1="906" y1="59" x2="1179" y2="59" stroke="#1E293B" stroke-width="1"/>
-    <text x="925" y="42" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">☁️ Cloud &amp; Tooling</text>
+    <text x="925" y="42" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="16.5" font-weight="700">Cloud &amp; Tooling</text>
 
     <!-- Chips -->
     <!-- 1: Git -->

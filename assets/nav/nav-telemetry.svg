@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 36" width="1170" height="36" role="img" aria-label="Production Telemetry Console">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="1200" height="36" role="img" aria-label="Production Telemetry Console (Synced 2026.10.17 • 21:53 UTC)">
   <defs>
     <linearGradient id="ribbonBg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#050814"/>
@@ -21,7 +21,7 @@
     .beacon { animation: pulseGreen 1.8s ease-in-out infinite; }
     .glint { animation: scanTrack 5s ease-in-out infinite; }
     @keyframes pulseGreen {
-      0%, 100% { opacity: 0.6; r: 3.5; }
+      0%, 100% { opacity: 0.65; r: 3.5; }
       50% { opacity: 1; r: 4.5; filter: drop-shadow(0 0 4px #10B981); }
     }
     @keyframes scanTrack {
@@ -37,30 +37,30 @@
   </style>
 
   <!-- Base Chassis -->
-  <rect x="1" y="1" width="1168" height="34" rx="5" fill="url(#ribbonBg)" stroke="#1E293B" stroke-width="0.8"/>
-  <line x1="80" y1="1" x2="1090" y2="1" stroke="url(#topGlint)" stroke-width="1.2"/>
+  <rect x="0.5" y="0.5" width="1199" height="35" rx="6" fill="url(#ribbonBg)" stroke="#1E293B" stroke-width="1"/>
+  <line x1="60" y1="0.5" x2="1140" y2="0.5" stroke="url(#topGlint)" stroke-width="1.2"/>
   <rect class="glint" x="0" y="0.5" width="120" height="1.5" rx="0.75" fill="url(#scan)"/>
 
-  <!-- Zone 1 (Left 0..390): Live Telemetry Sync -->
-  <circle class="beacon" cx="71" cy="18" r="4" fill="#10B981"/>
-  <text x="83" y="22" fill="#10B981" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">TELEMETRY SYNC : ACTIVE • EDGE HEALTHY</text>
+  <!-- Zone 1 (Left 0..400): Live Telemetry Sync -->
+  <circle class="beacon" cx="62" cy="18" r="4" fill="#10B981"/>
+  <text x="76" y="21.5" fill="#10B981" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">TELEMETRY SYNC : ACTIVE • EDGE HEALTHY</text>
 
   <!-- Divider 1 -->
-  <line x1="390" y1="8" x2="390" y2="28" stroke="#1E293B" stroke-width="1"/>
+  <line x1="400" y1="7" x2="400" y2="29" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Zone 2 (Center 390..780): Architecture Grade -->
-  <g transform="translate(481, 18)">
+  <!-- Zone 2 (Center 400..800): Architecture Grade -->
+  <g transform="translate(476, 18)">
     <polygon points="0,-6 6,0 0,6 -6,0" stroke="#38BDF8" stroke-width="1.4" fill="#0B1426"/>
     <circle cx="0" cy="0" r="1.5" fill="#38BDF8"/>
   </g>
-  <text x="495" y="22" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">ARCHITECTURE : PRODUCTION GRADE</text>
+  <text x="490" y="21.5" fill="#38BDF8" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">ARCHITECTURE : PRODUCTION GRADE</text>
 
   <!-- Divider 2 -->
-  <line x1="780" y1="8" x2="780" y2="28" stroke="#1E293B" stroke-width="1"/>
+  <line x1="800" y1="7" x2="800" y2="29" stroke="#1E293B" stroke-width="1"/>
 
-  <!-- Zone 3 (Right 780..1170): Executive Role -->
-  <g transform="translate(841, 18)">
+  <!-- Zone 3 (Right 800..1200): Executive Role -->
+  <g transform="translate(850, 18)">
     <polygon points="0,-6 1.8,-1.8 6.5,-1.8 2.8,1.2 4.2,6 0,3 -4.2,6 -2.8,1.2 -6.5,-1.8 -1.8,-1.8" fill="#C9A45C"/>
   </g>
-  <text x="855" y="22" fill="#C9A45C" font-family="'Consolas', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">EXECUTIVE ROLE : FOUNDER &amp; LEAD ARCHITECT</text>
+  <text x="864" y="21.5" fill="#C9A45C" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">EXECUTIVE ROLE : FOUNDER &amp; LEAD ARCHITECT</text>
 </svg>

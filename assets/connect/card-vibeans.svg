@@ -40,5 +40,5 @@
 
   <!-- Action Arrow Button -->
   <rect x="390" y="132" width="166" height="32" rx="6" fill="#854D0E" fill-opacity="0.35" stroke="#C9A45C" stroke-width="1"/>
-  <text x="473" y="153" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5">VISIT DIGITAL STUDIO ↗</text>
+  <text x="473" y="153" text-anchor="middle" fill="#FDE68A" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.5">VISIT DIGITAL STUDIO -></text>
 </svg>

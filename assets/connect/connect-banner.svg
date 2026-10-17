@@ -31,8 +31,8 @@
   <text x="52" y="37" fill="#10B981" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">OPEN FOR VENTURES &amp; COLLABORATION</text>
 
   <!-- Center: Response Metric -->
-  <text x="600" y="37" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" letter-spacing="1">⚡ TYPICAL RESPONSE: WITHIN 24 HOURS</text>
+  <text x="600" y="37" text-anchor="middle" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="600" letter-spacing="1">TYPICAL RESPONSE: WITHIN 24 HOURS</text>
 
   <!-- Right: Location & Timezone -->
-  <text x="1165" y="37" text-anchor="end" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12" letter-spacing="1">📍 KARACHI, PAKISTAN (UTC+5) • GLOBAL REMOTE</text>
+  <text x="1165" y="37" text-anchor="end" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12" letter-spacing="1">KARACHI, PAKISTAN (UTC+5) • GLOBAL REMOTE</text>
 </svg>
