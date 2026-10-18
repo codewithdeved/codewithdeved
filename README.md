@@ -5,13 +5,13 @@
 <img src="assets/ticker.svg" alt="Live Telemetry: AI Powered SaaS, Cognitive UX, and Modern Web Architecture" width="100%">
 
 <p align="center">
-  <a href="#featured-products"><img src="assets/nav/nav-products.svg" width="32.8%" alt="01 : Featured SaaS Products"></a>
-  <a href="#technical-focus"><img src="assets/nav/nav-focus.svg" width="32.8%" alt="02 : Technical Focus"></a>
-  <a href="#open-source-repositories"><img src="assets/nav/nav-repos.svg" width="32.8%" alt="03 : Open Source Repositories"></a>
+  <a href="#about"><img src="assets/nav/nav-about.svg" width="32.8%" alt="01 : About &amp; Philosophy"></a>
+  <a href="#featured-products"><img src="assets/nav/nav-products.svg" width="32.8%" alt="02 : Featured SaaS Products"></a>
+  <a href="#technical-focus"><img src="assets/nav/nav-focus.svg" width="32.8%" alt="03 : System Architecture"></a>
   <br>
-  <a href="#tech-stack"><img src="assets/nav/nav-stack.svg" width="32.8%" alt="04 : Core Tooling Matrix"></a>
-  <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/nav/nav-linkedin.svg" width="32.8%" alt="05 : Executive LinkedIn"></a>
-  <a href="https://www.vibeanssolutions.site/"><img src="assets/nav/nav-studio.svg" width="32.8%" alt="06 : Vibeans Solutions Studio"></a>
+  <a href="#open-source-repositories"><img src="assets/nav/nav-repos.svg" width="32.8%" alt="04 : Open Source Repositories"></a>
+  <a href="#tech-stack"><img src="assets/nav/nav-stack.svg" width="32.8%" alt="05 : Core Tooling Matrix"></a>
+  <a href="#connect-collaborate"><img src="assets/nav/nav-network.svg" width="32.8%" alt="06 : Ventures &amp; Global Network"></a>
 </p>
 
 <a href="https://github.com/codewithdeved/codewithdeved/actions">
@@ -218,7 +218,7 @@
       <a href="https://github.com/codewithdeved"><img src="https://streak-stats.demolab.com/?user=codewithdeved&background=0B1426&border=1B2A47&stroke=C9A45C&ring=3B82F6&fire=C9A45C&currStreakNum=F5F1E8&sideNums=F5F1E8&currStreakLabel=C9A45C&sideLabels=94A3B8&dates=64748B" alt="GitHub Contribution Streak for codewithdeved" width="100%"></a>
     </td>
     <td width="50%" align="center" valign="middle">
-      <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&langs_count=8&border_color=1B2A47&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9" alt="Most used programming languages across codewithdeved's public repositories" width="100%"></a>
+      <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&langs_count=8&card_width=495&border_color=1B2A47&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9" alt="Most used programming languages across codewithdeved's public repositories" width="100%"></a>
     </td>
   </tr>
 </table>

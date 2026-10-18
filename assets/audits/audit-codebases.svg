@@ -1,22 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Open Source Codebase Audit &amp; Architectural Taxonomy">
-  
-  <defs>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 348" width="1200" height="348" role="img" aria-label="Open Source Codebase Audit &amp; Architectural Taxonomy">
+    <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#070D1E"/>
-      <stop offset="100%" stop-color="#040711"/>
+      <stop offset="100%" stop-color="#0B1426"/>
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#1E2D4A" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.4"/>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1B2A47"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1B2A47"/>
     </linearGradient>
     <linearGradient id="innerCard" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0A1329"/>
-      <stop offset="100%" stop-color="#060A16"/>
+      <stop offset="0%" stop-color="#0E1A32"/>
+      <stop offset="100%" stop-color="#080F1E"/>
     </linearGradient>
   </defs>
-
-  <rect x="1" y="1" width="1198" height="298" rx="10" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="1198" height="346" rx="10" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
   <rect x="1" y="1" width="1198" height="38" rx="10" fill="#0A1326"/>
   <rect x="1" y="38" width="1198" height="1" fill="#1B2A47"/>
   
@@ -65,13 +63,23 @@
     <text x="305" y="26" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">Hardware-accelerated 3D keyframe canvas transformation simulating geometric polygon surfaces with React state orchestration.</text>
   </g>
 
-  <!-- Row 5: Bugatti & Harley-Davidson -->
+  <!-- Row 5: Bugatti -->
   <g transform="translate(16, 240)">
     <rect width="1168" height="42" rx="6" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
     <rect x="0" y="0" width="4" height="42" rx="2" fill="#E2B86E"/>
-    <text x="16" y="26" fill="#E2B86E" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">Bugatti &amp; Harley-Davidson</text>
-    <rect x="220" y="12" width="120" height="18" rx="4" fill="#1B2A47"/>
-    <text x="280" y="25" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">CSS3 MATRICES</text>
-    <text x="355" y="26" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">Precision CSS3 spatial coordinate matrices demonstrating pure visual kinetic motion styling without heavy 3D engine overhead.</text>
+    <text x="16" y="26" fill="#E2B86E" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">Bugatti</text>
+    <rect x="120" y="12" width="100" height="18" rx="4" fill="#1B2A47"/>
+    <text x="170" y="25" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">CSS3 3D</text>
+    <text x="235" y="26" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">Pure CSS3 spatial coordinate matrices and compound 3D perspective depth without external 3D libraries.</text>
+  </g>
+
+  <!-- Row 6: Harley-Davidson -->
+  <g transform="translate(16, 288)">
+    <rect width="1168" height="42" rx="6" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="4" height="42" rx="2" fill="#38BDF8"/>
+    <text x="16" y="26" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="700">Harley-Davidson</text>
+    <rect x="160" y="12" width="110" height="18" rx="4" fill="#1B2A47"/>
+    <text x="215" y="25" text-anchor="middle" fill="#94A3B8" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">3D MOTION</text>
+    <text x="285" y="26" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">Interactive 3D motorcycle kinematics, compound perspective transforms, and keyframe state engine in React.</text>
   </g>
 </svg>
