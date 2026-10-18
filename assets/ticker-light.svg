@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 38" width="1200" height="38" role="img" aria-label="Live Telemetry: AI Powered SaaS, Cognitive UX, and Modern Web Architecture (Light Mode)">
+  <defs>
+    <linearGradient id="tickerBgLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#F8FAFC"/>
+      <stop offset="50%" stop-color="#F1F5F9"/>
+      <stop offset="75%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="topGlintLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beamLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .beacon-light { animation: pulseGreenLight 1.8s ease-in-out infinite; }
+    .stream-light { font-family: 'Inter', 'Segoe UI', -apple-system, sans-serif; font-size: 11.5px; font-weight: 700; letter-spacing: 1.2px; opacity: 0; animation: rotateCycleLight 12s ease-in-out infinite; }
+    .s1-light { animation-delay: 0s; }
+    .s2-light { animation-delay: 4s; }
+    .s3-light { animation-delay: 8s; }
+    .glint-beam-light { animation: scanTrackLight 6s ease-in-out infinite; }
+    
+    @keyframes pulseGreenLight {
+      0%, 100% { opacity: 0.7; r: 3.5; }
+      50% { opacity: 1; r: 4.5; filter: drop-shadow(0 0 3px #059669); }
+    }
+    @keyframes rotateCycleLight {
+      0% { opacity: 0; transform: translateY(5px); }
+      5% { opacity: 1; transform: translateY(0); }
+      30% { opacity: 1; transform: translateY(0); }
+      35% { opacity: 0; transform: translateY(-5px); }
+      100% { opacity: 0; transform: translateY(-5px); }
+    }
+    @keyframes scanTrackLight {
+      0% { transform: translateX(-200px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1240px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .stream-light { animation: none; opacity: 0; }
+      .s1-light { opacity: 1; }
+      .glint-beam-light { animation: none; opacity: 0; }
+      .beacon-light { animation: none; }
+    }
+  </style>
+
+  <!-- Porcelain Glass Chassis with Slate Border -->
+  <rect x="0.5" y="0.5" width="1199" height="37" rx="6" fill="url(#tickerBgLight)" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="60" y1="0.5" x2="1140" y2="0.5" stroke="url(#topGlintLight)" stroke-width="1.2"/>
+  <rect class="glint-beam-light" x="0" y="0.5" width="140" height="1.5" rx="0.75" fill="url(#beamLight)"/>
+
+  <!-- Left Zone (0..255): Live Production Status -->
+  <circle class="beacon-light" cx="22" cy="19" r="3.8" fill="#059669"/>
+  <text x="34" y="23" fill="#059669" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">STATUS: PRODUCTION ACTIVE</text>
+  <line x1="255" y1="8" x2="255" y2="30" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Center Zone (255..945): Animated Capabilities Stream -->
+  <g text-anchor="middle">
+    <text class="stream-light s1-light" x="600" y="23.5" fill="#0F172A">
+      AI POWERED SAAS <tspan fill="#B45309">•</tspan> COGNITIVE UX <tspan fill="#B45309">•</tspan> MODERN WEB ARCHITECTURE
+    </text>
+    <text class="stream-light s2-light" x="600" y="23.5" fill="#0F172A">
+      NEXT.JS APP ROUTER <tspan fill="#2563EB">•</tspan> EDGE COMPUTE <tspan fill="#2563EB">•</tspan> CLIENT SIDE WASM
+    </text>
+    <text class="stream-light s3-light" x="600" y="23.5" fill="#0F172A">
+      AUTONOMOUS AI AGENTS <tspan fill="#B45309">•</tspan> VECTOR PIPELINES <tspan fill="#B45309">•</tspan> DISTRIBUTED SYSTEMS
+    </text>
+  </g>
+
+  <!-- Right Zone (945..1200): Edge Latency Metric -->
+  <line x1="945" y1="8" x2="945" y2="30" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="968" cy="19" r="3" fill="#B45309"/>
+  <text x="1180" y="23" text-anchor="end" fill="#B45309" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">GLOBAL EDGE : 12ms LATENCY</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="1200" height="36" role="img" aria-label="Production Telemetry Console (Light Mode)">
+  <defs>
+    <linearGradient id="ribbonBgLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="topGlintLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#B45309" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scanLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .beacon-light { animation: pulseGreenLight 1.8s ease-in-out infinite; }
+    .glint-light { animation: scanTrackLight 5s ease-in-out infinite; }
+    @keyframes pulseGreenLight {
+      0%, 100% { opacity: 0.7; r: 3.5; }
+      50% { opacity: 1; r: 4.5; filter: drop-shadow(0 0 3px #059669); }
+    }
+    @keyframes scanTrackLight {
+      0% { transform: translateX(-200px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1260px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .glint-light { animation: none; opacity: 0; }
+      .beacon-light { animation: none; }
+    }
+  </style>
+
+  <!-- Base Porcelain Chassis -->
+  <rect x="0.5" y="0.5" width="1199" height="35" rx="6" fill="url(#ribbonBgLight)" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="60" y1="0.5" x2="1140" y2="0.5" stroke="url(#topGlintLight)" stroke-width="1.2"/>
+  <rect class="glint-light" x="0" y="0.5" width="120" height="1.5" rx="0.75" fill="url(#scanLight)"/>
+
+  <!-- Zone 1 (Left 0..400): Live Telemetry Sync -->
+  <circle class="beacon-light" cx="62" cy="18" r="4" fill="#059669"/>
+  <text x="76" y="21.5" fill="#059669" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">TELEMETRY SYNC : ACTIVE • EDGE HEALTHY</text>
+
+  <!-- Divider 1 -->
+  <line x1="400" y1="7" x2="400" y2="29" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Zone 2 (Center 400..800): Architecture Grade -->
+  <g transform="translate(476, 18)">
+    <polygon points="0,-6 6,0 0,6 -6,0" stroke="#1D4ED8" stroke-width="1.4" fill="#EFF6FF"/>
+    <circle cx="0" cy="0" r="1.5" fill="#1D4ED8"/>
+  </g>
+  <text x="490" y="21.5" fill="#1D4ED8" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">ARCHITECTURE : PRODUCTION GRADE</text>
+
+  <!-- Divider 2 -->
+  <line x1="800" y1="7" x2="800" y2="29" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Zone 3 (Right 800..1200): Executive Role -->
+  <g transform="translate(850, 18)">
+    <polygon points="0,-6 1.8,-1.8 6.5,-1.8 2.8,1.2 4.2,6 0,3 -4.2,6 -2.8,1.2 -6.5,-1.8 -1.8,-1.8" fill="#B45309"/>
+  </g>
+  <text x="864" y="21.5" fill="#B45309" font-family="'Consolas', 'DejaVu Sans Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.5px">EXECUTIVE ROLE : FOUNDER &amp; LEAD ARCHITECT</text>
+</svg>
