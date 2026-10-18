@@ -29,7 +29,7 @@
 <img src="assets/about-3d.webp" alt="About Tayyab Ali (CodeWithDeved): Engineering Philosophy, Live Telemetry, and Architecture Capabilities." width="100%">
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Tayyab Ali on LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0077B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8%2BPC9zdmc%2B" alt="Connect with Tayyab Ali on LinkedIn"></a>
   <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS%20STUDIO-C9A45C?style=for-the-badge&logo=googlechrome&logoColor=0B1426" alt="Visit Vibeans Solutions Studio"></a>
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20PORTFOLIO-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Browse Portfolio on GitHub"></a>
 </div>
@@ -374,7 +374,7 @@
         <img src="assets/connect/card-linkedin.webp" alt="Connect on LinkedIn" width="100%">
       </a>
       <br><br>
-      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect with Tayyab Ali on LinkedIn"></a>
+      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0077B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8%2BPC9zdmc%2B" alt="Connect with Tayyab Ali on LinkedIn"></a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://www.vibeanssolutions.site/">
@@ -402,14 +402,18 @@
   </tr>
 </table>
 
+<br><br>
+
 <div align="center">
   <p align="center">
-    <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="Tayyab Ali on LinkedIn"></a>
-    <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Vibeans Solutions website"></a>
+    <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/LINKEDIN-0B1426?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBhNjZjMiI%2BPHBhdGggZD0iTTE5IDBoLTE0Yy0yLjc2MSAwLTUgMi4yMzktNSA1djE0YzAgMi43NjEgMi4yMzkgNSA1IDVoMTRjMi43NjIgMCA1LTIuMjM5IDUtNXYtMTRjMC0yLjc2MS0yLjIzOC01LTUtNXptLTExIDE5aC0zdi0xMWgzdjExc20tMS41LTEyLjI2OGMtLjk2NiAwLTEuNzUtLjc5LTEuNzUtMS43NjRzLjc4NC0xLjc2NCAxLjc1LTEuNzY0IDEuNzUuNzkgMS43NSAxLjc2NC0uNzgzIDEuNzY0LTEuNzUgMS43NjR6bTEzLjUgMTIuMjY4aC0zdi01LjYwNGMwLTMuMzY4LTQtMy4xMTMtNCAwdjUuNjA0aC0zdi0xMWgzdjEuNzY1YzEuMzk2LTIuNTg2IDctMi43NzcgNyAyLjQ3NnY2Ljc1OXoiLz48L3N2Zz4=" alt="Tayyab Ali on LinkedIn"></a>
+    <a href="https://www.linkedin.com/company/vibeanssolutions/"><img src="https://img.shields.io/badge/COMPANY%20LINKEDIN-0B1426?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2M5YTQ1YyI%2BPHBhdGggZD0iTTE5IDBoLTE0Yy0yLjc2MSAwLTUgMi4yMzktNSA1djE0YzAgMi43NjEgMi4yMzkgNSA1IDVoMTRjMi43NjIgMCA1LTIuMjM5IDUtNXYtMTRjMC0yLjc2MS0yLjIzOC01LTUtNXptLTExIDE5aC0zdi0xMWgzdjExc20tMS41LTEyLjI2OGMtLjk2NiAwLTEuNzUtLjc5LTEuNzUtMS43NjRzLjc4NC0xLjc2NCAxLjc1LTEuNzY0IDEuNzUuNzkgMS43NSAxLjc2NC0uNzgzIDEuNzY0LTEuNzUgMS43NjR6bTEzLjUgMTIuMjY4aC0zdi01LjYwNGMwLTMuMzY4LTQtMy4xMTMtNCAwdjUuNjA0aC0zdi0xMWgzdjEuNzY1YzEuMzk2LTIuNTg2IDctMi43NzcgNyAyLjQ3NnY2Ljc1OXoiLz48L3N2Zz4=" alt="Vibeans Solutions on LinkedIn"></a>
     <a href="https://github.com/codewithdeved"><img src="https://img.shields.io/badge/GITHUB-0B1426?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub: codewithdeved"></a>
-    <a href="https://www.linkedin.com/company/vibeanssolutions/"><img src="https://img.shields.io/badge/COMPANY%20LINKEDIN-0B1426?style=for-the-badge&logo=linkedin&logoColor=C9A45C" alt="Vibeans Solutions on LinkedIn"></a>
+    <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS-0B1426?style=for-the-badge&logo=googlechrome&logoColor=C9A45C" alt="Vibeans Solutions website"></a>
+    <br><br>
     <a href="https://www.youtube.com/@tech-solutions-coded"><img src="https://img.shields.io/badge/YOUTUBE-0B1426?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="YouTube: tech-solutions-coded"></a>
     <a href="https://www.instagram.com/codewithdeved"><img src="https://img.shields.io/badge/INSTAGRAM-0B1426?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram: codewithdeved"></a>
+    <a href="https://www.instagram.com/vibeanssolutions/"><img src="https://img.shields.io/badge/COMPANY%20INSTAGRAM-0B1426?style=for-the-badge&logo=instagram&logoColor=C9A45C" alt="Vibeans Solutions on Instagram"></a>
     <a href="https://www.facebook.com/codewithdeved"><img src="https://img.shields.io/badge/FACEBOOK-0B1426?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook: codewithdeved"></a>
   </p>
   <br>
