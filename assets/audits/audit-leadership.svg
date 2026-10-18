@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="Executive Leadership &amp; Architectural Highlights">
+  
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070D1E"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1E2D4A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="innerCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1329"/>
+      <stop offset="100%" stop-color="#060A16"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="238" rx="10" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="1198" height="38" rx="10" fill="#0A1326"/>
+  <rect x="1" y="38" width="1198" height="1" fill="#1B2A47"/>
+  
+  <circle cx="24" cy="20" r="4" fill="#10B981"/>
+  <text x="36" y="24" fill="#38BDF8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">⚡ EXECUTIVE LEADERSHIP &amp; ARCHITECTURAL HIGHLIGHTS</text>
+  <text x="1176" y="24" text-anchor="end" fill="#94A3B8" font-family="'SF Mono', 'Segoe UI Mono', monospace" font-size="11" font-weight="600">AUDIT VERIFIED • UTC+5</text>
+  <line x1="970" y1="20" x2="1030" y2="20" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Pillar 1 -->
+  <g transform="translate(16, 52)">
+    <rect width="376" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="376" height="3" rx="1.5" fill="#C9A45C"/>
+    <rect x="16" y="16" width="160" height="20" rx="4" fill="#1B2A47" fill-opacity="0.6"/>
+    <text x="24" y="30" fill="#C9A45C" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="1">FOUNDER &amp; ARCHITECT</text>
+    <text x="16" y="60" fill="#FFFFFF" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" font-weight="700">Executive Leadership</text>
+    <text x="16" y="86" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12.5">
+      <tspan x="16" dy="0">Founder and Lead Architect at Vibeans Solutions,</tspan>
+      <tspan x="16" dy="20">directing high-velocity cross-functional teams</tspan>
+      <tspan x="16" dy="20">across production client platforms and AI</tspan>
+      <tspan x="16" dy="20">systems architectures.</tspan>
+    </text>
+  </g>
+
+  <!-- Pillar 2 -->
+  <g transform="translate(412, 52)">
+    <rect width="376" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="376" height="3" rx="1.5" fill="#38BDF8"/>
+    <rect x="16" y="16" width="168" height="20" rx="4" fill="#1B2A47" fill-opacity="0.6"/>
+    <text x="24" y="30" fill="#38BDF8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="1">COGNITIVE ERGONOMICS</text>
+    <text x="16" y="60" fill="#FFFFFF" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" font-weight="700">Engineering Philosophy</text>
+    <text x="16" y="86" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12.5">
+      <tspan x="16" dy="0">Bridging computational rigor with cognitive</tspan>
+      <tspan x="16" dy="20">ergonomics to construct digital products that</tspan>
+      <tspan x="16" dy="20">deliver high speed, zero latency, and verified</tspan>
+      <tspan x="16" dy="20">interaction clarity.</tspan>
+    </text>
+  </g>
+
+  <!-- Pillar 3 -->
+  <g transform="translate(808, 52)">
+    <rect width="376" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="376" height="3" rx="1.5" fill="#10B981"/>
+    <rect x="16" y="16" width="160" height="20" rx="4" fill="#1B2A47" fill-opacity="0.6"/>
+    <text x="24" y="30" fill="#10B981" font-family="'Segoe UI', -apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="1">LIFECYCLE TOPOLOGY</text>
+    <text x="16" y="60" fill="#FFFFFF" font-family="'Segoe UI', -apple-system, sans-serif" font-size="15" font-weight="700">System Governance</text>
+    <text x="16" y="86" fill="#94A3B8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12.5">
+      <tspan x="16" dy="0">End-to-end lifecycle leadership spanning</tspan>
+      <tspan x="16" dy="20">system topology design, edge deployment</tspan>
+      <tspan x="16" dy="20">pipelines, database optimization, and cloud</tspan>
+      <tspan x="16" dy="20">cost management.</tspan>
+    </text>
+  </g>
+</svg>

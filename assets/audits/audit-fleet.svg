@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Production Fleet Architecture &amp; Pipeline Specs">
+  
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070D1E"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1E2D4A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="innerCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1329"/>
+      <stop offset="100%" stop-color="#060A16"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="358" rx="10" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="1198" height="38" rx="10" fill="#0A1326"/>
+  <rect x="1" y="38" width="1198" height="1" fill="#1B2A47"/>
+  
+  <circle cx="24" cy="20" r="4" fill="#10B981"/>
+  <text x="36" y="24" fill="#38BDF8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">⚡ PRODUCTION FLEET ARCHITECTURE &amp; PIPELINE SPECS</text>
+  <text x="1176" y="24" text-anchor="end" fill="#94A3B8" font-family="'SF Mono', 'Segoe UI Mono', monospace" font-size="11" font-weight="600">4 PLATFORMS ONLINE • EDGE CACHED</text>
+  <line x1="880" y1="20" x2="940" y2="20" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Row 1, Col 1: Creaite Hive (x=16, y=52, w=574, h=142) -->
+  <g transform="translate(16, 52)">
+    <rect width="574" height="142" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="574" height="3" rx="1.5" fill="#2563EB"/>
+    
+    <text x="16" y="26" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Creaite Hive • AI Architectural Suite</text>
+    <rect x="420" y="12" width="138" height="18" rx="4" fill="#1B2A47"/>
+    <text x="489" y="25" text-anchor="middle" fill="#38BDF8" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">DIFFUSION BRIDGE</text>
+    
+    <text x="16" y="54" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#38BDF8" font-weight="700">• Core Engine: </tspan>Next.js 14 App Router, WebGL Viewport, Diffusion Inference Bridge
+    </text>
+    <text x="16" y="82" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#38BDF8" font-weight="700">• Pipeline: </tspan>Sub-80ms prompt synthesis, SVG vectorization, and layered CAD export models
+    </text>
+    <text x="16" y="110" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#38BDF8" font-weight="700">• Edge Delivery: </tspan>Global edge caching with low-latency streaming asset delivery across distributed zones
+    </text>
+  </g>
+
+  <!-- Row 1, Col 2: DocBrio (x=610, y=52, w=574, h=142) -->
+  <g transform="translate(610, 52)">
+    <rect width="574" height="142" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="574" height="3" rx="1.5" fill="#38BDF8"/>
+    
+    <text x="16" y="26" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">DocBrio • Client-Side Document Toolkit</text>
+    <rect x="420" y="12" width="138" height="18" rx="4" fill="#1B2A47"/>
+    <text x="489" y="25" text-anchor="middle" fill="#10B981" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">WASM SANDBOX</text>
+    
+    <text x="16" y="54" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#10B981" font-weight="700">• Privacy Model: </tspan>100% Client-Side Execution (Zero bytes transmitted to external servers)
+    </text>
+    <text x="16" y="82" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#10B981" font-weight="700">• Wasm Core: </tspan>High-throughput WebAssembly binary compiler for memory-safe PDF manipulation
+    </text>
+    <text x="16" y="110" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#10B981" font-weight="700">• Throughput: </tspan>Multi-threaded in-memory compression with instant local buffer downloads
+    </text>
+  </g>
+
+  <!-- Row 2, Col 1: Leadster.io (x=16, y=204, w=574, h=142) -->
+  <g transform="translate(16, 204)">
+    <rect width="574" height="142" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="574" height="3" rx="1.5" fill="#C9A45C"/>
+    
+    <text x="16" y="26" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Leadster.io • Conversational B2B Discovery</text>
+    <rect x="420" y="12" width="138" height="18" rx="4" fill="#1B2A47"/>
+    <text x="489" y="25" text-anchor="middle" fill="#C9A45C" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">SMTP HANDSHAKE</text>
+    
+    <text x="16" y="54" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#C9A45C" font-weight="700">• Intelligence Core: </tspan>Conversational intent classification and multi-provider search orchestration
+    </text>
+    <text x="16" y="82" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#C9A45C" font-weight="700">• Data Validation: </tspan>Real-time SMTP handshake and domain MX record verification checks
+    </text>
+    <text x="16" y="110" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#C9A45C" font-weight="700">• Export Pipeline: </tspan>Dynamic schema mapper for CRM integrations and streamed CSV export
+    </text>
+  </g>
+
+  <!-- Row 2, Col 2: PakMilkiyat (x=610, y=204, w=574, h=142) -->
+  <g transform="translate(610, 204)">
+    <rect width="574" height="142" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="574" height="3" rx="1.5" fill="#10B981"/>
+    
+    <text x="16" y="26" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">PakMilkiyat • Spatial PropTech Portal</text>
+    <rect x="420" y="12" width="138" height="18" rx="4" fill="#1B2A47"/>
+    <text x="489" y="25" text-anchor="middle" fill="#38BDF8" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="600">GEO-SPATIAL &lt;50MS</text>
+    
+    <text x="16" y="54" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#38BDF8" font-weight="700">• Search Topology: </tspan>Multi-parameter property indexing with sub-50ms geo-spatial query response times
+    </text>
+    <text x="16" y="82" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#38BDF8" font-weight="700">• Interface Engine: </tspan>Dynamic map layer synchronization, faceted price filters, and responsive galleries
+    </text>
+    <text x="16" y="110" fill="#E2E8F0" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan fill="#38BDF8" font-weight="700">• Security Architecture: </tspan>Encrypted inquiry routing and verified broker authentication protocols
+    </text>
+  </g>
+</svg>

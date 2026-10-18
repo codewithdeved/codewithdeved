@@ -34,25 +34,7 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20PORTFOLIO-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Browse Portfolio on GitHub"></a>
 </div>
 
-<br>
-
-<details>
-  <summary><b>⚡ VIEW EXECUTIVE LEADERSHIP &amp; ARCHITECTURAL HIGHLIGHTS</b></summary>
-  <table width="100%">
-    <tr>
-      <td width="28%"><b>Executive Leadership</b></td>
-      <td>Founder and Lead Architect at Vibeans Solutions, directing high-velocity cross-functional teams across production client platforms.</td>
-    </tr>
-    <tr>
-      <td width="28%"><b>Engineering Philosophy</b></td>
-      <td>Bridging computational rigor with cognitive ergonomics to construct digital products that deliver high speed, zero latency, and clarity.</td>
-    </tr>
-    <tr>
-      <td width="28%"><b>System Governance</b></td>
-      <td>End-to-end lifecycle leadership spanning system topology design, edge deployment pipelines, database optimization, and cloud cost management.</td>
-    </tr>
-  </table>
-</details>
+<img src="assets/audits/audit-leadership.webp" alt="Executive Leadership and Architectural Highlights: Founder and Lead Architect at Vibeans Solutions" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -115,45 +97,7 @@
   </tr>
 </table>
 
-<br>
-
-<details>
-  <summary><b>⚡ VIEW PRODUCTION FLEET ARCHITECTURE &amp; PIPELINE SPECS</b></summary>
-  <table width="100%">
-    <tr>
-      <td width="28%"><b>Creaite Hive</b><br><sub>AI Architectural Design Suite</sub></td>
-      <td>
-        • <b>Core Engine:</b> Next.js 14 App Router, WebGL Viewport, Diffusion Inference Bridge.<br>
-        • <b>Rendering Pipeline:</b> Sub-80ms prompt synthesis, SVG vectorization, and layered CAD export models.<br>
-        • <b>Edge Delivery:</b> Global edge caching with low-latency streaming asset delivery across distributed zones.
-      </td>
-    </tr>
-    <tr>
-      <td width="28%"><b>DocBrio</b><br><sub>Client-Side Document Toolkit</sub></td>
-      <td>
-        • <b>Privacy Model:</b> 100% Client-Side Execution (Zero bytes transmitted to external servers).<br>
-        • <b>Wasm Core:</b> High-throughput WebAssembly binary compiler for memory-safe PDF transformation.<br>
-        • <b>Throughput:</b> Multi-threaded in-memory compression with instant local buffer downloads.
-      </td>
-    </tr>
-    <tr>
-      <td width="28%"><b>Leadster.io</b><br><sub>Conversational B2B Discovery</sub></td>
-      <td>
-        • <b>Intelligence Core:</b> Conversational intent classification and multi-provider search orchestration.<br>
-        • <b>Data Validation:</b> Real-time SMTP handshake and domain MX record verification checks.<br>
-        • <b>Export Pipeline:</b> Dynamic schema mapper for CRM integrations and streamed CSV export.
-      </td>
-    </tr>
-    <tr>
-      <td width="28%"><b>PakMilkiyat</b><br><sub>Spatial PropTech Portal</sub></td>
-      <td>
-        • <b>Search Topology:</b> Multi-parameter property indexing with sub-50ms geo-spatial query response times.<br>
-        • <b>Interface Engine:</b> Dynamic map layer synchronization, faceted price filters, and responsive galleries.<br>
-        • <b>Security Architecture:</b> Encrypted inquiry routing and verified broker authentication protocols.
-      </td>
-    </tr>
-  </table>
-</details>
+<img src="assets/audits/audit-fleet.webp" alt="Production Fleet Architecture and Pipeline Specs for Creaite Hive, DocBrio, Leadster.io, and PakMilkiyat" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -169,29 +113,7 @@
   <a href="#tech-stack"><img src="https://img.shields.io/badge/INSPECT%20TECH%20STACK-0B1426?style=for-the-badge&logo=codewars&logoColor=3B82F6" alt="Inspect Tech Stack"></a>
 </div>
 
-<br>
-
-<details>
-  <summary><b>⚡ VIEW SYSTEM DESIGN AUDIT &amp; CAPABILITY MATRIX</b></summary>
-  <table width="100%">
-    <tr>
-      <td width="25%"><b>Generative AI</b></td>
-      <td>Autonomous Agent orchestration, LangChain/LlamaIndex pipelines, prompt evaluation benchmarks, vector retrieval.</td>
-    </tr>
-    <tr>
-      <td width="25%"><b>Full Stack SaaS</b></td>
-      <td>Multi-tenant architectures, PostgreSQL / Supabase schemas, edge serverless handlers, Redis caching layers.</td>
-    </tr>
-    <tr>
-      <td width="25%"><b>Cognitive UX</b></td>
-      <td>Sub-16ms interaction loops, accessibility heuristics, dark glassmorphism, mathematical typography scales.</td>
-    </tr>
-    <tr>
-      <td width="25%"><b>FinTech Systems</b></td>
-      <td>Idempotent payment webhooks, ledger transaction integrity, zero-trust auth, PCI DSS compliance workflows.</td>
-    </tr>
-  </table>
-</details>
+<img src="assets/audits/audit-capabilities.webp" alt="System Design Audit and Capability Matrix: Generative AI, Full Stack SaaS, Cognitive UX, and FinTech Systems" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -260,33 +182,7 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20ALL%20REPOSITORIES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Browse all repositories on GitHub"></a>
 </div>
 
-<br>
-
-<details>
-  <summary><b>⚡ VIEW OPEN SOURCE CODEBASE AUDIT &amp; ARCHITECTURAL TAXONOMY</b></summary>
-  <table width="100%">
-    <tr>
-      <td width="30%"><b>AssistAI</b></td>
-      <td>Next-generation web conversational agent interface featuring fluid markdown streaming and session memory.</td>
-    </tr>
-    <tr>
-      <td width="30%"><b>Course-Management-System</b></td>
-      <td>Desktop enterprise education architecture with transactional role enforcement and local DB synchronization.</td>
-    </tr>
-    <tr>
-      <td width="30%"><b>Employee-Information-System-EIS</b></td>
-      <td>Relational personnel operations registry featuring audit logging, payroll models, and search indexes.</td>
-    </tr>
-    <tr>
-      <td width="30%"><b>Tesla-Cyber-Truck</b></td>
-      <td>Hardware-accelerated 3D keyframe canvas transformation simulating geometric polygon surfaces.</td>
-    </tr>
-    <tr>
-      <td width="30%"><b>Bugatti &amp; Harley-Davidson</b></td>
-      <td>Precision CSS3 spatial coordinate matrices demonstrating pure visual styling without heavy 3D engine overhead.</td>
-    </tr>
-  </table>
-</details>
+<img src="assets/audits/audit-codebases.webp" alt="Open Source Codebase Audit and Architectural Taxonomy: AssistAI, Course Management System, EIS, Tesla Cyber Truck, Bugatti, Harley Davidson" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -296,29 +192,7 @@
 
 <img src="assets/tech-stack-3d.webp" alt="Technology Stack and Core Tooling Matrix" width="100%">
 
-<br>
-
-<details>
-  <summary><b>⚡ VIEW COMPREHENSIVE TECHNOLOGY AUDIT &amp; RUNTIME MATRIX</b></summary>
-  <table width="100%">
-    <tr>
-      <td width="25%"><b>Frontend &amp; UI Runtimes</b></td>
-      <td>Next.js 14/15 App Router, React 18/19, TypeScript 5, Tailwind CSS, WebGL / Three.js, Canvas API, Responsive Viewports.</td>
-    </tr>
-    <tr>
-      <td width="25%"><b>Backend &amp; Cloud Topology</b></td>
-      <td>Node.js, Python 3.11+, Fastify, Express, PostgreSQL, Supabase, Redis In-Memory Caching, RESTful &amp; GraphQL APIs.</td>
-    </tr>
-    <tr>
-      <td width="25%"><b>AI &amp; Cognitive Workflows</b></td>
-      <td>Autonomous Agents, LangChain, LlamaIndex, Vector Database Indexing, Prompt Synthesis, Diffusion Model Pipelines.</td>
-    </tr>
-    <tr>
-      <td width="25%"><b>DevOps &amp; Infrastructure</b></td>
-      <td>Vercel Edge Platform, Docker Containerization, GitHub Actions CI/CD Automation, Linux System Administration, Git VCS.</td>
-    </tr>
-  </table>
-</details>
+<img src="assets/audits/audit-runtime.webp" alt="Comprehensive Technology Audit and Runtime Matrix: Frontend, Backend, AI Workflows, DevOps Infrastructure" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -339,25 +213,7 @@
   </tr>
 </table>
 
-<br>
-
-<details>
-  <summary><b>⚡ VIEW TELEMETRY DATA PIPELINE &amp; SYNC SPECIFICATIONS</b></summary>
-  <table width="100%">
-    <tr>
-      <td width="28%"><b>Sync Cadence</b></td>
-      <td>Automated GitHub Actions cron schedule triggering every 12 hours for continuous edge synchronization.</td>
-    </tr>
-    <tr>
-      <td width="28%"><b>Telemetry Verification</b></td>
-      <td>Automated AST and XML validation ensuring zero syntax errors and optimal asset compression standards.</td>
-    </tr>
-    <tr>
-      <td width="28%"><b>Data Source Integrity</b></td>
-      <td>Real-time aggregation across public repositories, contribution streaks, commit activity, and language matrices.</td>
-    </tr>
-  </table>
-</details>
+<img src="assets/audits/audit-telemetry.webp" alt="Telemetry Data Pipeline and Sync Specifications: Automated Edge Sync, AST Validation, Public Data Streams" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 

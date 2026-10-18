@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="System Design Audit &amp; Capability Matrix">
+  
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070D1E"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#1E2D4A" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="innerCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1329"/>
+      <stop offset="100%" stop-color="#060A16"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="238" rx="10" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+  <rect x="1" y="1" width="1198" height="38" rx="10" fill="#0A1326"/>
+  <rect x="1" y="38" width="1198" height="1" fill="#1B2A47"/>
+  
+  <circle cx="24" cy="20" r="4" fill="#10B981"/>
+  <text x="36" y="24" fill="#38BDF8" font-family="'Segoe UI', -apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">⚡ SYSTEM DESIGN AUDIT &amp; CAPABILITY MATRIX</text>
+  <text x="1176" y="24" text-anchor="end" fill="#94A3B8" font-family="'SF Mono', 'Segoe UI Mono', monospace" font-size="11" font-weight="600">4 CLUSTERS EVALUATED</text>
+  <line x1="930" y1="20" x2="990" y2="20" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Col 1: Generative AI (w=280) -->
+  <g transform="translate(16, 52)">
+    <rect width="280" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#38BDF8"/>
+    <rect x="14" y="14" width="130" height="18" rx="4" fill="#1B2A47"/>
+    <text x="20" y="27" fill="#38BDF8" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="700">AGENTIC RAG</text>
+    <text x="14" y="54" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Generative AI</text>
+    <text x="14" y="78" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan x="14" dy="0">Autonomous Agent</tspan>
+      <tspan x="14" dy="18">orchestration, LangChain &amp;</tspan>
+      <tspan x="14" dy="18">LlamaIndex pipelines, prompt</tspan>
+      <tspan x="14" dy="18">evaluation benchmarks, and</tspan>
+      <tspan x="14" dy="18">vector retrieval architectures.</tspan>
+    </text>
+  </g>
+
+  <!-- Col 2: Full Stack SaaS (w=280) -->
+  <g transform="translate(308, 52)">
+    <rect width="280" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#C9A45C"/>
+    <rect x="14" y="14" width="130" height="18" rx="4" fill="#1B2A47"/>
+    <text x="20" y="27" fill="#C9A45C" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="700">MULTI-TENANT</text>
+    <text x="14" y="54" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Full Stack SaaS</text>
+    <text x="14" y="78" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan x="14" dy="0">Multi-tenant topologies,</tspan>
+      <tspan x="14" dy="18">PostgreSQL and Supabase</tspan>
+      <tspan x="14" dy="18">schemas, edge serverless</tspan>
+      <tspan x="14" dy="18">handlers, and Redis caching</tspan>
+      <tspan x="14" dy="18">in-memory layers.</tspan>
+    </text>
+  </g>
+
+  <!-- Col 3: Cognitive UX (w=280) -->
+  <g transform="translate(600, 52)">
+    <rect width="280" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="280" height="3" rx="1.5" fill="#10B981"/>
+    <rect x="14" y="14" width="130" height="18" rx="4" fill="#1B2A47"/>
+    <text x="20" y="27" fill="#10B981" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="700">SUB-16MS LOOPS</text>
+    <text x="14" y="54" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">Cognitive UX</text>
+    <text x="14" y="78" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan x="14" dy="0">Sub-16ms interaction loops,</tspan>
+      <tspan x="14" dy="18">accessibility heuristics, dark</tspan>
+      <tspan x="14" dy="18">glassmorphism aesthetics, and</tspan>
+      <tspan x="14" dy="18">mathematical typography</tspan>
+      <tspan x="14" dy="18">scale systems.</tspan>
+    </text>
+  </g>
+
+  <!-- Col 4: FinTech Systems (w=280) -->
+  <g transform="translate(892, 52)">
+    <rect width="292" height="172" rx="8" fill="url(#innerCard)" stroke="#1B2A47" stroke-width="1"/>
+    <rect x="0" y="0" width="292" height="3" rx="1.5" fill="#60A5FA"/>
+    <rect x="14" y="14" width="130" height="18" rx="4" fill="#1B2A47"/>
+    <text x="20" y="27" fill="#60A5FA" font-family="'Segoe UI Mono', monospace" font-size="10" font-weight="700">ZERO-TRUST</text>
+    <text x="14" y="54" fill="#FFFFFF" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">FinTech Systems</text>
+    <text x="14" y="78" fill="#94A3B8" font-family="'Segoe UI', sans-serif" font-size="12">
+      <tspan x="14" dy="0">Idempotent payment webhooks,</tspan>
+      <tspan x="14" dy="18">ledger transaction integrity,</tspan>
+      <tspan x="14" dy="18">zero-trust authentication, and</tspan>
+      <tspan x="14" dy="18">PCI DSS compliance</tspan>
+      <tspan x="14" dy="18">defensive workflows.</tspan>
+    </text>
+  </g>
+</svg>
