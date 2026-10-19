@@ -20,7 +20,7 @@
 
 <br>
 
-<img src="assets/terminal.svg" alt="Live Interactive Architecture CLI Terminal" width="100%">
+<img src="assets/terminal.webp" alt="Live Interactive Architecture CLI Terminal" width="100%">
 
 </div>
 
@@ -28,7 +28,7 @@
 
 <a id="about" name="about"></a>
 
-<img src="assets/headers/header-about.svg" alt="About &amp; Engineering Philosophy" width="100%">
+<img src="assets/headers/header-about.webp" alt="About &amp; Engineering Philosophy" width="100%">
 
 <img src="assets/about-3d.webp" alt="About Tayyab Ali (CodeWithDeved): Engineering Philosophy, Live Telemetry, and Architecture Capabilities." width="100%">
 
@@ -46,7 +46,7 @@
 
 <a id="featured-products" name="featured-products"></a>
 
-<img src="assets/headers/header-products.svg" alt="Featured Products &amp; SaaS Portfolio" width="100%">
+<img src="assets/headers/header-products.webp" alt="Featured Products &amp; SaaS Portfolio" width="100%">
 
 <img src="assets/products-3d.webp" alt="Production Fleet Telemetry Console: 4 Live Platforms Deployed" width="100%">
 
@@ -111,7 +111,7 @@
 
 <a id="technical-focus" name="technical-focus"></a>
 
-<img src="assets/headers/header-focus.svg" alt="Technical Focus &amp; Capabilities" width="100%">
+<img src="assets/headers/header-focus.webp" alt="Technical Focus &amp; Capabilities" width="100%">
 
 <img src="assets/focus-3d.webp" alt="Technical Focus Areas: Generative AI, Full Stack SaaS, Cognitive UX, and FinTech" width="100%">
 
@@ -123,7 +123,7 @@
 
 <br>
 
-<img src="assets/telemetry-gauges.svg" alt="Quantitative System Telemetry Gauges: 99.98% Uptime, Sub-38ms Latency, 100/100 Code Health" width="100%">
+<img src="assets/telemetry-gauges.webp" alt="Quantitative System Telemetry Gauges: 99.98% Uptime, Sub-38ms Latency, 100/100 Code Health" width="100%">
 
 <br>
 
@@ -133,7 +133,7 @@
 
 <a id="open-source-repositories" name="open-source-repositories"></a>
 
-<img src="assets/headers/header-repos.svg" alt="Open Source Repositories" width="100%">
+<img src="assets/headers/header-repos.webp" alt="Open Source Repositories" width="100%">
 
 <table width="100%">
   <tr>
@@ -204,13 +204,13 @@
 
 <a id="tech-stack" name="tech-stack"></a>
 
-<img src="assets/headers/header-stack.svg" alt="Technology Stack &amp; Core Tooling" width="100%">
+<img src="assets/headers/header-stack.webp" alt="Technology Stack &amp; Core Tooling" width="100%">
 
 <img src="assets/tech-stack-3d.webp" alt="Technology Stack and Core Tooling Matrix" width="100%">
 
 <br>
 
-<img src="assets/architecture-pipeline.svg" alt="Enterprise Architecture Data Pipeline Blueprint: Cognitive Design to Global Edge Cloud" width="100%">
+<img src="assets/architecture-pipeline.webp" alt="Enterprise Architecture Data Pipeline Blueprint: Cognitive Design to Global Edge Cloud" width="100%">
 
 <br>
 
@@ -220,7 +220,7 @@
 
 <a id="languages-activity" name="languages-activity"></a>
 
-<img src="assets/headers/header-activity.svg" alt="Languages &amp; Activity on GitHub" width="100%">
+<img src="assets/headers/header-activity.webp" alt="Languages &amp; Activity on GitHub" width="100%">
 
 <img src="assets/stats-3d.webp" alt="GitHub Activity Telemetry: Live Sync" width="100%">
 
@@ -243,7 +243,7 @@
 
 <a id="connect-collaborate" name="connect-collaborate"></a>
 
-<img src="assets/headers/header-connect.svg" alt="Connect &amp; Collaborate" width="100%">
+<img src="assets/headers/header-connect.webp" alt="Connect &amp; Collaborate" width="100%">
 
 <img src="assets/connect/connect-3d.webp" alt="Open for Ventures and Collaboration status header" width="100%">
 
