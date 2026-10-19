@@ -18,11 +18,13 @@
   <img src="assets/nav/nav-telemetry.svg" width="100%" alt="Production Telemetry Console: Active Edge Sync, Production Grade Architecture, Founder and Lead Architect">
 </a>
 
-<br>
+<br><br>
 
 <img src="assets/terminal.webp" alt="Live Interactive Architecture CLI Terminal" width="100%">
 
 </div>
+
+<br>
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -38,7 +40,7 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20PORTFOLIO-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Browse Portfolio on GitHub"></a>
 </div>
 
-<br>
+<br><br>
 
 <img src="assets/audits/audit-leadership.webp" alt="Executive Leadership and Architectural Highlights: Founder and Lead Architect at Vibeans Solutions" width="100%">
 
@@ -103,7 +105,7 @@
   </tr>
 </table>
 
-<br>
+<br><br>
 
 <img src="assets/audits/audit-fleet.webp" alt="Production Fleet Architecture and Pipeline Specs for Creaite Hive, DocBrio, Leadster.io, and PakMilkiyat" width="100%">
 
@@ -121,11 +123,11 @@
   <a href="#tech-stack"><img src="https://img.shields.io/badge/INSPECT%20TECH%20STACK-0B1426?style=for-the-badge&logo=codewars&logoColor=3B82F6" alt="Inspect Tech Stack"></a>
 </div>
 
-<br>
+<br><br>
 
 <img src="assets/telemetry-gauges.webp" alt="Quantitative System Telemetry Gauges: 99.98% Uptime, Sub-38ms Latency, 100/100 Code Health" width="100%">
 
-<br>
+<br><br>
 
 <img src="assets/audits/audit-capabilities.webp" alt="System Design Audit and Capability Matrix: Generative AI, Full Stack SaaS, Cognitive UX, and FinTech Systems" width="100%">
 
@@ -196,7 +198,7 @@
   <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20ALL%20REPOSITORIES-0B1426?style=for-the-badge&logo=github&logoColor=C9A45C" alt="Browse all repositories on GitHub"></a>
 </div>
 
-<br>
+<br><br>
 
 <img src="assets/audits/audit-codebases.webp" alt="Open Source Codebase Audit and Architectural Taxonomy: AssistAI, Course Management System, EIS, Tesla Cyber Truck, Bugatti, Harley Davidson" width="100%">
 
@@ -208,11 +210,11 @@
 
 <img src="assets/tech-stack-3d.webp" alt="Technology Stack and Core Tooling Matrix" width="100%">
 
-<br>
+<br><br>
 
 <img src="assets/architecture-pipeline.webp" alt="Enterprise Architecture Data Pipeline Blueprint: Cognitive Design to Global Edge Cloud" width="100%">
 
-<br>
+<br><br>
 
 <img src="assets/audits/audit-runtime.webp" alt="Comprehensive Technology Audit and Runtime Matrix: Frontend, Backend, AI Workflows, DevOps Infrastructure" width="100%">
 
@@ -235,7 +237,7 @@
   </tr>
 </table>
 
-<br>
+<br><br>
 
 <img src="assets/audits/audit-telemetry.webp" alt="Telemetry Data Pipeline and Sync Specifications: Automated Edge Sync, AST Validation, Public Data Streams" width="100%">
 
@@ -282,7 +284,7 @@
   </tr>
 </table>
 
-<br>
+<br><br>
 
 <div align="center">
   <p align="center">
@@ -296,6 +298,6 @@
     <a href="https://www.instagram.com/vibeanssolutions/"><img src="https://img.shields.io/badge/COMPANY%20INSTAGRAM-0B1426?style=for-the-badge&logo=instagram&logoColor=C9A45C" alt="Vibeans Solutions on Instagram"></a>
     <a href="https://www.facebook.com/codewithdeved"><img src="https://img.shields.io/badge/FACEBOOK-0B1426?style=for-the-badge&logo=facebook&logoColor=1877F2" alt="Facebook: codewithdeved"></a>
   </p>
-  <br>
+  <br><br>
   <img src="assets/footer-3d.webp" alt="Code times Cognitive Design. CodeWithDeved, Vibeans Solutions, Karachi, Pakistan." width="100%">
 </div>
