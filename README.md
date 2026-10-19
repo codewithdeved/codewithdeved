@@ -17,13 +17,9 @@
 <a href="https://github.com/codewithdeved/codewithdeved/actions">
   <img src="assets/nav/nav-telemetry.svg" width="100%" alt="Production Telemetry Console: Active Edge Sync, Production Grade Architecture, Founder and Lead Architect">
 </a>
-
 <br><br>
-
 <img src="assets/divider.svg" alt="" width="100%">
-
 <br><br>
-
 <img src="assets/terminal.webp" alt="Live Interactive Architecture CLI Terminal" width="100%">
 
 </div>
