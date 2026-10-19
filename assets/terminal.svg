@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 375" width="1200" height="375" role="img" aria-label="Interactive Architecture CLI Terminal">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="100%" stop-color="#081022"/>
+    </linearGradient>
+    <linearGradient id="laserBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topBarBg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#070D1E"/>
+      <stop offset="50%" stop-color="#0C172E"/>
+      <stop offset="100%" stop-color="#070D1E"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes blinkCursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes laserSweep {
+      0% { transform: translateX(-400px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1200px); opacity: 0; }
+    }
+    @keyframes beaconPulse {
+      0%, 100% { opacity: 0.6; r: 3.5; }
+      50% { opacity: 1; r: 4.8; filter: drop-shadow(0 0 6px #10B981); }
+    }
+    @keyframes termChassisPulse {
+      0%, 100% { stroke-opacity: 0.55; }
+      50% { stroke-opacity: 0.95; stroke: #38BDF8; }
+    }
+    .cursor { animation: blinkCursor 0.9s infinite; }
+    .laser-scan { animation: laserSweep 5s ease-in-out infinite; }
+    .beacon-dot { animation: beaconPulse 2s ease-in-out infinite; }
+    .chassis-border { animation: termChassisPulse 4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .laser-scan, .beacon-dot, .chassis-border { animation: none; }
+    }
+  </style>
+
+  <!-- Outer Glass Chassis -->
+  <rect x="2" y="2" width="1196" height="371" rx="8" fill="url(#termBg)" stroke="#1E293B" stroke-width="1.2" class="chassis-border"/>
+  <rect x="2" y="2" width="1196" height="371" rx="8" fill="url(#gridPattern)"/>
+
+  <!-- Top Window Header Bar -->
+  <rect x="2" y="2" width="1196" height="38" rx="8" fill="url(#topBarBg)"/>
+  <rect x="2" y="28" width="1196" height="12" fill="url(#topBarBg)"/>
+  <line x1="2" y1="40" x2="1198" y2="40" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Scanning Laser Beam along title bar -->
+  <g class="laser-scan">
+    <line x1="0" y1="40" x2="280" y2="40" stroke="url(#laserBeam)" stroke-width="1.8"/>
+  </g>
+
+  <!-- macOS Window Controls -->
+  <circle cx="22" cy="20" r="5.5" fill="#EF4444" stroke="#DC2626" stroke-width="0.8"/>
+  <circle cx="40" cy="20" r="5.5" fill="#F59E0B" stroke="#D97706" stroke-width="0.8"/>
+  <circle cx="58" cy="20" r="5.5" fill="#10B981" stroke="#059669" stroke-width="0.8"/>
+
+  <!-- Terminal Session Title -->
+  <text x="600" y="24" text-anchor="middle" fill="#94A3B8" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11.5" font-weight="600">tayyab@vibeans-core: ~/architecture/fleet-telemetry (bash)</text>
+
+  <!-- Top-Right Live Status Badges -->
+  <g transform="translate(860, 10)">
+    <circle cx="10" cy="10" r="3.5" fill="#10B981" class="beacon-dot"/>
+    <text x="20" y="13" fill="#10B981" font-family="'Consolas', monospace" font-size="9" font-weight="700">CLUSTER: 4 NODES ONLINE</text>
+    <rect x="180" y="1" width="70" height="18" rx="3" fill="#0B1426" stroke="#38BDF8" stroke-width="0.8"/>
+    <text x="215" y="13" text-anchor="middle" fill="#38BDF8" font-family="'Consolas', monospace" font-size="8.5" font-weight="700">38ms TTFB</text>
+    <rect x="260" y="1" width="68" height="18" rx="3" fill="#0B1426" stroke="#C9A45C" stroke-width="0.8"/>
+    <text x="294" y="13" text-anchor="middle" fill="#C9A45C" font-family="'Consolas', monospace" font-size="8.5" font-weight="700">PROD-VERIFIED</text>
+  </g>
+
+  <!-- Terminal Body Content -->
+  <!-- Line 1: Command 1 -->
+  <text x="28" y="74" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="12.5">
+    <tspan fill="#38BDF8" font-weight="700">architect@vibeans-core</tspan><tspan fill="#94A3B8">:~$ </tspan><tspan fill="#F8FAFC">systemctl status production-fleet.service</tspan>
+  </text>
+
+  <!-- Line 2: Output 1 -->
+  <text x="28" y="98" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11.5">
+    <tspan fill="#10B981">●</tspan> <tspan fill="#F8FAFC" font-weight="700">production-fleet.service</tspan> <tspan fill="#64748B">- Global Multi-Region Edge Mesh &amp; AI Engine</tspan>
+  </text>
+  <text x="44" y="118" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11">
+    <tspan fill="#64748B">Loaded: </tspan><tspan fill="#10B981" font-weight="700">active (running)</tspan><tspan fill="#64748B"> | Cluster: </tspan><tspan fill="#38BDF8">4 Cloud Deployments</tspan><tspan fill="#64748B"> | Memory: </tspan><tspan fill="#C9A45C">42.8 MB / 512 MB</tspan><tspan fill="#64748B"> | Latency: </tspan><tspan fill="#38BDF8">38ms</tspan>
+  </text>
+
+  <!-- Line 3: Command 2 -->
+  <text x="28" y="152" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="12.5">
+    <tspan fill="#38BDF8" font-weight="700">architect@vibeans-core</tspan><tspan fill="#94A3B8">:~$ </tspan><tspan fill="#F8FAFC">./verify_fleet_telemetry.sh --strict --production</tspan>
+  </text>
+
+  <!-- Lines 4-7: Service Verification Outputs -->
+  <text x="32" y="178" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11">
+    <tspan fill="#10B981" font-weight="700">[✔] CREAITE-HIVE   [AI STUDIO]   </tspan><tspan fill="#F8FAFC">STATUS: 200 OK  </tspan><tspan fill="#64748B">[Vercel Global Edge · Multi-Modal RAG Engine · Production Live]</tspan>
+  </text>
+  <text x="32" y="198" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11">
+    <tspan fill="#10B981" font-weight="700">[✔] DOCBRIO        [TOOLKIT]     </tspan><tspan fill="#F8FAFC">STATUS: 200 OK  </tspan><tspan fill="#64748B">[Browser WASM Runtime · Zero-Log Client Security · High-Speed]</tspan>
+  </text>
+  <text x="32" y="218" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11">
+    <tspan fill="#10B981" font-weight="700">[✔] LEADSTER-IO    [B2B ENGINE]  </tspan><tspan fill="#F8FAFC">STATUS: 200 OK  </tspan><tspan fill="#64748B">[Supabase PostgreSQL · Real-Time Sync · Multi-Tenant Discovery]</tspan>
+  </text>
+  <text x="32" y="238" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11">
+    <tspan fill="#10B981" font-weight="700">[✔] PAKMILKIYAT    [PROPTECH]    </tspan><tspan fill="#F8FAFC">STATUS: 200 OK  </tspan><tspan fill="#64748B">[Spatial Geospatial Index · Next.js 15 Full-Stack · Responsive]</tspan>
+  </text>
+
+  <!-- Line 8: Summary HUD Bar -->
+  <rect x="24" y="260" width="1152" height="30" rx="4" fill="#07192C" stroke="#10B981" stroke-width="0.9" stroke-opacity="0.8"/>
+  <circle cx="42" cy="275" r="4" fill="#10B981" class="beacon-dot"/>
+  <text x="56" y="279" fill="#10B981" font-family="'Consolas', monospace" font-size="10.5" font-weight="700">[SYSTEM: PASS] 4/4 PRODUCTION PLATFORMS OPERATIONAL. ZERO REGRESSIONS DETECTED.</text>
+  <text x="1160" y="279" fill="#C9A45C" text-anchor="end" font-family="'Consolas', monospace" font-size="10.5" font-weight="700">AST &amp; TELEMETRY INTEGRITY: 100%</text>
+
+  <!-- Line 9: Command Prompt with Blinking Cursor -->
+  <text x="28" y="324" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="12.5">
+    <tspan fill="#38BDF8" font-weight="700">architect@vibeans-core</tspan><tspan fill="#94A3B8">:~$ </tspan><tspan fill="#F8FAFC">tail -f /var/log/telemetry/live-edge-sync.log</tspan>
+  </text>
+  <text x="28" y="348" font-family="'Consolas', 'SF Mono', Monaco, monospace" font-size="11.5">
+    <tspan fill="#64748B">[EDGE-GATEWAY] Stream active. Continuous heartbeat broadcast at 1.8s intervals... </tspan><tspan fill="#38BDF8" class="cursor" font-weight="700">█</tspan>
+  </text>
+</svg>

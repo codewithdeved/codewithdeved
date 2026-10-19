@@ -1,22 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="TECHNOLOGY STACK &amp; CORE TOOLING">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="headerBg_header" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#050914"/>
       <stop offset="100%" stop-color="#080E1C"/>
     </linearGradient>
-    <linearGradient id="bottomScan" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="headerLaser_header" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#C9A45C" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
+  <style>
+    @keyframes pulseBeaconDot_header {
+      0%, 100% { opacity: 0.55; r: 3.5; }
+      50% { opacity: 1; r: 4.8; filter: drop-shadow(0 0 6px #10B981); }
+    }
+    @keyframes scanLaser_header {
+      0% { transform: translateX(-400px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1200px); opacity: 0; }
+    }
+    @keyframes spinGyro_header {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes borderPulse_header {
+      0%, 100% { stroke-opacity: 0.5; }
+      50% { stroke-opacity: 0.95; stroke: #38BDF8; }
+    }
+    .beacon_header { animation: pulseBeaconDot_header 2s ease-in-out infinite; }
+    .scan-beam_header { animation: scanLaser_header 5s ease-in-out infinite; }
+    .gyro-spin_header { animation: spinGyro_header 14s linear infinite; transform-origin: 1110px 60px; }
+    .chassis_header { animation: borderPulse_header 4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .beacon_header, .scan-beam_header, .gyro-spin_header, .chassis_header { animation: none; }
+    }
+  </style>
+
   <!-- Outer Glass Chassis -->
-  <rect x="2" y="2" width="1196" height="116" rx="7" fill="url(#bg)" stroke="#3B82F6" stroke-width="1.2" stroke-opacity="0.6"/>
-  <line x1="160" y1="118" x2="1040" y2="118" stroke="url(#bottomScan)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="116" rx="7" fill="url(#headerBg_header)" stroke="#3B82F6" stroke-width="1.2" stroke-opacity="0.6" class="chassis_header"/>
+  
+  <!-- Edge-to-Edge Base Glint Line -->
+  <line x1="80" y1="118" x2="1120" y2="118" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Scanning Laser Beam along bottom -->
+  <g class="scan-beam_header">
+    <line x1="0" y1="118" x2="300" y2="118" stroke="url(#headerLaser_header)" stroke-width="2"/>
+  </g>
 
   <!-- Left Beacon &amp; Tag -->
-  <circle cx="24" cy="22" r="3.5" fill="#10B981"/>
+  <circle cx="24" cy="22" r="3.5" fill="#10B981" class="beacon_header"/>
   <text x="34" y="25" fill="#38BDF8" font-family="'Consolas', monospace" font-size="10" font-weight="700">SECTION 05 • ENGINEERING STACK &amp; TOOLING</text>
 
   <!-- Main Section Title -->
@@ -30,14 +65,14 @@
 
   <!-- Center-Right Telemetry Console -->
   <rect x="690" y="26" width="340" height="32" rx="4" fill="#0B1426" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.6"/>
-  <circle cx="704" cy="42" r="3" fill="#10B981"/>
+  <circle cx="704" cy="42" r="3" fill="#10B981" class="beacon_header"/>
   <text x="714" y="46" fill="#10B981" font-family="'Consolas', monospace" font-size="8.5" font-weight="700">FULL STACK MATRIX</text>
   <text x="960" y="46" fill="#C9A45C" font-family="'Consolas', monospace" font-size="8.5" font-weight="700">24 TECHNOLOGIES</text>
   <text x="714" y="74" fill="#64748B" font-family="'Consolas', monospace" font-size="8">TYPESCRIPT • PYTHON • REACT • DOCKER • EDGE CLOUD</text>
 
-  <!-- Right Decorative Icon Symbol -->
-  <g transform="translate(1110, 60)" stroke="#38BDF8" stroke-width="1.2" fill="none">
-    <polygon points="0,-28 21,0 0,28 -21,0"/>
-    <circle cx="0" cy="0" r="2.5" fill="#C9A45C"/>
+  <!-- Right Decorative Gyroscope Symbol -->
+  <g class="gyro-spin_header" stroke="#38BDF8" stroke-width="1.2" fill="none">
+    <polygon points="1110,32 1131,60 1110,88 1089,60"/>
+    <circle cx="1110" cy="60" r="2.5" fill="#C9A45C"/>
   </g>
 </svg>
