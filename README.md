@@ -256,7 +256,7 @@
       <a href="https://github.com/codewithdeved"><img src="https://streak-stats.demolab.com/?user=codewithdeved&background=0B1426&border=1B2A47&stroke=C9A45C&ring=3B82F6&fire=C9A45C&currStreakNum=F5F1E8&sideNums=F5F1E8&currStreakLabel=C9A45C&sideLabels=94A3B8&dates=64748B" alt="GitHub Contribution Streak for codewithdeved" width="100%"></a>
     </td>
     <td width="50%" align="center" valign="top">
-      <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&langs_count=8&card_width=495&border_color=1B2A47&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9" alt="Most used programming languages across codewithdeved's public repositories" width="100%"></a>
+      <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://github-stats-extended.vercel.app/api/top-langs/?username=codewithdeved&layout=compact&langs_count=8&card_width=495&border_color=1B2A47&bg_color=0B1426&title_color=C9A45C&text_color=C9D1D9" alt="Most used programming languages across codewithdeved's public repositories" width="100%"></a>
     </td>
   </tr>
 </table>
