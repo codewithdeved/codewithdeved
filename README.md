@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-3d.webp" alt="CodeWithDeved: Engineering the Intersection of Code and Cognitive Design. Rotating 3D node network between gold code brackets." width="100%">
+<img src="assets/hero-3d.webp" alt="CodeWithDeved: Engineering the Intersection of Code and Cognitive Design. 3D Executive Humanoid Robot waving continuously with both hands, blinking realistically, and speaking in cyber studio." width="100%">
 
 <img src="assets/ticker.svg" alt="Live Telemetry: AI Powered SaaS, Cognitive UX, and Modern Web Architecture" width="100%">
 
