@@ -2,7 +2,7 @@
 
 <img src="assets/hero-3d.webp" alt="Tayyab Ali (CodeWithDeved) - CEO @ Vibeans Solutions &amp; Software Engineer @ Perception Tech. 3D Executive Humanoid Robot waving continuously with both hands in cyber studio." width="100%">
 
-<br>
+<br><br>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-hero-linkedin.svg" width="31.8%" alt="Connect on LinkedIn"></a>
