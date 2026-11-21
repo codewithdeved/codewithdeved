@@ -1,81 +1,179 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 26" width="1200" height="26" role="img" aria-label="Section divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 68" width="1200" height="68" role="img" aria-label="3D Interactive Section Divider">
   <defs>
-    <linearGradient id="trackGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.15"/>
-      <stop offset="25%" stop-color="#3B82F6" stop-opacity="0.55"/>
-      <stop offset="50%" stop-color="#C9A45C" stop-opacity="0.9"/>
-      <stop offset="75%" stop-color="#3B82F6" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.15"/>
+    <!-- Dark Cyber Shading for 3D Rail -->
+    <linearGradient id="railGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#05080F" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#0E1B33" stop-opacity="0.8"/>
+      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#1E3A8A" stop-opacity="0.9"/>
+      <stop offset="85%" stop-color="#0E1B33" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#05080F" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="photonLeft" x1="0" y1="0" x2="1" y2="0">
+
+    <!-- Beveled Upper Specular Edge -->
+    <linearGradient id="topBevel" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-      <stop offset="70%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#F59E0B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Downward Chevrons Gradient -->
+    <linearGradient id="chevGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="goldChevGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Central Quantum Core Glow -->
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#0284C7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Lateral Laser Inflow Beams -->
+    <linearGradient id="beamLeftInflow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#38BDF8" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
-    <linearGradient id="photonRight" x1="1" y1="0" x2="0" y2="0">
-      <stop offset="0%" stop-color="#C9A45C" stop-opacity="0"/>
-      <stop offset="70%" stop-color="#C9A45C" stop-opacity="0.9"/>
+    <linearGradient id="beamRightInflow" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#F59E0B" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neonBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
 
   <style>
-    .track { stroke: url(#trackGrad); stroke-width: 1.2; }
-    .beam-left { animation: moveLeft 4s ease-in-out infinite; }
-    .beam-right { animation: moveRight 4s ease-in-out infinite; }
-    .core-pulse { animation: pulseCore 2.2s ease-in-out infinite; transform-origin: 600px 13px; }
-    .ring-rotate { animation: rotateRing 8s linear infinite; transform-origin: 600px 13px; }
+    .inflow-l { animation: travelInLeft 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .inflow-r { animation: travelInRight 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+    .core-gyro-1 { animation: spinClockwise 6s linear infinite; transform-origin: 600px 24px; }
+    .core-gyro-2 { animation: spinCounter 9s linear infinite; transform-origin: 600px 24px; }
+    .pulse-core-node { animation: pulseCore 2.2s ease-in-out infinite; transform-origin: 600px 24px; }
     
-    @keyframes moveLeft {
-      0% { transform: translateX(-420px); opacity: 0; }
-      20% { opacity: 1; }
-      48% { opacity: 1; }
-      52% { transform: translateX(220px); opacity: 0; }
-      100% { transform: translateX(220px); opacity: 0; }
-    }
-    @keyframes moveRight {
-      0% { transform: translateX(420px); opacity: 0; }
-      20% { opacity: 1; }
-      48% { opacity: 1; }
-      52% { transform: translateX(-220px); opacity: 0; }
-      100% { transform: translateX(-220px); opacity: 0; }
-    }
-    @keyframes pulseCore {
-      0%, 100% { transform: scale(0.95); opacity: 0.85; }
-      50% { transform: scale(1.12); opacity: 1; }
-    }
-    @keyframes rotateRing {
+    /* Cascading Downward Chevrons Animation */
+    .chev-1 { animation: dropPulse 1.8s ease-in-out infinite; }
+    .chev-2 { animation: dropPulse 1.8s ease-in-out infinite 0.3s; }
+    .chev-3 { animation: dropPulse 1.8s ease-in-out infinite 0.6s; }
+    .chev-4 { animation: dropPulse 1.8s ease-in-out infinite 0.9s; }
+
+    @keyframes spinClockwise {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
+    @keyframes spinCounter {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(-360deg); }
+    }
+    @keyframes pulseCore {
+      0%, 100% { transform: scale(0.92); opacity: 0.75; }
+      50% { transform: scale(1.15); opacity: 1; }
+    }
+    @keyframes dropPulse {
+      0% { opacity: 0.15; transform: translateY(0px) scale(0.96); }
+      35% { opacity: 1; transform: translateY(4px) scale(1.05); }
+      70%, 100% { opacity: 0.15; transform: translateY(8px) scale(0.96); }
+    }
+    @keyframes travelInLeft {
+      0% { transform: translateX(-400px); opacity: 0; }
+      30% { opacity: 1; }
+      70% { opacity: 1; }
+      100% { transform: translateX(180px); opacity: 0; }
+    }
+    @keyframes travelInRight {
+      0% { transform: translateX(400px); opacity: 0; }
+      30% { opacity: 1; }
+      70% { opacity: 1; }
+      100% { transform: translateX(-180px); opacity: 0; }
+    }
     @media (prefers-reduced-motion: reduce) {
-      .beam-left, .beam-right, .core-pulse, .ring-rotate { animation: none; }
+      .inflow-l, .inflow-r, .core-gyro-1, .core-gyro-2, .pulse-core-node, .chev-1, .chev-2, .chev-3, .chev-4 { animation: none; }
     }
   </style>
 
-  <!-- Edge-to-Edge Base Grid Track -->
-  <line x1="4" y1="13" x2="1196" y2="13" class="track"/>
-  <circle cx="4" cy="13" r="2" fill="#3B82F6" opacity="0.6"/>
-  <circle cx="1196" cy="13" r="2" fill="#3B82F6" opacity="0.6"/>
+  <!-- 3D Base Geometric Platform / Rail -->
+  <polygon points="120,24 220,18 980,18 1080,24 980,30 220,30" fill="url(#railGrad)" opacity="0.6"/>
   
-  <!-- Optical Precision Ticks -->
-  <line x1="150" y1="9" x2="150" y2="17" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
-  <line x1="300" y1="10" x2="300" y2="16" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
-  <line x1="450" y1="9" x2="450" y2="17" stroke="#C9A45C" stroke-width="1" opacity="0.6"/>
-  <line x1="750" y1="9" x2="750" y2="17" stroke="#C9A45C" stroke-width="1" opacity="0.6"/>
-  <line x1="900" y1="10" x2="900" y2="16" stroke="#38BDF8" stroke-width="1" opacity="0.5"/>
-  <line x1="1050" y1="9" x2="1050" y2="17" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <!-- Upper Specular Laser Chamfer -->
+  <line x1="160" y1="18" x2="1040" y2="18" stroke="url(#topBevel)" stroke-width="1.4"/>
+  <line x1="240" y1="30" x2="960" y2="30" stroke="url(#topBevel)" stroke-width="0.8" opacity="0.4"/>
 
-  <!-- Left & Right Traveling Beams -->
-  <rect class="beam-left" x="360" y="11.5" width="160" height="3" rx="1.5" fill="url(#photonLeft)"/>
-  <rect class="beam-right" x="680" y="11.5" width="160" height="3" rx="1.5" fill="url(#photonRight)"/>
+  <!-- High-Precision Telemetry Grid Ticks -->
+  <g stroke="#38BDF8" stroke-width="1" opacity="0.55">
+    <line x1="280" y1="14" x2="280" y2="24"/>
+    <line x1="380" y1="16" x2="380" y2="24"/>
+    <line x1="480" y1="13" x2="480" y2="25"/>
+    <line x1="720" y1="13" x2="720" y2="25"/>
+    <line x1="820" y1="16" x2="820" y2="24"/>
+    <line x1="920" y1="14" x2="920" y2="24"/>
+  </g>
 
-  <!-- Center Quantum Node Chassis -->
-  <g class="ring-rotate">
-    <circle cx="600" cy="13" r="10" fill="none" stroke="#38BDF8" stroke-width="0.9" stroke-dasharray="2 3" opacity="0.85"/>
+  <!-- Left & Right Inflow Laser Beams Traveling into Quantum Core -->
+  <g>
+    <rect class="inflow-l" x="380" y="16.5" width="130" height="3" rx="1.5" fill="url(#beamLeftInflow)"/>
+    <rect class="inflow-r" x="690" y="16.5" width="130" height="3" rx="1.5" fill="url(#beamRightInflow)"/>
   </g>
-  <g class="core-pulse">
-    <polygon points="600,4 609,13 600,22 591,13" fill="#0B1426" stroke="#C9A45C" stroke-width="1.6"/>
-    <circle cx="600" cy="13" r="2.5" fill="#F8FAFC"/>
+
+  <!-- Center Lateral Wings (Guiding inward) -->
+  <path d="M 500,24 L 545,24 L 560,32 L 530,32 Z" fill="#0C1B33" stroke="#38BDF8" stroke-width="1.2" opacity="0.8"/>
+  <path d="M 700,24 L 655,24 L 640,32 L 670,32 Z" fill="#0C1B33" stroke="#F59E0B" stroke-width="1.2" opacity="0.8"/>
+
+  <!-- CENTER: 3D Quantum Gyroscopic Hub -->
+  <circle cx="600" cy="24" r="32" fill="url(#coreGlow)"/>
+
+  <!-- Outer Rotating Orbit Ring -->
+  <g class="core-gyro-1">
+    <ellipse cx="600" cy="24" rx="22" ry="10" fill="none" stroke="#38BDF8" stroke-width="1.4" stroke-dasharray="4 3"/>
   </g>
+
+  <!-- Inner Counter-Rotating Ring -->
+  <g class="core-gyro-2">
+    <ellipse cx="600" cy="24" rx="14" ry="7" fill="none" stroke="#F59E0B" stroke-width="1.3" stroke-dasharray="3 2"/>
+  </g>
+
+  <!-- Center Holographic Diamond Core -->
+  <g class="pulse-core-node" filter="url(#neonBlur)">
+    <polygon points="600,10 611,24 600,38 589,24" fill="#060E1E" stroke="#38BDF8" stroke-width="1.8"/>
+    <polygon points="600,14 608,24 600,34 592,24" fill="#0E2442" stroke="#F59E0B" stroke-width="1.2"/>
+    <circle cx="600" cy="24" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- DOWNWARD GUIDING 3D CASCADING CHEVRONS (Pointing towards lower sections) -->
+  <!-- Level 1 (Topmost chevron) -->
+  <g class="chev-1" filter="url(#neonBlur)">
+    <polyline points="584,38 600,47 616,38" fill="none" stroke="#38BDF8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Level 2 (Middle chevron) -->
+  <g class="chev-2" filter="url(#neonBlur)">
+    <polyline points="587,46 600,54 613,46" fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Level 3 (Deep chevron) -->
+  <g class="chev-3">
+    <polyline points="590,53 600,60 610,53" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Level 4 (Terminal guidance dot) -->
+  <g class="chev-4">
+    <circle cx="600" cy="65" r="2" fill="#FDE047"/>
+  </g>
+
+  <!-- Lateral Decorative Chevrons (Flanking down-cues) -->
+  <polyline points="555,20 563,26 555,32" fill="none" stroke="#38BDF8" stroke-width="1.3" opacity="0.6"/>
+  <polyline points="568,20 576,26 568,32" fill="none" stroke="#38BDF8" stroke-width="1.6" opacity="0.8"/>
+  <polyline points="645,20 637,26 645,32" fill="none" stroke="#F59E0B" stroke-width="1.3" opacity="0.6"/>
+  <polyline points="632,20 624,26 632,32" fill="none" stroke="#F59E0B" stroke-width="1.6" opacity="0.8"/>
 </svg>

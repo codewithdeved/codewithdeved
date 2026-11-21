@@ -1,22 +1,15 @@
 <div align="center">
 
-<img src="assets/hero-3d.webp" alt="CodeWithDeved: Engineering the Intersection of Code and Cognitive Design. 3D Executive Humanoid Robot waving continuously with both hands, blinking realistically, and speaking in cyber studio." width="100%">
-
-<img src="assets/ticker.svg" alt="Live Telemetry: AI Powered SaaS, Cognitive UX, and Modern Web Architecture" width="100%">
+<img src="assets/hero-3d.webp" alt="Tayyab Ali (CodeWithDeved) - CEO @ Vibeans Solutions &amp; Software Engineer @ Perception Tech. 3D Executive Humanoid Robot waving continuously with both hands in cyber studio." width="100%">
 
 <p align="center">
-  <a href="#about"><img src="assets/nav/nav-about.svg" width="32.8%" alt="01 : About &amp; Philosophy"></a>
-  <a href="#featured-products"><img src="assets/nav/nav-products.svg" width="32.8%" alt="02 : Featured SaaS Products"></a>
-  <a href="#technical-focus"><img src="assets/nav/nav-focus.svg" width="32.8%" alt="03 : System Architecture"></a>
+  <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-hero-linkedin.svg" width="32.8%" alt="Connect on LinkedIn: Tayyab Ali"></a>
+  <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-hero-website.svg" width="32.8%" alt="Visit our Website: Vibeans Solutions"></a>
+  <a href="https://www.instagram.com/codewithdeved/"><img src="assets/connect/card-hero-instagram.svg" width="32.8%" alt="Connect on Instagram: @codewithdeved"></a>
   <br>
-  <a href="#open-source-repositories"><img src="assets/nav/nav-repos.svg" width="32.8%" alt="04 : Open Source Repositories"></a>
-  <a href="#tech-stack"><img src="assets/nav/nav-stack.svg" width="32.8%" alt="05 : Core Tooling Matrix"></a>
-  <a href="#connect-collaborate"><img src="assets/nav/nav-network.svg" width="32.8%" alt="06 : Ventures &amp; Global Network"></a>
+  <a href="mailto:tayyab@vibeanssolutions.site"><img src="assets/connect/card-hero-email.svg" width="32.8%" alt="Connect on Email: tayyab@vibeanssolutions.site"></a>
+  <a href="https://wa.me/923363125494"><img src="assets/connect/card-hero-whatsapp.svg" width="32.8%" alt="Connect on WhatsApp: +92 336 3125 494"></a>
 </p>
-
-<a href="https://github.com/codewithdeved/codewithdeved/actions">
-  <img src="assets/nav/nav-telemetry.svg" width="100%" alt="Production Telemetry Console: Active Edge Sync, Production Grade Architecture, Founder and Lead Architect">
-</a>
 
 <br><br>
 
