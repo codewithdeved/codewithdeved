@@ -8,7 +8,9 @@
   <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-hero-linkedin.svg" width="31.8%" alt="Connect on LinkedIn"></a>
   <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-hero-website.svg" width="31.8%" alt="Visit our Website"></a>
   <a href="https://www.instagram.com/codewithdeved/"><img src="assets/connect/card-hero-instagram.svg" width="31.8%" alt="Connect on Instagram"></a>
-  <br>
+</p>
+
+<p align="center">
   <a href="mailto:tayyab@vibeanssolutions.site"><img src="assets/connect/card-hero-email.svg" width="31.8%" alt="Connect on Email"></a>
   <a href="https://wa.me/923363125494"><img src="assets/connect/card-hero-whatsapp.svg" width="31.8%" alt="Connect on WhatsApp"></a>
 </p>
