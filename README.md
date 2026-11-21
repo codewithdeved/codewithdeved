@@ -2,7 +2,7 @@
 
 <img src="assets/hero-3d.webp" alt="Tayyab Ali (CodeWithDeved) - CEO @ Vibeans Solutions &amp; Software Engineer @ Perception Tech. 3D Executive Humanoid Robot waving continuously with both hands in cyber studio." width="100%">
 
-<br>
+<br><br>
 
 <table width="100%" border="0" cellspacing="14" cellpadding="0">
   <tr>
@@ -29,11 +29,7 @@
   </tr>
 </table>
 
-<br>
-
 </div>
-
-<br>
 
 <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 
