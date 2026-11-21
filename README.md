@@ -2,24 +2,40 @@
 
 <img src="assets/hero-3d.webp" alt="Tayyab Ali (CodeWithDeved) - CEO @ Vibeans Solutions &amp; Software Engineer @ Perception Tech. 3D Executive Humanoid Robot waving continuously with both hands in cyber studio." width="100%">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-hero-linkedin.svg" width="32.8%" alt="Connect on LinkedIn: Tayyab Ali"></a>
-  <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-hero-website.svg" width="32.8%" alt="Visit our Website: Vibeans Solutions"></a>
-  <a href="https://www.instagram.com/codewithdeved/"><img src="assets/connect/card-hero-instagram.svg" width="32.8%" alt="Connect on Instagram: @codewithdeved"></a>
-  <br>
-  <a href="mailto:tayyab@vibeanssolutions.site"><img src="assets/connect/card-hero-email.svg" width="32.8%" alt="Connect on Email: tayyab@vibeanssolutions.site"></a>
-  <a href="https://wa.me/923363125494"><img src="assets/connect/card-hero-whatsapp.svg" width="32.8%" alt="Connect on WhatsApp: +92 336 3125 494"></a>
-</p>
+<br>
 
-<br><br>
+<table width="100%" border="0" cellspacing="14" cellpadding="0">
+  <tr>
+    <td width="33.3%" align="center">
+      <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-hero-linkedin.svg" alt="Connect on LinkedIn" width="100%"></a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://www.vibeanssolutions.site/"><img src="assets/connect/card-hero-website.svg" alt="Visit our Website" width="100%"></a>
+    </td>
+    <td width="33.3%" align="center">
+      <a href="https://www.instagram.com/codewithdeved/"><img src="assets/connect/card-hero-instagram.svg" alt="Connect on Instagram" width="100%"></a>
+    </td>
+  </tr>
+</table>
 
-<img src="assets/terminal.webp" alt="Live Interactive Architecture CLI Terminal: 4 Enterprise Platforms Deployed" width="100%">
+<table width="68%" border="0" cellspacing="14" cellpadding="0" align="center">
+  <tr>
+    <td width="50%" align="center">
+      <a href="mailto:tayyab@vibeanssolutions.site"><img src="assets/connect/card-hero-email.svg" alt="Connect on Email" width="100%"></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://wa.me/923363125494"><img src="assets/connect/card-hero-whatsapp.svg" alt="Connect on WhatsApp" width="100%"></a>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 </div>
 
 <br>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 
 <a id="about" name="about"></a>
 
