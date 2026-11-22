@@ -17,24 +17,6 @@
   <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 </p>
 
-<a id="about" name="about"></a>
-
-<img src="assets/headers/header-about.webp" alt="About &amp; Engineering Philosophy" width="100%">
-
-<img src="assets/about-3d.webp" alt="About Tayyab Ali (CodeWithDeved): Engineering Philosophy, Live Telemetry, and Architecture Capabilities." width="100%">
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/code-with-deved/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0077B5?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAwaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS0xMSAxOWgtM3YtMTFoM3YxMXptLTEuNS0xMi4yNjhjLS45NjYgMC0xLjc1LS43OS0xLjc1LTEuNzY0cy43ODQtMS43NjQgMS43NS0xLjc2NCAxLjc1Ljc5IDEuNzUgMS43NjQtLjc4MyAxLjc2NC0xLjc1IDEuNzY0em0xMy41IDEyLjI2OGgtM3YtNS42MDRjMC0zLjM2OC00LTMuMTEzLTQgMHY1LjYwNGgtM3YtMTFoM3YxLjc2NWMxLjM5Ni0yLjU4NiA3LTIuNzc3IDcgMi40NzZ2Ni43NTl6Ii8%2BPC9zdmc%2B" alt="Connect with Tayyab Ali on LinkedIn"></a>
-  <a href="https://www.vibeanssolutions.site/"><img src="https://img.shields.io/badge/VIBEANS%20SOLUTIONS%20STUDIO-C9A45C?style=for-the-badge&logo=googlechrome&logoColor=0B1426" alt="Visit Vibeans Solutions Studio"></a>
-  <a href="https://github.com/codewithdeved?tab=repositories"><img src="https://img.shields.io/badge/BROWSE%20PORTFOLIO-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Browse Portfolio on GitHub"></a>
-</div>
-
-<br>
-
-<img src="assets/audits/audit-leadership.webp" alt="Executive Leadership and Architectural Highlights: Founder and Lead Architect at Vibeans Solutions" width="100%">
-
-<img src="assets/divider.svg" alt="" width="100%">
-
 <a id="featured-products" name="featured-products"></a>
 
 <img src="assets/headers/header-products.webp" alt="Featured Products &amp; SaaS Portfolio" width="100%">
