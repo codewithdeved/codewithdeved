@@ -21,6 +21,10 @@
   <img src="assets/showcase-intro.svg" alt="Engineering a New Dimension of Desktop Computing - Flagship Web Engineering Showcase" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/showcase-portfolio.webp" alt="Interactive Digital Workstation - Pure React &amp; CSS Portfolio Experience" width="100%">
+</p>
+
 <a id="featured-products" name="featured-products"></a>
 
 <img src="assets/headers/header-products.webp" alt="Featured Products &amp; SaaS Portfolio" width="100%">
