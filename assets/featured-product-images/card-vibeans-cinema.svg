@@ -130,11 +130,11 @@
       <path d="M191 30 L199 22 M194 22 L199 22 L199 27" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
-    <!-- Row 3: Description Paragraph -->
+    <!-- Row 3: Description Paragraph (Width strictly under 680px) -->
     <text x="0" y="124" fill="#CBD5E1" class="font-body" font-size="15.8">
-      <tspan x="0" dy="0">Vibeans Institute of Technology is an open digital engineering campus and computing education platform</tspan>
-      <tspan x="0" dy="25">developed by Vibeans Solutions. It provides university students, software engineers, and independent scholars worldwide</tspan>
-      <tspan x="0" dy="25">with free, transparent access to structured computer science curricula and applied technical learning resources.</tspan>
+      <tspan x="0" dy="0">Vibeans Institute of Technology is an open digital engineering campus and computing</tspan>
+      <tspan x="0" dy="25">education platform developed by Vibeans Solutions, providing students and software engineers</tspan>
+      <tspan x="0" dy="25">worldwide with transparent access to structured curricula and applied learning resources.</tspan>
     </text>
   </g>
 </svg>
