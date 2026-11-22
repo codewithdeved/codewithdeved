@@ -1,8 +1,6 @@
-<div align="center">
-
-<img src="assets/hero-3d.webp" alt="Tayyab Ali (CodeWithDeved) - CEO @ Vibeans Solutions &amp; Software Engineer @ Perception Tech. 3D Executive Humanoid Robot waving continuously with both hands in cyber studio." width="100%">
-
-<br>
+<p align="center">
+  <img src="assets/hero-3d.webp" alt="Tayyab Ali (CodeWithDeved) - CEO @ Vibeans Solutions &amp; Software Engineer @ Perception Tech. 3D Executive Humanoid Robot waving continuously with both hands in cyber studio." width="100%">
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/connect/card-hero-linkedin.svg" width="31.8%" alt="Connect on LinkedIn"></a>
@@ -15,9 +13,9 @@
   <a href="https://wa.me/923363125494"><img src="assets/connect/card-hero-whatsapp.svg" width="31.8%" alt="Connect on WhatsApp"></a>
 </p>
 
-</div>
-
-<img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
+<p align="center">
+  <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
+</p>
 
 <a id="about" name="about"></a>
 
