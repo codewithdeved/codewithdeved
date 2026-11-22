@@ -35,19 +35,19 @@
 
 <p align="center">
   <a href="https://institute.vibeanssolutions.site/">
-    <img src="assets/featured-product-images/card-vibeans-cinema.svg" alt="Vibeans Institute of Technology" width="100%">
+    <img src="assets/featured-product-images/card-vibeans-cinema.webp" alt="Vibeans Institute of Technology" width="100%">
   </a>
 </p>
 
 <p align="center">
   <a href="https://leadster-io.vercel.app/">
-    <img src="assets/featured-product-images/card-leadster-cinema.svg" alt="Leadster.io" width="100%">
+    <img src="assets/featured-product-images/card-leadster-cinema.webp" alt="Leadster.io" width="100%">
   </a>
 </p>
 
 <p align="center">
   <a href="https://creatie-hive.vercel.app/">
-    <img src="assets/featured-product-images/card-creaite-cinema.svg" alt="Creaite Hive" width="100%">
+    <img src="assets/featured-product-images/card-creaite-cinema.webp" alt="Creaite Hive" width="100%">
   </a>
 </p>
 
