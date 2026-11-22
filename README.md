@@ -17,6 +17,10 @@
   <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/showcase-intro.svg" alt="Engineering a New Dimension of Desktop Computing - Flagship Web Engineering Showcase" width="100%">
+</p>
+
 <a id="featured-products" name="featured-products"></a>
 
 <img src="assets/headers/header-products.webp" alt="Featured Products &amp; SaaS Portfolio" width="100%">
