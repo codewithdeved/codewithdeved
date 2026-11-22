@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/products-intro.svg" alt="Featured Products - Production Deployments" width="100%">
+  <img src="assets/products-intro.svg" alt="Selected Products &amp; Platforms - 03 Projects" width="100%">
 </p>
 
 <p align="center">
