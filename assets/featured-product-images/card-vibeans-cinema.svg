@@ -121,8 +121,8 @@
     <!-- Row 2: Title Row -->
     <text x="0" y="84" fill="#F8FAFC" class="font-title" font-size="28" letter-spacing="-0.3">Vibeans Institute of Technology</text>
 
-    <!-- Launch Action Button -->
-    <g transform="translate(850, 52)">
+    <!-- Launch Action Button (Moved a little bit above to y=42) -->
+    <g transform="translate(850, 42)">
       <rect class="btn-chassis-vb" x="0" y="0" width="230" height="50" rx="10" fill="#1E3A8A" stroke="#2563EB" stroke-width="1.6"/>
       <rect x="2" y="2" width="226" height="20" rx="8" fill="#3B82F6" fill-opacity="0.18"/>
       <text x="96" y="31" text-anchor="middle" fill="#FFFFFF" class="font-sub" font-size="14.5" font-weight="700" letter-spacing="0.8">VISIT PLATFORM</text>
@@ -130,11 +130,11 @@
       <path d="M191 30 L199 22 M194 22 L199 22 L199 27" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
-    <!-- Row 3: Description Paragraph (Width strictly under 680px) -->
+    <!-- Row 3: Description Paragraph (Expanded width ~760px) -->
     <text x="0" y="124" fill="#CBD5E1" class="font-body" font-size="15.8">
-      <tspan x="0" dy="0">Vibeans Institute of Technology is an open digital engineering campus and computing</tspan>
-      <tspan x="0" dy="25">education platform developed by Vibeans Solutions, providing students and software engineers</tspan>
-      <tspan x="0" dy="25">worldwide with transparent access to structured curricula and applied learning resources.</tspan>
+      <tspan x="0" dy="0">Vibeans Institute of Technology is an open digital engineering campus and computing education platform</tspan>
+      <tspan x="0" dy="25">developed by Vibeans Solutions. It provides university students, software engineers, and independent scholars</tspan>
+      <tspan x="0" dy="25">worldwide with free, transparent access to structured computer science curricula and applied learning resources.</tspan>
     </text>
   </g>
 </svg>
