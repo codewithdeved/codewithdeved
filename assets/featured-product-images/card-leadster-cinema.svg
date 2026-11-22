@@ -1,31 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 860" width="1200" height="860" role="img" aria-label="Featured Product 02: Leadster.io">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" width="1200" height="896" role="img" aria-label="Featured Product 02: Leadster.io">
   <defs>
+    <!-- Background Card Gradient (Deep Oceanic Cyber Night) -->
     <linearGradient id="ldBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#090B1E"/>
-      <stop offset="50%" stop-color="#100F2E"/>
-      <stop offset="100%" stop-color="#080718"/>
+      <stop offset="0%" stop-color="#030C16"/>
+      <stop offset="50%" stop-color="#061626"/>
+      <stop offset="100%" stop-color="#020912"/>
     </linearGradient>
 
+    <!-- Border Glow Gradient (Vibrant Mint Emerald to Ocean Teal) -->
     <linearGradient id="ldBorder" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.6"/>
-      <stop offset="35%" stop-color="#1E293B" stop-opacity="0.8"/>
-      <stop offset="65%" stop-color="#1E293B" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.5"/>
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.75"/>
+      <stop offset="35%" stop-color="#0F2936" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#0F2936" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0.65"/>
     </linearGradient>
 
+    <!-- Ambient Cinema Backlight (Ocean Teal & Mint Glow) -->
     <radialGradient id="ldAmbient" cx="50%" cy="38%" r="55%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.30"/>
-      <stop offset="45%" stop-color="#4C1D95" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#090B1E" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#0D9488" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#064E3B" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#030C16" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Cinema Monitor Bezel Gradient (Deep Oceanic Slate) -->
     <linearGradient id="ldBezel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2D1B4E"/>
-      <stop offset="10%" stop-color="#16122E"/>
-      <stop offset="90%" stop-color="#0D0920"/>
-      <stop offset="100%" stop-color="#2D1B4E"/>
+      <stop offset="0%" stop-color="#0E2A38"/>
+      <stop offset="10%" stop-color="#091B24"/>
+      <stop offset="90%" stop-color="#040D14"/>
+      <stop offset="100%" stop-color="#0E2A38"/>
     </linearGradient>
 
+    <!-- Cinema Glass Sheen -->
     <linearGradient id="ldGlint" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="42%" stop-color="#ffffff" stop-opacity="0"/>
@@ -34,11 +39,12 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Top Laser Accent -->
     <linearGradient id="ldTopLaser" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#A78BFA" stop-opacity="0.9"/>
-      <stop offset="70%" stop-color="#06B6D4" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#14B8A6" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#0EA5E9" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="ldBeaconGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -70,8 +76,8 @@
       50% { opacity: 1; filter: drop-shadow(0 0 6px #10B981); }
     }
     @keyframes btnPulseLd {
-      0%, 100% { stroke: #8B5CF6; stroke-opacity: 0.8; }
-      50% { stroke: #C084FC; stroke-opacity: 1; }
+      0%, 100% { stroke: #10B981; stroke-opacity: 0.8; box-shadow: 0 0 8px #10B981; }
+      50% { stroke: #34D399; stroke-opacity: 1; }
     }
 
     .ambient-glow-ld { animation: ambientBreatheLd 6s ease-in-out infinite; transform-origin: 600px 340px; }
@@ -85,18 +91,18 @@
   </style>
 
   <!-- Card Chassis -->
-  <rect x="1" y="1" width="1198" height="858" rx="16" fill="url(#ldBg)" stroke="url(#ldBorder)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="894" rx="16" fill="url(#ldBg)" stroke="url(#ldBorder)" stroke-width="1.5"/>
   <rect x="300" y="1" width="600" height="2" fill="url(#ldTopLaser)"/>
 
   <!-- 1. Ambient Cinema Backlight -->
   <ellipse cx="600" cy="340" rx="580" ry="320" fill="url(#ldAmbient)" class="ambient-glow-ld"/>
 
   <!-- 2. Cinema Monitor Chassis & Bezel -->
-  <rect x="52" y="38" width="1096" height="591" rx="14" fill="url(#ldBezel)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.5"/>
+  <rect x="52" y="38" width="1096" height="591" rx="14" fill="url(#ldBezel)" stroke="#14B8A6" stroke-width="1.2" stroke-opacity="0.6"/>
 
   <!-- Top Window Header Bar -->
-  <rect x="53" y="39" width="1094" height="31" rx="13" fill="#130D24"/>
-  <rect x="53" y="58" width="1094" height="12" fill="#130D24"/>
+  <rect x="53" y="39" width="1094" height="31" rx="13" fill="#071922"/>
+  <rect x="53" y="58" width="1094" height="12" fill="#071922"/>
 
   <!-- Window Control Dots -->
   <circle cx="75" cy="54" r="5" fill="#EF4444" opacity="0.9"/>
@@ -104,11 +110,11 @@
   <circle cx="111" cy="54" r="5" fill="#10B981" opacity="0.9"/>
 
   <!-- Browser Address Pill -->
-  <rect x="420" y="44" width="360" height="20" rx="6" fill="#1F1538" stroke="#37265B" stroke-width="0.8"/>
-  <text x="600" y="58" text-anchor="middle" fill="#C4B5FD" class="font-mono" font-size="11" font-weight="600" letter-spacing="0.5">🔒 leadster-io.vercel.app</text>
+  <rect x="420" y="44" width="360" height="20" rx="6" fill="#0D2533" stroke="#16384C" stroke-width="0.8"/>
+  <text x="600" y="58" text-anchor="middle" fill="#5EEAD4" class="font-mono" font-size="11" font-weight="600" letter-spacing="0.5">🔒 leadster-io.vercel.app</text>
 
   <!-- Screen Bezel Border -->
-  <rect x="69" y="69" width="1062" height="547" rx="7" fill="#000000" stroke="#2D1B4E" stroke-width="1"/>
+  <rect x="69" y="69" width="1062" height="547" rx="7" fill="#000000" stroke="#0E2A38" stroke-width="1"/>
 
   <!-- 3. Portfolio Screenshot (100% Full Aspect) -->
   <g clip-path="url(#ldScreenClip)">
@@ -117,39 +123,42 @@
   </g>
 
   <!-- Cinema Monitor Chin Accent Line -->
-  <line x1="120" y1="626" x2="1080" y2="626" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="120" y1="626" x2="1080" y2="626" stroke="#14B8A6" stroke-width="1" stroke-opacity="0.4"/>
 
-  <!-- 4. Project Identity & Details Deck -->
-  <g transform="translate(60, 654)">
-    <!-- Badges Row -->
-    <rect x="0" y="0" width="170" height="28" rx="7" fill="#0F1F2B" stroke="#10B981" stroke-width="1" stroke-opacity="0.7"/>
-    <circle cx="16" cy="14" r="4" fill="#10B981" filter="url(#ldBeaconGlow)" class="pulse-beacon-ld"/>
-    <text x="28" y="18" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">LIVE IN PRODUCTION</text>
+  <!-- 4. Project Identity & Details Deck (Generous Vertical Spacing & Snug Badges) -->
+  <g transform="translate(60, 656)">
+    <!-- Row 1: Badges Row (Snug & Perfectly Balanced) -->
+    <!-- Badge 1: Live Status (w=162) -->
+    <rect x="0" y="0" width="162" height="28" rx="7" fill="#08201A" stroke="#10B981" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="15" cy="14" r="4" fill="#10B981" filter="url(#ldBeaconGlow)" class="pulse-beacon-ld"/>
+    <text x="27" y="18" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">LIVE IN PRODUCTION</text>
 
-    <rect x="182" y="0" width="220" height="28" rx="7" fill="#1C1438" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="195" y="18" fill="#C4B5FD" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">B2B LEAD INTELLIGENCE</text>
+    <!-- Badge 2: B2B Lead Intelligence (w=176, Snug!) -->
+    <rect x="172" y="0" width="176" height="28" rx="7" fill="#0A2428" stroke="#14B8A6" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="183" y="18" fill="#5EEAD4" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">B2B LEAD INTELLIGENCE</text>
 
-    <rect x="414" y="0" width="80" height="28" rx="7" fill="#1A150A" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="432" y="18" fill="#FBBF24" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">02 / 03</text>
+    <!-- Badge 3: Index Marker (w=68, Snug!) -->
+    <rect x="358" y="0" width="68" height="28" rx="7" fill="#0E2133" stroke="#0EA5E9" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="370" y="18" fill="#38BDF8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">02 / 03</text>
 
-    <!-- Title Row -->
-    <text x="0" y="64" fill="#F8FAFC" class="font-title" font-size="28" letter-spacing="-0.3">Leadster.io</text>
+    <!-- Row 2: Title Row (28px vertical gap from badges, baseline at y=84) -->
+    <text x="0" y="84" fill="#F8FAFC" class="font-title" font-size="28" letter-spacing="-0.3">Leadster.io</text>
 
-    <!-- Launch Action Button -->
-    <g transform="translate(850, 22)">
-      <rect class="btn-chassis-ld" x="0" y="0" width="230" height="50" rx="12" fill="#1C1438" stroke="#8B5CF6" stroke-width="1.6"/>
-      <rect x="2" y="2" width="226" height="20" rx="10" fill="#8B5CF6" fill-opacity="0.12"/>
+    <!-- Launch Action Button (Aligned with Title row, y=52 to 102) -->
+    <g transform="translate(850, 52)">
+      <rect class="btn-chassis-ld" x="0" y="0" width="230" height="50" rx="12" fill="#08241F" stroke="#10B981" stroke-width="1.6"/>
+      <rect x="2" y="2" width="226" height="20" rx="10" fill="#10B981" fill-opacity="0.14"/>
       <text x="96" y="31" text-anchor="middle" fill="#FFFFFF" class="font-sub" font-size="14.5" font-weight="700" letter-spacing="0.8">VISIT PLATFORM</text>
-      <circle cx="196" cy="25" r="14" fill="#7C3AED"/>
+      <circle cx="196" cy="25" r="14" fill="#0D9488"/>
       <path d="M191 30 L199 22 M194 22 L199 22 L199 27" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
-    <!-- Description Paragraph -->
-    <text x="0" y="98" fill="#CBD5E1" class="font-body" font-size="15.5">
+    <!-- Row 3: Description Paragraph (24px vertical gap from Title, starting at y=124) -->
+    <text x="0" y="124" fill="#CBD5E1" class="font-body" font-size="15.5">
       <tspan x="0" dy="0">Leadster.io is an AI powered B2B lead intelligence and outbound platform built to turn target companies into actionable sales opportunities.</tspan>
-      <tspan x="0" dy="23">Discover prospects conversationally with Deved AI or analyze a specific website to extract business emails, phone numbers, decision makers,</tspan>
-      <tspan x="0" dy="23">social profiles, technologies and company intelligence. Built for sales teams, founders, agencies, recruiters and growth professionals</tspan>
-      <tspan x="0" dy="23">who want faster prospecting with deeper context.</tspan>
+      <tspan x="0" dy="24">Discover prospects conversationally with Deved AI or analyze a specific website to extract business emails, phone numbers, decision makers,</tspan>
+      <tspan x="0" dy="24">social profiles, technologies and company intelligence. Built for sales teams, founders, agencies, recruiters and growth professionals</tspan>
+      <tspan x="0" dy="24">who want faster prospecting with deeper context.</tspan>
     </text>
   </g>
 </svg>

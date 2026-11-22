@@ -1,31 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 770" width="1200" height="770" role="img" aria-label="Featured Product 01: Vibeans Institute of Technology">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 818" width="1200" height="818" role="img" aria-label="Featured Product 01: Vibeans Institute of Technology">
   <defs>
+    <!-- Background Card Gradient -->
     <linearGradient id="vbBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080F20"/>
-      <stop offset="50%" stop-color="#0B1528"/>
-      <stop offset="100%" stop-color="#070D1A"/>
+      <stop offset="0%" stop-color="#060A14"/>
+      <stop offset="50%" stop-color="#091224"/>
+      <stop offset="100%" stop-color="#060A14"/>
     </linearGradient>
 
+    <!-- Border Glow Gradient (Royal Sapphire to Heritage Amber) -->
     <linearGradient id="vbBorder" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.7"/>
       <stop offset="35%" stop-color="#1E293B" stop-opacity="0.8"/>
       <stop offset="65%" stop-color="#1E293B" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.6"/>
     </linearGradient>
 
+    <!-- Ambient Cinema Backlight -->
     <radialGradient id="vbAmbient" cx="50%" cy="38%" r="55%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.32"/>
-      <stop offset="45%" stop-color="#0369A1" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#080F20" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#1E3A8A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#060A14" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Cinema Monitor Bezel Gradient -->
     <linearGradient id="vbBezel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1E293B"/>
       <stop offset="10%" stop-color="#0F172A"/>
-      <stop offset="90%" stop-color="#090E17"/>
+      <stop offset="90%" stop-color="#0A0F1D"/>
       <stop offset="100%" stop-color="#1E293B"/>
     </linearGradient>
 
+    <!-- Cinema Glass Sheen (Animated Sweep) -->
     <linearGradient id="vbGlint" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="42%" stop-color="#ffffff" stop-opacity="0"/>
@@ -34,11 +39,12 @@
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
 
+    <!-- Top Laser Accent -->
     <linearGradient id="vbTopLaser" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.9"/>
-      <stop offset="70%" stop-color="#0284C7" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3B82F6" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#F59E0B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="vbBeaconGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -69,34 +75,34 @@
       0%, 100% { opacity: 0.5; }
       50% { opacity: 1; filter: drop-shadow(0 0 6px #10B981); }
     }
-    @keyframes btnPulse {
-      0%, 100% { stroke: #38BDF8; stroke-opacity: 0.8; }
-      50% { stroke: #67E8F9; stroke-opacity: 1; }
+    @keyframes btnPulseVb {
+      0%, 100% { stroke: #2563EB; stroke-opacity: 0.8; box-shadow: 0 0 8px #2563EB; }
+      50% { stroke: #60A5FA; stroke-opacity: 1; }
     }
 
-    .ambient-glow { animation: ambientBreathe 6s ease-in-out infinite; transform-origin: 600px 310px; }
+    .ambient-glow { animation: ambientBreathe 6s ease-in-out infinite; transform-origin: 600px 300px; }
     .glint-sweep { animation: screenGlint 7s ease-in-out infinite; }
     .pulse-beacon { animation: pulseDot 2s ease-in-out infinite; }
-    .btn-chassis { animation: btnPulse 3s ease-in-out infinite; }
+    .btn-chassis-vb { animation: btnPulseVb 3s ease-in-out infinite; }
 
     @media (prefers-reduced-motion: reduce) {
-      .ambient-glow, .glint-sweep, .pulse-beacon, .btn-chassis { animation: none; }
+      .ambient-glow, .glint-sweep, .pulse-beacon, .btn-chassis-vb { animation: none; }
     }
   </style>
 
   <!-- Card Chassis -->
-  <rect x="1" y="1" width="1198" height="768" rx="16" fill="url(#vbBg)" stroke="url(#vbBorder)" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="816" rx="16" fill="url(#vbBg)" stroke="url(#vbBorder)" stroke-width="1.5"/>
   <rect x="300" y="1" width="600" height="2" fill="url(#vbTopLaser)"/>
 
   <!-- 1. Ambient Cinema Backlight -->
   <ellipse cx="600" cy="300" rx="580" ry="280" fill="url(#vbAmbient)" class="ambient-glow"/>
 
   <!-- 2. Cinema Monitor Chassis & Bezel -->
-  <rect x="52" y="38" width="1096" height="528" rx="14" fill="url(#vbBezel)" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.5"/>
+  <rect x="52" y="38" width="1096" height="528" rx="14" fill="url(#vbBezel)" stroke="#2563EB" stroke-width="1.2" stroke-opacity="0.6"/>
 
   <!-- Top Window Header Bar -->
-  <rect x="53" y="39" width="1094" height="31" rx="13" fill="#0C1322"/>
-  <rect x="53" y="58" width="1094" height="12" fill="#0C1322"/>
+  <rect x="53" y="39" width="1094" height="31" rx="13" fill="#0A101F"/>
+  <rect x="53" y="58" width="1094" height="12" fill="#0A101F"/>
 
   <!-- Window Control Dots -->
   <circle cx="75" cy="54" r="5" fill="#EF4444" opacity="0.9"/>
@@ -104,8 +110,8 @@
   <circle cx="111" cy="54" r="5" fill="#10B981" opacity="0.9"/>
 
   <!-- Browser Address Pill -->
-  <rect x="420" y="44" width="360" height="20" rx="6" fill="#141E33" stroke="#1E293B" stroke-width="0.8"/>
-  <text x="600" y="58" text-anchor="middle" fill="#7DD3FC" class="font-mono" font-size="11" font-weight="600" letter-spacing="0.5">🔒 institute.vibeanssolutions.site</text>
+  <rect x="420" y="44" width="360" height="20" rx="6" fill="#10192E" stroke="#1E293B" stroke-width="0.8"/>
+  <text x="600" y="58" text-anchor="middle" fill="#93C5FD" class="font-mono" font-size="11" font-weight="600" letter-spacing="0.5">🔒 institute.vibeanssolutions.site</text>
 
   <!-- Screen Bezel Border -->
   <rect x="69" y="69" width="1062" height="484" rx="7" fill="#000000" stroke="#1E293B" stroke-width="1"/>
@@ -117,38 +123,41 @@
   </g>
 
   <!-- Cinema Monitor Chin Accent Line -->
-  <line x1="120" y1="562" x2="1080" y2="562" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="120" y1="562" x2="1080" y2="562" stroke="#2563EB" stroke-width="1" stroke-opacity="0.4"/>
 
-  <!-- 4. Project Identity & Details Deck -->
-  <g transform="translate(60, 590)">
-    <!-- Badges Row -->
-    <rect x="0" y="0" width="170" height="28" rx="7" fill="#0C1B2E" stroke="#10B981" stroke-width="1" stroke-opacity="0.7"/>
-    <circle cx="16" cy="14" r="4" fill="#10B981" filter="url(#vbBeaconGlow)" class="pulse-beacon"/>
-    <text x="28" y="18" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">LIVE IN PRODUCTION</text>
+  <!-- 4. Project Identity & Details Deck (Generous Vertical Spacing & Snug Badges) -->
+  <g transform="translate(60, 600)">
+    <!-- Row 1: Badges Row (Snug & Perfectly Balanced) -->
+    <!-- Badge 1: Live Status (w=162) -->
+    <rect x="0" y="0" width="162" height="28" rx="7" fill="#0A1C16" stroke="#10B981" stroke-width="1" stroke-opacity="0.8"/>
+    <circle cx="15" cy="14" r="4" fill="#10B981" filter="url(#vbBeaconGlow)" class="pulse-beacon"/>
+    <text x="27" y="18" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">LIVE IN PRODUCTION</text>
 
-    <rect x="182" y="0" width="220" height="28" rx="7" fill="#0F1F3D" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="195" y="18" fill="#7DD3FC" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">COMPUTING EDUCATION</text>
+    <!-- Badge 2: Computing Education (w=166, Snug!) -->
+    <rect x="172" y="0" width="166" height="28" rx="7" fill="#0B1C38" stroke="#2563EB" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="183" y="18" fill="#93C5FD" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">COMPUTING EDUCATION</text>
 
-    <rect x="414" y="0" width="80" height="28" rx="7" fill="#1A150A" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.6"/>
-    <text x="432" y="18" fill="#FBBF24" font-family="'Segoe UI', sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">01 / 03</text>
+    <!-- Badge 3: Index Marker (w=68, Snug!) -->
+    <rect x="348" y="0" width="68" height="28" rx="7" fill="#1C1408" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.8"/>
+    <text x="360" y="18" fill="#FBBF24" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">01 / 03</text>
 
-    <!-- Title Row -->
-    <text x="0" y="64" fill="#F8FAFC" class="font-title" font-size="28" letter-spacing="-0.3">Vibeans Institute of Technology</text>
+    <!-- Row 2: Title Row (28px vertical gap from badges, baseline at y=84) -->
+    <text x="0" y="84" fill="#F8FAFC" class="font-title" font-size="28" letter-spacing="-0.3">Vibeans Institute of Technology</text>
 
-    <!-- Launch Action Button -->
-    <g transform="translate(850, 22)">
-      <rect class="btn-chassis" x="0" y="0" width="230" height="50" rx="12" fill="#0C1B33" stroke="#38BDF8" stroke-width="1.6"/>
-      <rect x="2" y="2" width="226" height="20" rx="10" fill="#38BDF8" fill-opacity="0.08"/>
+    <!-- Launch Action Button (Aligned with Title row, y=52 to 102) -->
+    <g transform="translate(850, 52)">
+      <rect class="btn-chassis-vb" x="0" y="0" width="230" height="50" rx="12" fill="#0C1B38" stroke="#2563EB" stroke-width="1.6"/>
+      <rect x="2" y="2" width="226" height="20" rx="10" fill="#2563EB" fill-opacity="0.14"/>
       <text x="96" y="31" text-anchor="middle" fill="#FFFFFF" class="font-sub" font-size="14.5" font-weight="700" letter-spacing="0.8">VISIT PLATFORM</text>
-      <circle cx="196" cy="25" r="14" fill="#0284C7"/>
+      <circle cx="196" cy="25" r="14" fill="#1D4ED8"/>
       <path d="M191 30 L199 22 M194 22 L199 22 L199 27" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
-    <!-- Description Paragraph -->
-    <text x="0" y="98" fill="#CBD5E1" class="font-body" font-size="15.8">
+    <!-- Row 3: Description Paragraph (24px vertical gap from Title, starting at y=124) -->
+    <text x="0" y="124" fill="#CBD5E1" class="font-body" font-size="15.8">
       <tspan x="0" dy="0">Vibeans Institute of Technology is an open digital engineering campus and computing education platform</tspan>
-      <tspan x="0" dy="24">developed by Vibeans Solutions. It provides university students, software engineers, and independent scholars worldwide</tspan>
-      <tspan x="0" dy="24">with free, transparent access to structured computer science curricula and applied technical learning resources.</tspan>
+      <tspan x="0" dy="25">developed by Vibeans Solutions. It provides university students, software engineers, and independent scholars worldwide</tspan>
+      <tspan x="0" dy="25">with free, transparent access to structured computer science curricula and applied technical learning resources.</tspan>
     </text>
   </g>
 </svg>
