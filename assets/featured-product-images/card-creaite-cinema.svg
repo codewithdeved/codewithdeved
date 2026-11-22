@@ -1,33 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 818" width="1200" height="818" role="img" aria-label="Featured Product 03: Creaite Hive">
   <defs>
-    <!-- Background Card Gradient (Cosmic Midnight Violet) -->
+    <!-- Background Card: Pitch Space Black with subtle midnight nebula -->
     <linearGradient id="crBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080312"/>
-      <stop offset="50%" stop-color="#120726"/>
-      <stop offset="100%" stop-color="#07020E"/>
+      <stop offset="0%" stop-color="#06020A"/>
+      <stop offset="50%" stop-color="#0D0418"/>
+      <stop offset="100%" stop-color="#050108"/>
     </linearGradient>
 
-    <!-- Border Glow Gradient (Electric Neon Purple to Crimson Coral) -->
+    <!-- Border Glow Gradient: Exact Scarlet Red to Neon Magenta to Ultraviolet! -->
     <linearGradient id="crBorder" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#9333EA" stop-opacity="0.8"/>
-      <stop offset="35%" stop-color="#26123D" stop-opacity="0.8"/>
-      <stop offset="65%" stop-color="#26123D" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#FF2E54" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#D91E85" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.9"/>
     </linearGradient>
 
-    <!-- Ambient Cinema Backlight (Cosmic Purple & Coral Flame) -->
+    <!-- Top Laser Accent: Exact "with AI Precision" 3-Stop Gradient -->
+    <linearGradient id="crTopLaser" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF2E54" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#FF2E54" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#D91E85" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#7C3AED" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Ambient Cinema Backlight: Cosmic Magenta & Ultraviolet Flame -->
     <radialGradient id="crAmbient" cx="50%" cy="38%" r="55%">
       <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.32"/>
-      <stop offset="45%" stop-color="#4C1D95" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#080312" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#D91E85" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#06020A" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Cinema Monitor Bezel Gradient (Midnight Violet Titanium) -->
+    <!-- Button Gradient: Matches exact [Start Creating] button in screenshot! -->
+    <linearGradient id="crBtnGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#581C87"/>
+    </linearGradient>
+
+    <!-- Cinema Monitor Bezel (Midnight Obsidian with Ultraviolet Rim) -->
     <linearGradient id="crBezel" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2D114C"/>
-      <stop offset="10%" stop-color="#1A0A2E"/>
-      <stop offset="90%" stop-color="#0F041C"/>
-      <stop offset="100%" stop-color="#2D114C"/>
+      <stop offset="0%" stop-color="#23093D"/>
+      <stop offset="10%" stop-color="#140424"/>
+      <stop offset="90%" stop-color="#090112"/>
+      <stop offset="100%" stop-color="#23093D"/>
     </linearGradient>
 
     <!-- Cinema Glass Sheen -->
@@ -37,14 +51,6 @@
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.12"/>
       <stop offset="58%" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Top Laser Accent -->
-    <linearGradient id="crTopLaser" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#9333EA" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#C084FC" stop-opacity="0.95"/>
-      <stop offset="70%" stop-color="#F43F5E" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="crBeaconGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -76,8 +82,8 @@
       50% { opacity: 1; filter: drop-shadow(0 0 6px #10B981); }
     }
     @keyframes btnPulseCr {
-      0%, 100% { stroke: #9333EA; stroke-opacity: 0.8; box-shadow: 0 0 8px #9333EA; }
-      50% { stroke: #C084FC; stroke-opacity: 1; }
+      0%, 100% { filter: drop-shadow(0 0 8px rgba(124,58,237,0.6)); }
+      50% { filter: drop-shadow(0 0 16px rgba(217,30,133,0.8)); }
     }
 
     .ambient-glow-cr { animation: ambientBreatheCr 6s ease-in-out infinite; transform-origin: 600px 310px; }
@@ -92,17 +98,35 @@
 
   <!-- Card Chassis -->
   <rect x="1" y="1" width="1198" height="816" rx="16" fill="url(#crBg)" stroke="url(#crBorder)" stroke-width="1.5"/>
-  <rect x="300" y="1" width="600" height="2" fill="url(#crTopLaser)"/>
+  <rect x="250" y="1" width="700" height="2" fill="url(#crTopLaser)"/>
+
+  <!-- Starfield Dust (Exact Match to Creaite Hive screenshot space canvas!) -->
+  <g fill="#ffffff" opacity="0.35">
+    <circle cx="80" cy="90" r="1"/>
+    <circle cx="210" cy="140" r="0.8"/>
+    <circle cx="340" cy="50" r="1.2"/>
+    <circle cx="490" cy="110" r="0.8"/>
+    <circle cx="680" cy="80" r="1"/>
+    <circle cx="850" cy="130" r="0.8"/>
+    <circle cx="990" cy="60" r="1.1"/>
+    <circle cx="1120" cy="100" r="0.8"/>
+    <circle cx="140" cy="650" r="1"/>
+    <circle cx="270" cy="720" r="0.8"/>
+    <circle cx="420" cy="780" r="1.2"/>
+    <circle cx="750" cy="680" r="0.8"/>
+    <circle cx="920" cy="750" r="1"/>
+    <circle cx="1080" cy="710" r="0.8"/>
+  </g>
 
   <!-- 1. Ambient Cinema Backlight -->
   <ellipse cx="600" cy="300" rx="580" ry="280" fill="url(#crAmbient)" class="ambient-glow-cr"/>
 
   <!-- 2. Cinema Monitor Chassis & Bezel -->
-  <rect x="52" y="38" width="1096" height="526" rx="14" fill="url(#crBezel)" stroke="#9333EA" stroke-width="1.2" stroke-opacity="0.6"/>
+  <rect x="52" y="38" width="1096" height="526" rx="14" fill="url(#crBezel)" stroke="#7C3AED" stroke-width="1.2" stroke-opacity="0.7"/>
 
   <!-- Top Window Header Bar -->
-  <rect x="53" y="39" width="1094" height="31" rx="13" fill="#130726"/>
-  <rect x="53" y="58" width="1094" height="12" fill="#130726"/>
+  <rect x="53" y="39" width="1094" height="31" rx="13" fill="#11041F"/>
+  <rect x="53" y="58" width="1094" height="12" fill="#11041F"/>
 
   <!-- Window Control Dots -->
   <circle cx="75" cy="54" r="5" fill="#EF4444" opacity="0.9"/>
@@ -110,11 +134,11 @@
   <circle cx="111" cy="54" r="5" fill="#10B981" opacity="0.9"/>
 
   <!-- Browser Address Pill -->
-  <rect x="420" y="44" width="360" height="20" rx="6" fill="#1F0D3D" stroke="#361769" stroke-width="0.8"/>
-  <text x="600" y="58" text-anchor="middle" fill="#D8B4FE" class="font-mono" font-size="11" font-weight="600" letter-spacing="0.5">🔒 creatie-hive.vercel.app</text>
+  <rect x="420" y="44" width="360" height="20" rx="6" fill="#1C0633" stroke="#37105E" stroke-width="0.8"/>
+  <text x="600" y="58" text-anchor="middle" fill="#E9D5FF" class="font-mono" font-size="11" font-weight="600" letter-spacing="0.5">🔒 creatie-hive.vercel.app</text>
 
   <!-- Screen Bezel Border -->
-  <rect x="69" y="69" width="1062" height="482" rx="7" fill="#000000" stroke="#2D114C" stroke-width="1"/>
+  <rect x="69" y="69" width="1062" height="482" rx="7" fill="#000000" stroke="#23093D" stroke-width="1"/>
 
   <!-- 3. Portfolio Screenshot (100% Full Aspect) -->
   <g clip-path="url(#crScreenClip)">
@@ -122,35 +146,37 @@
     <rect class="glint-sweep-cr" x="70" y="70" width="1060" height="480" fill="url(#crGlint)"/>
   </g>
 
-  <!-- Cinema Monitor Chin Accent Line -->
-  <line x1="120" y1="560" x2="1080" y2="560" stroke="#9333EA" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Cinema Monitor Chin Accent Line (Scarlet-to-Purple) -->
+  <line x1="120" y1="560" x2="1080" y2="560" stroke="#D91E85" stroke-width="1" stroke-opacity="0.5"/>
 
-  <!-- 4. Project Identity & Details Deck (Generous Vertical Spacing & Snug Badges) -->
+  <!-- 4. Project Identity & Details Deck -->
   <g transform="translate(60, 598)">
     <!-- Row 1: Badges Row (Snug & Perfectly Balanced) -->
     <!-- Badge 1: Live Status (w=162) -->
-    <rect x="0" y="0" width="162" height="28" rx="7" fill="#091C16" stroke="#10B981" stroke-width="1" stroke-opacity="0.8"/>
+    <rect x="0" y="0" width="162" height="28" rx="7" fill="#091A14" stroke="#10B981" stroke-width="1" stroke-opacity="0.8"/>
     <circle cx="15" cy="14" r="4" fill="#10B981" filter="url(#crBeaconGlow)" class="pulse-beacon-cr"/>
     <text x="27" y="18" fill="#34D399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">LIVE IN PRODUCTION</text>
 
     <!-- Badge 2: Generative AI Studio (w=170, Snug!) -->
-    <rect x="172" y="0" width="170" height="28" rx="7" fill="#240D3D" stroke="#9333EA" stroke-width="1" stroke-opacity="0.8"/>
-    <text x="183" y="18" fill="#D8B4FE" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">GENERATIVE AI STUDIO</text>
+    <rect x="172" y="0" width="170" height="28" rx="7" fill="#1F0733" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.85"/>
+    <text x="183" y="18" fill="#E9D5FF" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">GENERATIVE AI STUDIO</text>
 
-    <!-- Badge 3: Index Marker (w=68, Snug!) -->
-    <rect x="352" y="0" width="68" height="28" rx="7" fill="#240B1A" stroke="#F43F5E" stroke-width="1" stroke-opacity="0.8"/>
+    <!-- Badge 3: Index Marker (w=68, Snug, Scarlet Accent!) -->
+    <rect x="352" y="0" width="68" height="28" rx="7" fill="#240714" stroke="#FF2E54" stroke-width="1" stroke-opacity="0.85"/>
     <text x="364" y="18" fill="#FDA4AF" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="700" letter-spacing="0.8">03 / 03</text>
 
     <!-- Row 2: Title Row (28px vertical gap from badges, baseline at y=84) -->
     <text x="0" y="84" fill="#F8FAFC" class="font-title" font-size="28" letter-spacing="-0.3">Creaite Hive</text>
 
-    <!-- Launch Action Button (Aligned with Title row, y=52 to 102) -->
+    <!-- Launch Action Button: Matches exact [Start Creating] button in screenshot! -->
     <g transform="translate(850, 52)">
-      <rect class="btn-chassis-cr" x="0" y="0" width="230" height="50" rx="12" fill="#240B38" stroke="#9333EA" stroke-width="1.6"/>
-      <rect x="2" y="2" width="226" height="20" rx="10" fill="#9333EA" fill-opacity="0.16"/>
-      <text x="96" y="31" text-anchor="middle" fill="#FFFFFF" class="font-sub" font-size="14.5" font-weight="700" letter-spacing="0.8">VISIT PLATFORM</text>
-      <circle cx="196" cy="25" r="14" fill="#7C3AED"/>
-      <path d="M191 30 L199 22 M194 22 L199 22 L199 27" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <rect class="btn-chassis-cr" x="0" y="0" width="230" height="50" rx="10" fill="url(#crBtnGrad)" stroke="#A855F7" stroke-width="1.6"/>
+      <rect x="2" y="2" width="226" height="20" rx="8" fill="#ffffff" fill-opacity="0.14"/>
+      <!-- Sparkle Icon in button like screenshot! -->
+      <path d="M22 25 L25 18 L28 25 L35 28 L28 31 L25 38 L22 31 L15 28 Z" fill="#FFFFFF" transform="translate(10, -3) scale(0.7)"/>
+      <text x="108" y="31" text-anchor="middle" fill="#FFFFFF" class="font-sub" font-size="14.5" font-weight="700" letter-spacing="0.8">VISIT PLATFORM</text>
+      <circle cx="196" cy="25" r="14" fill="#4C1D95"/>
+      <path d="M191 30 L199 22 M194 22 L199 22 L199 27" stroke="#FF2E54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
     </g>
 
     <!-- Row 3: Description Paragraph (24px vertical gap from Title, starting at y=124) -->
