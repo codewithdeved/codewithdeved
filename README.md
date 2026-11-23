@@ -54,3 +54,7 @@
 <p align="center">
   <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 </p>
+
+<p align="center">
+  <img src="assets/experience-intro.svg" alt="Professional Experience &amp; Leadership - 02 Active Roles" width="100%">
+</p>
