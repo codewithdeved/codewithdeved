@@ -58,3 +58,19 @@
 <p align="center">
   <img src="assets/experience-intro.svg" alt="Professional Experience &amp; Leadership - 02 Active Roles" width="100%">
 </p>
+
+<p align="center">
+  <a href="https://www.vibeanssolutions.site/">
+    <img src="assets/card-experience-vibeans.svg" alt="Founder - Vibeans Solutions" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/code-with-deved/">
+    <img src="assets/card-experience-perception.svg" alt="Software Engineer - Perception Tech" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
+</p>
