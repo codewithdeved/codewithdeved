@@ -40,6 +40,43 @@
       <stop offset="100%" stop-color="#C084FC"/>
     </linearGradient>
 
+    <!-- Traveling Border Trace Gradient -->
+    <linearGradient id="traceGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <!-- Moving Specular Glint Gradient -->
+    <linearGradient id="laserGlint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#38BDF8" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#F59E0B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Diagonal Badge Shimmer -->
+    <linearGradient id="badgeSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Clip Paths -->
+    <clipPath id="clipShowcaseChassis">
+      <rect x="1" y="1" width="1198" height="408" rx="16"/>
+    </clipPath>
+    <clipPath id="clipSep">
+      <rect x="56" y="170" width="1088" height="4"/>
+    </clipPath>
+    <clipPath id="clipBadge126"><rect x="0" y="0" width="126" height="40" rx="8"/></clipPath>
+    <clipPath id="clipBadge136"><rect x="0" y="0" width="136" height="40" rx="8"/></clipPath>
+    <clipPath id="clipBadge104"><rect x="0" y="0" width="104" height="40" rx="8"/></clipPath>
+    <clipPath id="clipBadge142"><rect x="0" y="0" width="142" height="40" rx="8"/></clipPath>
+    <clipPath id="clipBadge166"><rect x="0" y="0" width="166" height="40" rx="8"/></clipPath>
+    <clipPath id="clipBadge172"><rect x="0" y="0" width="172" height="40" rx="8"/></clipPath>
+    <clipPath id="clipBadge150"><rect x="0" y="0" width="150" height="40" rx="8"/></clipPath>
+
     <!-- Glow Filter -->
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="2" result="blur"/>
@@ -52,18 +89,97 @@
     .font-sub { font-family: 'Segoe UI', -apple-system, Roboto, sans-serif; font-weight: 700; }
     .font-body { font-family: 'Segoe UI', -apple-system, Roboto, sans-serif; font-weight: 400; }
     .font-mono { font-family: 'Consolas', 'Fira Code', monospace; }
+
+    @keyframes borderTrace {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes topSweep {
+      0% { transform: translateX(-280px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      100% { transform: translateX(1240px); opacity: 0; }
+    }
+    @keyframes sepSweep {
+      0% { transform: translateX(-180px); opacity: 0; }
+      15% { opacity: 0.9; }
+      85% { opacity: 0.9; }
+      100% { transform: translateX(1200px); opacity: 0; }
+    }
+    @keyframes auraBreathe {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 0.95; }
+    }
+    @keyframes corePulse {
+      0%, 100% { opacity: 0.65; transform: scale(0.92); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    @keyframes spinSlow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes eqOsc1 {
+      0%, 100% { transform: scaleY(0.65); }
+      50% { transform: scaleY(1.05); }
+    }
+    @keyframes eqOsc2 {
+      0%, 100% { transform: scaleY(1.05); }
+      50% { transform: scaleY(0.6); }
+    }
+    @keyframes badgeWave {
+      0%, 18% { transform: translateX(-180px); opacity: 0; }
+      24% { opacity: 1; }
+      38% { transform: translateX(200px); opacity: 0; }
+      100% { transform: translateX(200px); opacity: 0; }
+    }
+
+    .border-trace-halo { stroke-dasharray: 140 360; stroke-linecap: round; animation: borderTrace 8s linear infinite; }
+    .border-trace-mid  { stroke-dasharray: 85 415;  stroke-linecap: round; animation: borderTrace 8s linear infinite; }
+    .border-trace-core { stroke-dasharray: 38 462;  stroke-linecap: round; animation: borderTrace 8s linear infinite; }
+    .top-glint { animation: topSweep 5s ease-in-out infinite; }
+    .sep-glint { animation: sepSweep 5.5s ease-in-out infinite 1s; }
+    .aura-breathe { animation: auraBreathe 3.8s ease-in-out infinite; }
+    .core-node { animation: corePulse 2.8s ease-in-out infinite; transform-origin: 16px 11px; }
+    .sparkle-core { animation: corePulse 3.2s ease-in-out infinite 0.5s; transform-origin: 16px 16px; }
+    .gemini-core { animation: corePulse 3.2s ease-in-out infinite 1s; transform-origin: 10px 10px; }
+    .react-atom-spin { animation: spinSlow 14s linear infinite; }
+    .eq-1 { animation: eqOsc1 1.4s ease-in-out infinite; transform-origin: 5.6px 9.5px; }
+    .eq-2 { animation: eqOsc2 1.4s ease-in-out infinite; transform-origin: 12.6px 9.5px; }
+    .shimmer-1 { animation: badgeWave 6.3s ease-in-out infinite 0s; }
+    .shimmer-2 { animation: badgeWave 6.3s ease-in-out infinite 0.7s; }
+    .shimmer-3 { animation: badgeWave 6.3s ease-in-out infinite 1.4s; }
+    .shimmer-4 { animation: badgeWave 6.3s ease-in-out infinite 2.1s; }
+    .shimmer-5 { animation: badgeWave 6.3s ease-in-out infinite 2.8s; }
+    .shimmer-6 { animation: badgeWave 6.3s ease-in-out infinite 3.5s; }
+    .shimmer-7 { animation: badgeWave 6.3s ease-in-out infinite 4.2s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .border-trace-halo, .border-trace-mid, .border-trace-core, .top-glint, .sep-glint, .aura-breathe,
+      .core-node, .sparkle-core, .gemini-core, .react-atom-spin, .eq-1, .eq-2,
+      .shimmer-1, .shimmer-2, .shimmer-3, .shimmer-4, .shimmer-5, .shimmer-6, .shimmer-7 {
+        animation: none;
+      }
+    }
   </style>
 
   <!-- Card Chassis -->
   <rect x="1" y="1" width="1198" height="408" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5"/>
-  
-  <!-- Top Specular Laser Line -->
+
+  <!-- Feathered Volumetric Perimeter Border Glow -->
+  <rect x="1" y="1" width="1198" height="408" rx="16" fill="none" stroke="url(#traceGrad)" stroke-width="4.5" stroke-opacity="0.16" pathLength="1000" class="border-trace-halo"/>
+  <rect x="1" y="1" width="1198" height="408" rx="16" fill="none" stroke="url(#traceGrad)" stroke-width="2.4" stroke-opacity="0.42" pathLength="1000" class="border-trace-mid"/>
+  <rect x="1" y="1" width="1198" height="408" rx="16" fill="none" stroke="url(#traceGrad)" stroke-width="1.5" stroke-opacity="0.92" pathLength="1000" class="border-trace-core"/>
+
+  <!-- Top & Bottom Specular Laser Lines -->
   <rect x="300" y="1" width="600" height="2" fill="url(#topSheen)"/>
+  <g clip-path="url(#clipShowcaseChassis)">
+    <rect x="0" y="0.5" width="240" height="2.5" fill="url(#laserGlint)" class="top-glint"/>
+  </g>
 
   <!-- 1. MAIN HEADING ROW (Strictly aligned at x=56, text at x=116) -->
   <g transform="translate(0, 0)">
     <!-- 44x44 Icon Container (Center cx=78, cy=68) -->
-    <circle cx="78" cy="68" r="26" fill="url(#iconAuraCyan)"/>
+    <circle cx="78" cy="68" r="26" fill="url(#iconAuraCyan)" class="aura-breathe"/>
     <rect x="56" y="46" width="44" height="44" rx="10" fill="#0F1D38" stroke="#38BDF8" stroke-width="1.2"/>
     
     <!-- 3D Isometric Desktop Computing Vector Glyph -->
@@ -79,7 +195,7 @@
       <line x1="7" y1="15" x2="25" y2="12" stroke="#38BDF8" stroke-width="0.8" stroke-opacity="0.5"/>
       <line x1="16" y1="4" x2="16" y2="18" stroke="#F59E0B" stroke-width="1"/>
       <!-- Active Quantum Core Node -->
-      <circle cx="16" cy="11" r="2.5" fill="#F59E0B" filter="url(#glow)"/>
+      <circle cx="16" cy="11" r="2.5" fill="#F59E0B" filter="url(#glow)" class="core-node"/>
     </g>
 
     <!-- Main Heading Text: Starts at x=116, Vertically Centered with Icon at y=76 -->
@@ -89,7 +205,7 @@
   <!-- 2. SUBHEADING ROW (Strictly aligned at x=56, text at x=116) -->
   <g transform="translate(0, 0)">
     <!-- 44x44 Icon Container (Center cx=78, cy=128) - EXACT SAME WIDTH & X AS MAIN HEADING -->
-    <circle cx="78" cy="128" r="26" fill="url(#iconAuraGold)"/>
+    <circle cx="78" cy="128" r="26" fill="url(#iconAuraGold)" class="aura-breathe"/>
     <rect x="56" y="106" width="44" height="44" rx="10" fill="#161E2E" stroke="#F59E0B" stroke-width="1.2"/>
     
     <!-- Creative Coding Vector Glyph: Code Brackets + Core Sparkle -->
@@ -99,15 +215,18 @@
       <!-- Right Bracket -->
       <polyline points="22,8 28,16 22,24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       <!-- Center Creative Sparkle -->
-      <path d="M16,9 Q16,16 9,16 Q16,16 16,23 Q16,16 23,16 Q16,16 16,9 Z" fill="#F59E0B" filter="url(#glow)"/>
+      <path d="M16,9 Q16,16 9,16 Q16,16 16,23 Q16,16 23,16 Q16,16 16,9 Z" fill="#F59E0B" filter="url(#glow)" class="sparkle-core"/>
     </g>
 
     <!-- Subheading Text: Starts at x=116 (Perfect Vertical Alignment!), Vertically Centered at y=134, Enlarged to 21px -->
     <text x="116" y="134" fill="#38BDF8" class="font-sub" font-size="21" letter-spacing="0.1">An interactive digital workstation built with React, JavaScript, and pure CSS creativity.</text>
   </g>
 
-  <!-- Subtle Accent Hairline Separator -->
+  <!-- Subtle Accent Hairline Separator + Traveling Light Pulse -->
   <line x1="56" y1="172" x2="1144" y2="172" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <g clip-path="url(#clipSep)">
+    <rect x="56" y="171" width="180" height="2" fill="url(#laserGlint)" class="sep-glint"/>
+  </g>
 
   <!-- 3. CORE PARAGRAPHS (Enlarged font size: 18px and 17.5px with comfortable leading) -->
   <g transform="translate(56, 204)">
@@ -129,11 +248,16 @@
     <!-- BADGE 1: React.js -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="126" height="40" rx="8" fill="rgba(97, 218, 251, 0.08)" stroke="rgba(97, 218, 251, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge126)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-1"/>
+      </g>
       <!-- Official React Atom -->
       <g transform="translate(19, 20)">
-        <ellipse rx="10" ry="3.8" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
-        <ellipse rx="10" ry="3.8" transform="rotate(60)" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
-        <ellipse rx="10" ry="3.8" transform="rotate(120)" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
+        <g class="react-atom-spin">
+          <ellipse rx="10" ry="3.8" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
+          <ellipse rx="10" ry="3.8" transform="rotate(60)" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
+          <ellipse rx="10" ry="3.8" transform="rotate(120)" fill="none" stroke="#61DAFB" stroke-width="1.2"/>
+        </g>
         <circle r="2.5" fill="#61DAFB"/>
       </g>
       <text x="38" y="25" fill="#F8FAFC" class="font-sub" font-size="14.5">React.js</text>
@@ -142,6 +266,9 @@
     <!-- BADGE 2: JavaScript -->
     <g transform="translate(138, 0)">
       <rect x="0" y="0" width="136" height="40" rx="8" fill="rgba(247, 223, 30, 0.08)" stroke="rgba(247, 223, 30, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge136)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-2"/>
+      </g>
       <!-- Official JS Logo -->
       <g transform="translate(11, 10)">
         <rect x="0" y="0" width="20" height="20" rx="3" fill="#F7DF1E"/>
@@ -153,6 +280,9 @@
     <!-- BADGE 3: CSS3 -->
     <g transform="translate(286, 0)">
       <rect x="0" y="0" width="104" height="40" rx="8" fill="rgba(38, 77, 228, 0.08)" stroke="rgba(38, 77, 228, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge104)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-3"/>
+      </g>
       <!-- Official CSS3 Shield -->
       <g transform="translate(12, 10)">
         <polygon points="2,0 18,0 16.5,17 10,20 3.5,17" fill="#264DE4"/>
@@ -165,9 +295,12 @@
     <!-- BADGE 4: Gemini API -->
     <g transform="translate(402, 0)">
       <rect x="0" y="0" width="142" height="40" rx="8" fill="rgba(138, 180, 248, 0.08)" stroke="rgba(138, 180, 248, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge142)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-4"/>
+      </g>
       <!-- Official Google Gemini 4-Point Sparkle -->
       <g transform="translate(12, 10)">
-        <path d="M10,0 C10,5.5 14.5,10 20,10 C14.5,10 10,14.5 10,20 C10,14.5 5.5,10 0,10 C5.5,10 10,5.5 10,0 Z" fill="url(#geminiGrad)"/>
+        <path d="M10,0 C10,5.5 14.5,10 20,10 C14.5,10 10,14.5 10,20 C10,14.5 5.5,10 0,10 C5.5,10 10,5.5 10,0 Z" fill="url(#geminiGrad)" class="gemini-core"/>
       </g>
       <text x="40" y="25" fill="#F8FAFC" class="font-sub" font-size="14.5">Gemini API</text>
     </g>
@@ -175,10 +308,13 @@
     <!-- BADGE 5: ElevenLabs API -->
     <g transform="translate(556, 0)">
       <rect x="0" y="0" width="166" height="40" rx="8" fill="rgba(168, 85, 247, 0.08)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge166)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-5"/>
+      </g>
       <!-- Official ElevenLabs Iconic Dual Audio Waves -->
       <g transform="translate(13, 11)">
-        <rect x="4" y="2" width="3.2" height="15" rx="1.6" fill="#FFFFFF"/>
-        <rect x="11" y="2" width="3.2" height="15" rx="1.6" fill="#A855F7"/>
+        <rect x="4" y="2" width="3.2" height="15" rx="1.6" fill="#FFFFFF" class="eq-1"/>
+        <rect x="11" y="2" width="3.2" height="15" rx="1.6" fill="#A855F7" class="eq-2"/>
       </g>
       <text x="40" y="25" fill="#F8FAFC" class="font-sub" font-size="14.5">ElevenLabs API</text>
     </g>
@@ -186,6 +322,9 @@
     <!-- BADGE 6: Custom Backend -->
     <g transform="translate(734, 0)">
       <rect x="0" y="0" width="172" height="40" rx="8" fill="rgba(16, 185, 129, 0.08)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge172)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-6"/>
+      </g>
       <!-- Real Server / Microservice Architecture Glyph -->
       <g transform="translate(13, 11)">
         <rect x="1" y="1" width="18" height="7" rx="2" fill="none" stroke="#10B981" stroke-width="1.2"/>
@@ -201,6 +340,9 @@
     <!-- BADGE 7: Browser APIs -->
     <g transform="translate(918, 0)">
       <rect x="0" y="0" width="150" height="40" rx="8" fill="rgba(20, 184, 166, 0.08)" stroke="rgba(20, 184, 166, 0.4)" stroke-width="1"/>
+      <g clip-path="url(#clipBadge150)">
+        <rect x="0" y="0" width="75" height="40" fill="url(#badgeSheen)" class="shimmer-7"/>
+      </g>
       <!-- Browser Window & API Network Glyph -->
       <g transform="translate(12, 10)">
         <rect x="1" y="1" width="18" height="16" rx="3" fill="none" stroke="#14B8A6" stroke-width="1.2"/>
