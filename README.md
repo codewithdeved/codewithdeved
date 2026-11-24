@@ -74,3 +74,11 @@
 <p align="center">
   <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 </p>
+
+<p align="center">
+  <img src="assets/technical-skills-3d.webp" alt="Technical Skills - 04 Domains &amp; 24 Core Technologies" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
+</p>
