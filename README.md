@@ -82,3 +82,11 @@
 <p align="center">
   <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 </p>
+
+<p align="center">
+  <img src="assets/certifications-3d.webp" alt="Licenses &amp; Certifications - 05 Verified Credentials" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
+</p>
