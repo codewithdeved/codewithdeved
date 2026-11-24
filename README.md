@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/showcase-intro.svg" alt="Engineering a New Dimension of Desktop Computing - Flagship Web Engineering Showcase" width="100%">
+  <img src="assets/showcase-intro-3d.webp" alt="Engineering a New Dimension of Desktop Computing - Flagship Web Engineering Showcase" width="100%">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/products-intro.svg" alt="Selected Products &amp; Platforms - 03 Projects" width="100%">
+  <img src="assets/products-intro-3d.webp" alt="Selected Products &amp; Platforms - 03 Projects" width="100%">
 </p>
 
 <p align="center">
@@ -56,18 +56,18 @@
 </p>
 
 <p align="center">
-  <img src="assets/experience-intro.svg" alt="Professional Experience &amp; Leadership - 02 Active Roles" width="100%">
+  <img src="assets/experience-intro-3d.webp" alt="Professional Experience &amp; Leadership - 02 Active Roles" width="100%">
 </p>
 
 <p align="center">
   <a href="https://www.vibeanssolutions.site/">
-    <img src="assets/card-experience-vibeans.svg" alt="Founder - Vibeans Solutions" width="100%">
+    <img src="assets/card-experience-vibeans-3d.webp" alt="Founder - Vibeans Solutions" width="100%">
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/code-with-deved/">
-    <img src="assets/card-experience-perception.svg" alt="Software Engineer - Perception Tech" width="100%">
+    <img src="assets/card-experience-perception-3d.webp" alt="Software Engineer - Perception Tech" width="100%">
   </a>
 </p>
 
