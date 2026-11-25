@@ -90,3 +90,11 @@
 <p align="center">
   <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
 </p>
+
+<p align="center">
+  <img src="assets/education-3d.webp" alt="Education - Sir Syed University of Engineering &amp; Technology" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/divider-3d.webp" alt="3D Interactive Section Divider" width="100%">
+</p>
