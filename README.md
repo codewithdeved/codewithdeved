@@ -104,6 +104,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/footer-notifications-3d.webp" alt="240+ Live Client Inquiries &amp; Accepted Projects Notification Stream" width="100%">
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/code-with-deved/"><img src="assets/footer-btn-linkedin.webp" width="31.8%" alt="Connect on LinkedIn"></a>
   <a href="https://www.vibeanssolutions.site/"><img src="assets/footer-btn-website.webp" width="31.8%" alt="Visit our Website"></a>
   <a href="https://www.instagram.com/codewithdeved/"><img src="assets/footer-btn-instagram.webp" width="31.8%" alt="Connect on Instagram"></a>
