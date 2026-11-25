@@ -119,5 +119,9 @@
 </p>
 
 <p align="center">
+  <img src="assets/footer-horizon-divider-3d.webp" alt="Signature Horizon Divider" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/footer-horizon-3d.webp" alt="CodeWithDeved - Engineering the Intersection of Code x Cognitive Design" width="100%">
 </p>
